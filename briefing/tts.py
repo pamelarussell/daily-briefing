@@ -56,18 +56,29 @@ def _speak(text: str, cfg: dict, api_key: str, dest: Path) -> None:
     body = {"model": cfg["model"], "voice": cfg["voice"], "input": text, "response_format": "mp3"}
     if cfg.get("instructions") and not cfg["model"].startswith("tts-1"):
         body["instructions"] = cfg["instructions"].strip()
-    for attempt in range(6):
+    last = ""
+    for attempt in range(8):
         r = requests.post(API, headers={"Authorization": f"Bearer {api_key}"}, json=body, timeout=300)
         if r.status_code == 200 and r.content:
             dest.write_bytes(r.content)
             return
+        last = f"{r.status_code}: {r.text[:300]}"
+        if r.status_code == 429 and "insufficient_quota" in r.text:
+            raise RuntimeError(
+                "OpenAI says this account has no available credit (insufficient_quota). Add prepaid "
+                "credit at platform.openai.com → Settings → Billing, then re-run. Details: " + last)
+        if r.status_code in (401, 403):
+            raise RuntimeError("OpenAI rejected the API key (check the OPENAI_API_KEY secret). Details: " + last)
         if r.status_code in (429, 500, 502, 503, 504):
-            wait = 5 * (attempt + 1)
-            log.warning("TTS %s, retrying in %ss", r.status_code, wait)
+            try:
+                wait = float(r.headers.get("retry-after", "")) + 1
+            except ValueError:
+                wait = min(20 * (attempt + 1), 120)
+            log.warning("TTS %s, retrying in %.0fs — %s", r.status_code, wait, r.text[:200])
             time.sleep(wait)
             continue
-        raise RuntimeError(f"OpenAI TTS error {r.status_code}: {r.text[:300]}")
-    raise RuntimeError("OpenAI TTS kept failing after retries")
+        raise RuntimeError(f"OpenAI TTS error {last}")
+    raise RuntimeError(f"OpenAI TTS kept failing after retries. Last response {last}")
 
 
 def _duration_seconds(path: Path) -> float | None:

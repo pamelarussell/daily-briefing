@@ -62,7 +62,7 @@ class Item:
         if s.get("news_mentions"):
             parts.append(f"{s['news_mentions']} news mentions (Altmetric)")
         if s.get("outlets"):
-            parts.append(f"covered by {s['outlets']} outlets")
+            parts.append(f"covered by {s['outlets']} outlet" + ("s" if s["outlets"] != 1 else ""))
         if s.get("hf_upvotes"):
             parts.append(f"{s['hf_upvotes']} Hugging Face upvotes")
         if s.get("hn_points"):

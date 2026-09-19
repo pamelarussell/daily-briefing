@@ -42,7 +42,8 @@ episode:
 windows:
   papers:      {min_age_days: 21, max_age_days: 100}   # journals + preprints (OpenAlex)
   ai_papers:   {min_age_days: 10, max_age_days: 60}    # ML papers ranked by Hugging Face upvotes
-  news:        {min_age_days: 10, max_age_days: 45}    # news outlets (RSS)
+  news:        {min_age_days: 10, max_age_days: 45, warmup: false}   # news outlets (RSS); warmup: true
+                                                     # lets fresher news in while the archive fills
   blogs:       {min_age_days: 7,  max_age_days: 60}    # blogs/essays (RSS)
   hacker_news: {min_age_days: 5,  max_age_days: 45}    # Hacker News discussion
 
@@ -90,7 +91,8 @@ feeds:
   - {name: "GEN", url: "https://www.genengnews.com/feed/", kind: news}
   # --- science news
   - {name: "Science (news)", url: "https://www.science.org/rss/news_current.xml", kind: news}
-  - {name: "Nature", url: "https://www.nature.com/nature.rss", kind: news}
+  # Nature research papers (URLs with /s41586-) are skipped here; they come through OpenAlex with citations.
+  - {name: "Nature", url: "https://www.nature.com/nature.rss", kind: news, exclude: "/articles/s41586-"}
   - {name: "Quanta Magazine", url: "https://www.quantamagazine.org/feed/", kind: news}
   - {name: "Science News", url: "https://www.sciencenews.org/feed", kind: news}
   - {name: "Ars Technica Science", url: "https://feeds.arstechnica.com/arstechnica/science", kind: news, filter: bio_ai}

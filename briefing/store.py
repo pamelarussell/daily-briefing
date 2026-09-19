@@ -75,11 +75,11 @@ def days_of_history(archive: dict, ref: datetime) -> float:
 
 
 def eligible_from_archive(archive: dict, kinds: set[str], window: dict, ref: datetime,
-                          warmup: bool = True) -> list[Item]:
+                          warmup: bool = False) -> list[Item]:
     """Archive items of the given kinds whose age is inside the window.
 
-    During the first days (before the archive holds enough history) the minimum age is
-    relaxed to the archive's own age, but never below 2 days.
+    With warmup=True (opt-in via windows.news.warmup), the minimum age is relaxed during the
+    first days to the archive's own age, but never below 2 days.
     """
     min_age = float(window["min_age_days"])
     if warmup:

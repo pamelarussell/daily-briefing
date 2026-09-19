@@ -2,6 +2,7 @@
 the lag window is applied to that archive (see store.py)."""
 from __future__ import annotations
 
+import re
 from datetime import timedelta
 
 import feedparser
@@ -13,8 +14,22 @@ from ..util import Http, clean_text, iso, keys_for, normalize_url, parse_date, s
 MAX_ENTRY_AGE_DAYS = 150
 
 
+BROWSER_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/140.0.0.0 Safari/537.36")
+
+
+def _download(http: Http, url: str):
+    accept = {"Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"}
+    try:
+        return http.get(url, timeout=30, headers=accept)
+    except Exception as e:  # noqa: BLE001
+        if "403" not in str(e):
+            raise
+        return http.get(url, timeout=30, headers={**accept, "User-Agent": BROWSER_UA})
+
+
 def fetch_feed(http: Http, feed: dict, ref) -> list[Item]:
-    r = http.get(feed["url"], timeout=30, headers={"Accept": "application/rss+xml, application/atom+xml, */*"})
+    r = _download(http, feed["url"])
     parsed = feedparser.parse(r.content)
     if parsed.bozo and not parsed.entries:
         raise ValueError(f"unreadable feed ({parsed.bozo_exception})")
@@ -23,6 +38,8 @@ def fetch_feed(http: Http, feed: dict, ref) -> list[Item]:
         link = strip_tracking(e.get("link") or "")
         title = clean_text(e.get("title"), 300)
         if not link or not title:
+            continue
+        if feed.get("exclude") and re.search(feed["exclude"], link):
             continue
         when = parse_date(e.get("published_parsed") or e.get("updated_parsed"))
         if when and (ref - when) > timedelta(days=MAX_ENTRY_AGE_DAYS):

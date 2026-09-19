@@ -32,6 +32,9 @@ number of outlets covering a story, Hacker News points (technical-community atte
 upvotes (ML-community attention), Altmetric scores when present.
 - Signals are evidence, not the whole decision: also weigh importance, novelty, and how interesting \
 the item is for this listener. A big finding with modest signals can beat a trivial one with big signals.
+- An item whose only evidence is its age (for example, covered by 1 outlet with no citations or \
+discussion) has not been vetted yet. Pick such an item only if it is exceptionally important, and \
+at most one per episode.
 - Don't pick two items about the same story or paper; choose the best representative.
 - Don't repeat anything from the recently-covered list unless there is a substantive new development.
 - Skip reviews, clinical guidelines and consensus statements (they gather citations fast without being new \

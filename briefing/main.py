@@ -109,11 +109,13 @@ def run(mode: str = "full") -> int:
     note_alt = openalex.enrich_altmetric(papers, http)
     hf, notes_hf = hf_papers.collect(cfg, http, ref)
     hn, notes_hn = hackernews.collect(cfg, http, ref)
-    news = store.eligible_from_archive(archive, {"news", "lab"}, cfg["windows"]["news"], ref)
+    news = store.eligible_from_archive(archive, {"news", "lab"}, cfg["windows"]["news"], ref,
+                                       warmup=bool(cfg["windows"]["news"].get("warmup", False)))
     blogs = store.eligible_from_archive(archive, {"blog"}, cfg["windows"]["blogs"], ref, warmup=False)
     report.section("Sources", notes_oa + ([note_alt] if note_alt else []) + notes_hf + notes_hn + [
-        f"News in window: {len(news)} headlines" + (" (warm-up: archive still filling)"
-                                                    if history < cfg['windows']['news']['min_age_days'] else ""),
+        f"News in window: {len(news)} headlines" + (
+            f" (archive has {history:.0f} days of history; news fills in once it reaches "
+            f"{cfg['windows']['news']['min_age_days']} days)" if history < cfg['windows']['news']['min_age_days'] else ""),
         f"Blog posts in window: {len(blogs)}",
     ])
 
