@@ -1,0 +1,6 @@
+# Generated each run; the archive lives in the "state" GitHub release, not in git.
+out/
+state/archive.json.gz
+__pycache__/
+*.pyc
+.env

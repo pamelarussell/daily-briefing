@@ -1,0 +1,95 @@
+name: Daily briefing
+
+on:
+  schedule:
+    # 09:17 UTC every day = early morning in US time zones. Scheduled runs can start
+    # a little late when GitHub is busy. Change the time here if you like (UTC, cron format).
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full = make and publish an episode; script_only = write the script only; dry_run = just list candidates"
+        type: choice
+        options: [full, script_only, dry_run]
+        default: full
+
+permissions:
+  contents: write     # save the feed, publish audio as release files
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install ffmpeg (joins the audio chunks)
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+
+      - name: Make today's briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          ALTMETRIC_API_KEY: ${{ secrets.ALTMETRIC_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          MODE: ${{ inputs.mode || 'full' }}
+        run: python -m briefing
+
+      - name: Keep run details (candidates, script, show notes) for 14 days
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: run-details
+          path: |
+            out/
+            !out/*.mp3
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Save feed and memory to the repository
+        if: ${{ (inputs.mode || 'full') != 'dry_run' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs state
+          if git diff --cached --quiet; then
+            echo "Nothing to save."
+          else
+            git commit -m "Briefing $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Package the website (feed + episode page)
+        if: ${{ (inputs.mode || 'full') == 'full' }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs/
+
+  deploy:
+    needs: build
+    if: ${{ (inputs.mode || 'full') == 'full' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

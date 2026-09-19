@@ -1,0 +1,130 @@
+# =====================================================================
+#  Bio + AI Briefing — settings
+#  Edit this file on GitHub (pencil icon) to tune the show. Changes take
+#  effect on the next run. Lines starting with # are comments.
+# =====================================================================
+
+show:
+  title: "Bio + AI Briefing"
+  author: "Personal briefing"
+  description: >-
+    A daily AI-generated audio briefing on biotech and pharma, biology and
+    biomedical research, computational biology, and AI. It favors work that
+    has held up for a few weeks: widely cited, widely covered, or heavily
+    discussed. Show notes link every source and include a transcript.
+  language: "en-us"
+  timezone: "UTC"            # used for the date in episode titles, e.g. "America/New_York"
+  site_url: ""               # leave blank to use https://<user>.github.io/<repo>/
+
+# What the editor should look for. Plain English; edit freely.
+editorial_brief: >-
+  The listener follows biotech and pharma; biology and biomedical research;
+  computational biology and bioinformatics; and AI, both the biggest general
+  developments and AI applied to biology, medicine, biotech and pharma. They
+  also like striking breakthroughs in other sciences, with a tilt toward
+  biology, and occasional high-impact essays or blog posts on these topics.
+  They want things that have been vetted by time (widely cited, widely
+  covered, or heavily discussed), not yesterday's firehose, and they value
+  precision and evidence over hype.
+  Rough mix per episode (a guide, not a quota): 1-2 biotech/pharma stories,
+  2-3 biology or biomedical research findings, 1 computational biology or
+  bioinformatics item, 1-2 AI-for-biology/medicine items, 1 major general AI
+  development, 1 broader science breakthrough, and at most 1 essay or blog post.
+
+episode:
+  target_minutes: 12         # spoken length; ~150 words per minute
+  min_items: 4               # if fewer good items exist, the episode is shorter
+  max_items: 9
+  keep_episodes: 30          # older episodes are removed from the feed and GitHub
+
+# The "has it held up?" lag. An item is eligible only when its age (days
+# since publication) is inside this window.
+windows:
+  papers:      {min_age_days: 21, max_age_days: 100}   # journals + preprints (OpenAlex)
+  ai_papers:   {min_age_days: 10, max_age_days: 60}    # ML papers ranked by Hugging Face upvotes
+  news:        {min_age_days: 10, max_age_days: 45}    # news outlets (RSS)
+  blogs:       {min_age_days: 7,  max_age_days: 60}    # blogs/essays (RSS)
+  hacker_news: {min_age_days: 5,  max_age_days: 45}    # Hacker News discussion
+
+# Thresholds for "discussed a lot"
+signals:
+  hn_min_points_ai: 300        # AI stories on Hacker News
+  hn_min_points_science: 150   # bio/science stories on Hacker News
+  hf_min_upvotes: 40           # Hugging Face daily-papers upvotes
+  papers_per_stream: 25        # top papers kept from each OpenAlex query
+  max_news_headlines: 2500     # cap on headlines sent to the news-clustering step
+
+# Scholarly papers come from OpenAlex, ranked by citations within the window.
+# Filters use OpenAlex syntax: https://developers.openalex.org/guides/filtering
+# Field ids: 11 Agri/Bio sciences, 13 Biochem/Genetics/Mol bio, 17 Computer
+# science, 24 Immunology/Microbiology, 27 Medicine, 28 Neuroscience,
+# 30 Pharmacology. Journal filters use ISSNs.
+openalex:
+  types: "article|preprint"
+  streams:
+    - name: "Biology & life sciences"
+      category: bio_biomed_research
+      filter: "primary_topic.field.id:13|24|28|11"
+    - name: "Medicine & pharmacology"
+      category: bio_biomed_research
+      filter: "primary_topic.field.id:27|30"
+    - name: "Computational methods in biology/medicine"
+      category: compbio_bioinformatics
+      filter: "primary_topic.field.id:13|24|27|28|30,topics.field.id:17"
+    - name: "Machine learning applied to biology/medicine"
+      category: ai_for_bio_med
+      filter: "primary_topic.field.id:17,topics.field.id:13|24|27|28|30"
+    - name: "Flagship journals (any field)"
+      category: science_breakthroughs
+      filter: "primary_location.source.issn:0028-0836|1476-4687|0036-8075|1095-9203|0092-8674|1097-4172"
+
+# RSS feeds. kind: news | lab | blog.  filter: bio_ai keeps only items whose
+# title/summary mentions biology, medicine, or AI (useful for general outlets).
+# If a feed breaks, the run summary on GitHub lists it; fix or delete the line.
+feeds:
+  # --- biotech & pharma news
+  - {name: "STAT", url: "https://www.statnews.com/feed/", kind: news}
+  - {name: "Endpoints News", url: "https://endpoints.news/feed/", kind: news}
+  - {name: "Fierce Biotech", url: "https://www.fiercebiotech.com/rss/xml", kind: news}
+  - {name: "BioPharma Dive", url: "https://www.biopharmadive.com/feeds/news/", kind: news}
+  - {name: "GEN", url: "https://www.genengnews.com/feed/", kind: news}
+  # --- science news
+  - {name: "Science (news)", url: "https://www.science.org/rss/news_current.xml", kind: news}
+  - {name: "Nature", url: "https://www.nature.com/nature.rss", kind: news}
+  - {name: "Quanta Magazine", url: "https://www.quantamagazine.org/feed/", kind: news}
+  - {name: "Science News", url: "https://www.sciencenews.org/feed", kind: news}
+  - {name: "Ars Technica Science", url: "https://feeds.arstechnica.com/arstechnica/science", kind: news, filter: bio_ai}
+  - {name: "MIT Technology Review", url: "https://www.technologyreview.com/feed/", kind: news, filter: bio_ai}
+  # --- AI labs (primary sources; Hacker News points tell us which mattered)
+  - {name: "Google DeepMind", url: "https://deepmind.google/blog/rss.xml", kind: lab}
+  - {name: "OpenAI", url: "https://openai.com/news/rss.xml", kind: lab}
+  # --- blogs & essays
+  - {name: "In the Pipeline (Derek Lowe)", url: "https://www.science.org/blogs/pipeline/feed", kind: blog}
+  - {name: "Ground Truths (Eric Topol)", url: "https://erictopol.substack.com/feed", kind: blog}
+  - {name: "Asimov Press", url: "https://www.asimov.press/feed", kind: blog}
+  - {name: "Owl Posting", url: "https://www.owlposting.com/feed", kind: blog}
+  - {name: "LifeSciVC (Bruce Booth)", url: "https://lifescivc.com/feed/", kind: blog}
+  - {name: "Paired Ends (Stephen Turner)", url: "https://blog.stephenturner.us/feed", kind: blog}
+  - {name: "Bits of DNA (Lior Pachter)", url: "https://liorpachter.wordpress.com/feed/", kind: blog}
+  - {name: "Import AI (Jack Clark)", url: "https://importai.substack.com/feed", kind: blog}
+  - {name: "Simon Willison", url: "https://simonwillison.net/atom/everything/", kind: blog, filter: bio_ai}
+  - {name: "Interconnects (Nathan Lambert)", url: "https://www.interconnects.ai/feed", kind: blog}
+
+models:
+  editor: "claude-sonnet-5"                 # picks the stories and writes the script
+  triage: "claude-haiku-4-5-20251001"       # groups news headlines into stories (cheap)
+  effort: "medium"                          # low | medium | high — thinking depth for the editor/writer
+
+tts:
+  model: "gpt-4o-mini-tts"
+  voice: "marin"             # others: cedar, coral, sage, alloy, ash, ballad, echo, fable, nova, onyx, shimmer, verse
+  instructions: >-
+    Calm, clear, and warm, like a public-radio science host. Moderate pace.
+    Pronounce scientific and drug names carefully.
+  bitrate: "64k"             # mono; ~0.5 MB per minute
+
+# Used only to print an estimated cost per run in the GitHub summary (USD).
+pricing:
+  claude-sonnet-5: {input_per_mtok: 2.0, output_per_mtok: 10.0}
+  claude-haiku-4-5-20251001: {input_per_mtok: 1.0, output_per_mtok: 5.0}
+  tts_per_minute: 0.015
