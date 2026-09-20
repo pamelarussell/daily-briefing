@@ -2,9 +2,10 @@ name: Daily briefing
 
 on:
   schedule:
-    # 09:17 UTC every day = early morning in US time zones. Scheduled runs can start
-    # a little late when GitHub is busy. Change the time here if you like (UTC, cron format).
-    - cron: "17 9 * * *"
+    # Times are UTC. GitHub often starts scheduled runs late and occasionally skips one,
+    # so there are two: the backup does nothing if the first already published today.
+    - cron: "23 7 * * *"     # 1:23 a.m. Mountain Daylight Time (12:23 a.m. standard time)
+    - cron: "23 10 * * *"    # backup, 4:23 a.m. MDT
   workflow_dispatch:
     inputs:
       mode:
