@@ -81,5 +81,86 @@
    "rss:31a775345f"
   ],
   "date": "2026-09-19"
+ },
+ {
+  "title": "Moderna reports first positive Phase 3 for mRNA neoantigen therapy in melanoma",
+  "keys": [
+   "url:https://twitter.com/NoubarAfeyan/status/2090050162441752787",
+   "hn:49361395"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "Genome-scale perturb-seq in primary human CD4+ T cells maps context-specific regulators of T cell programs and human immune traits",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.08.002",
+   "doi:10.1016/j.cell.2026.08.002",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42664972",
+   "oa:W7117167451"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "FDA clears blood test to aid evaluation for Alzheimer's disease",
+  "keys": [
+   "url:https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease",
+   "hn:49415893"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "A global view of human centromere variation and evolution",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10841-9",
+   "doi:10.1038/s41586-026-10841-9",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41573929",
+   "oa:W4417261234"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "Autonomous biomedical research with an artificial intelligence agent",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adz4351",
+   "doi:10.1126/science.adz4351",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42424436",
+   "oa:W7167845123"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "Formalizing Fermat's Last Theorem",
+  "keys": [
+   "url:https://anthropic.com/research/formalizing-fermats-last-theorem",
+   "hn:49568506"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "Generative design of bacteriophages with genome language models",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aec2657",
+   "doi:10.1126/science.aec2657",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42561074",
+   "oa:W7197051316"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+  "keys": [
+   "url:https://404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
+   "hn:49267057"
+  ],
+  "date": "2026-09-20"
+ },
+ {
+  "title": "LLMs as a Cognitive Virus",
+  "keys": [
+   "url:https://arxiv.org/abs/2609.03344",
+   "arxiv:2609.03344",
+   "hn:49580164"
+  ],
+  "date": "2026-09-20"
  }
 ]
