@@ -162,5 +162,77 @@
    "hn:49580164"
   ],
   "date": "2026-09-20"
+ },
+ {
+  "title": "A new drug lifts fog of sleepiness for narcolepsy patients",
+  "keys": [
+   "url:https://nytimes.com/2026/09/09/science/narcolepsy-drug-orzeyful-neuroscience.html",
+   "story:53e1a9fba5"
+  ],
+  "date": "2026-09-21"
+ },
+ {
+  "title": "Scientists studying sleep and narcolepsy win Lasker Award",
+  "keys": [
+   "url:https://nytimes.com/2026/09/09/science/narcolepsy-sleep-lasker-award-researchers.html",
+   "story:1b7e9adfb5"
+  ],
+  "date": "2026-09-21"
+ },
+ {
+  "title": "SGLT2 inhibitors activate pantothenate kinase in the human heart",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aeh4856",
+   "doi:10.1126/science.aeh4856",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39091820",
+   "oa:W4401047215"
+  ],
+  "date": "2026-09-21"
+ },
+ {
+  "title": "Universal cell embedding provides a foundation model for cell biology",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10689-z",
+   "doi:10.1038/s41586-026-10689-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42420460",
+   "oa:W7167668826"
+  ],
+  "date": "2026-09-21"
+ },
+ {
+  "title": "Generalizable AI predicts immunotherapy outcomes across cancers and treatments",
+  "keys": [
+   "url:https://doi.org/10.1038/s41591-026-04502-7",
+   "doi:10.1038/s41591-026-04502-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40385399",
+   "oa:W4410090477"
+  ],
+  "date": "2026-09-21"
+ },
+ {
+  "title": "A misalignment of AI in mathematics",
+  "keys": [
+   "url:https://mathandai.org",
+   "hn:49662371"
+  ],
+  "date": "2026-09-21"
+ },
+ {
+  "title": "Isotopic evidence for a cold and distant origin of 3I/ATLAS",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10771-6",
+   "doi:10.1038/s41586-026-10771-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42332108",
+   "oa:W7165527368"
+  ],
+  "date": "2026-09-21"
+ },
+ {
+  "title": "Align AI and Mathematics—to Something Else",
+  "keys": [
+   "url:https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else",
+   "rss:8d42db6b5a"
+  ],
+  "date": "2026-09-21"
  }
 ]
