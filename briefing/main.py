@@ -15,7 +15,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
-from . import feed, publish, store
+from . import fasttrack, feed, publish, store
 from .collectors import hackernews, hf_papers, openalex, rss
 from .config import load_config
 from .editor import build_pool, candidate_line, choose
@@ -114,9 +114,14 @@ def run(mode: str = "full") -> int:
     note_alt = openalex.enrich_altmetric(papers, http)
     hf, notes_hf = hf_papers.collect(cfg, http, ref)
     hn, notes_hn = hackernews.collect(cfg, http, ref)
-    news = store.eligible_from_archive(archive, {"news", "lab"}, cfg["windows"]["news"], ref,
+    # News and blogs are read down to the fast-track age; too-young items that lack traction are
+    # removed after their signals are known (see fasttrack.apply below).
+    news_win = {**cfg["windows"]["news"], "min_age_days": fasttrack.lower_bound(cfg, "news")}
+    blog_win = {**cfg["windows"]["blogs"], "min_age_days": fasttrack.lower_bound(cfg, "blogs")}
+    news = store.eligible_from_archive(archive, {"news"}, news_win, ref,
                                        warmup=bool(cfg["windows"]["news"].get("warmup", False)))
-    blogs = store.eligible_from_archive(archive, {"blog"}, cfg["windows"]["blogs"], ref, warmup=False)
+    blogs = store.eligible_from_archive(archive, {"blog"}, blog_win, ref, warmup=False)
+    outlets_map = rss.outlet_info(cfg)
     report.section("Sources", notes_oa + ([note_alt] if note_alt else []) + notes_hf + notes_hn + [
         f"News in window: {len(news)} headlines" + (
             f" (archive has {history:.0f} days of history; news fills in once it reaches "
@@ -128,7 +133,7 @@ def run(mode: str = "full") -> int:
     claude = None
     stories: list[Item] = []
     if mode == "dry_run":
-        stories = sorted(news, key=lambda i: i.published or "", reverse=True)[:40]
+        stories = sorted((n for n in news if fasttrack.allowed(n, cfg, ref)), key=lambda i: i.published or "", reverse=True)[:40]
     else:
         try:
             claude = Claude(usage)
@@ -137,17 +142,27 @@ def run(mode: str = "full") -> int:
             report.write(paths["out"])
             return 1
         try:
-            stories = cluster_news(claude, cfg["models"]["triage"], news, int(cfg["signals"]["max_news_headlines"]))
-            report.text(f"News triage: {len(news)} headlines → {len(stories)} stories")
+            stories = cluster_news(claude, cfg["models"]["triage"], news, hn,
+                                   int(cfg["signals"]["max_news_headlines"]), outlets_map)
+            report.text(f"News triage: {len(news)} headlines + {len(hn)} Hacker News items → {len(stories)} stories "
+                        f"({sum(1 for s in stories if s.signals.get('hn_points'))} with HN discussion attached)")
         except Exception as e:  # noqa: BLE001 — fall back to raw headlines rather than failing the day
             report.text(f"News triage failed ({e}); using the most recent headlines instead")
-            stories = sorted(news, key=lambda i: i.published or "", reverse=True)[:40]
+            stories = sorted((n for n in news if fasttrack.allowed(n, cfg, ref)), key=lambda i: i.published or "", reverse=True)[:40]
 
     looked_up = add_hn_points(http, stories + blogs, limit=150)
+    blogs, _, _ = fasttrack.apply(blogs, cfg, ref)     # before trimming, so too-young posts don't take slots
     blogs = trim_blogs(blogs)
     pool, dropped = build_pool([papers, hf, hn, stories, blogs], covered)
+    # An HN item still standing alone after merging had no news coverage. If it links to a social-media
+    # post there is nothing reliable to report from, so leave it out.
+    before = len(pool)
+    pool = [i for i in pool if not (i.kind == "hn" and i.extra.get("link_type") == "social")]
+    social_dropped = before - len(pool)
+    pool, fast, too_young = fasttrack.apply(pool, cfg, ref)
     report.text(f"Candidate pool: {len(pool)} (after merging duplicates; {dropped} already covered; "
-                f"HN points found for {looked_up} news/blog links)")
+                f"HN points found for {looked_up} news/blog links; {social_dropped} social-media links without "
+                f"news coverage left out; {fast} fast-tracked, {too_young} too young without exceptional traction)")
 
     paths["out"].mkdir(parents=True, exist_ok=True)
     (paths["out"] / "candidates.md").write_text(

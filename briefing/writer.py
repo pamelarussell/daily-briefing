@@ -41,7 +41,9 @@ def write_script(claude: Claude, cfg: dict, chosen: list[tuple[Item, dict]], mat
             + (f"Authors: {it.extra.get('authors')}" + (f" ({it.extra.get('institutions')})" if it.extra.get('institutions') else "") + "\n"
                if it.extra.get("authors") else "")
             + f"Evidence type: {'preprint (not peer reviewed)' if it.extra.get('is_preprint') else it.kind}\n"
-            f"SIGNALS: {it.signals_text(ref)}\n"
+            + ("Source type: press release (the organization's own claim)\n"
+               if it.extra.get("link_type") == "press_release" else "")
+            + f"SIGNALS: {it.signals_text(ref)}\n"
             f"Editor's note on why it was chosen: {sel.get('reason', '')}\n"
             f"SOURCE MATERIAL:\n{materials.get(it.id, '(Only the headline is available.)')}\n"
         )
@@ -50,7 +52,7 @@ def write_script(claude: Claude, cfg: dict, chosen: list[tuple[Item, dict]], mat
     return claude.json_call(
         label="writer",
         model=cfg["models"]["editor"],
-        system=WRITER_SYSTEM.format(words=words, date_spoken=date_spoken),
+        system=WRITER_SYSTEM.format(words=words, words_low=int(round(words * 0.85, -1)), date_spoken=date_spoken),
         user=user,
         schema=SCHEMA,
         max_tokens=32000,

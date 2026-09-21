@@ -83,24 +83,44 @@ nothing if the first run already published.
 
 ## How items are vetted
 
-| Source | What counts as "held up" | Default age window |
+| Source | What counts as "held up" | Normal age window |
 |---|---|---|
-| Journals and preprints (OpenAlex) | Citations, with a bonus for fast accumulation | 3 – 14 weeks |
-| ML papers (Hugging Face Daily Papers) | Community upvotes (≥ 40) | 10 – 60 days |
-| News (STAT, Endpoints, Fierce, BioPharma Dive, GEN, Science, Nature, Quanta, …) | Number of outlets covering the same story | 10 – 45 days |
-| Hacker News | Points (≥ 300 for AI, ≥ 150 for science/biology) | 5 – 45 days |
-| Blogs and essays (Derek Lowe, Eric Topol, Asimov Press, Owl Posting, …) | Hacker News discussion; the curated list itself | 7 – 60 days |
+| Journals and preprints (OpenAlex) | Citations, with a bonus for fast accumulation (top 200 per stream re-ranked) | 3 – 14 weeks |
+| ML papers (Hugging Face Daily Papers) | Community upvotes (≥ 40) | 10 – 30 days |
+| News (trade, science, general, and tech press) | Number of distinct outlet *types* covering the story | 10 – 30 days |
+| Hacker News | Points (≥ 300 for AI, ≥ 150 for science/biology), attached to news coverage when there is some | 10 – 30 days |
+| Blogs and essays (Derek Lowe, Eric Topol, Asimov Press, Owl Posting, …) | Hacker News discussion; the curated list itself | 7 – 30 days |
 
-The same paper or story showing up in several places is merged, and its signals combined (for
-example a Nature paper that was also a hit on Hacker News). An editor model (Claude Sonnet 5)
-then picks 4–9 items using the brief in `config.yaml`, and a writer pass turns them into a script
-under strict rules: only facts from the fetched source text, preprints and animal studies labeled
-as such, claims attributed, and the reason each item was picked stated. Nothing already covered is
-repeated.
+OpenAlex has dedicated streams for top journals: biomedical and clinical (Nature, Science, Cell,
+NEJM, Lancet, JAMA, Nature Medicine, Science Translational Medicine), genomics and computational
+biology (Nature Biotechnology, Methods, Genetics, Genome Biology, Genome Research, Cell Genomics, Cell
+Systems, Nature Computational Science), and non-biological science (physical-science papers in
+Nature, Science, PNAS, PRL, and the Nature physical-science journals).
 
-**First two weeks:** news sites' feeds only show recent posts, so the briefing builds its own
-archive as it runs. Until it has two weeks of history, news items will be fresher than the
-10-day minimum. Papers, Hacker News, and blogs are unaffected.
+**Outlet types.** News feeds are grouped as biotech/health trade, science press, general press, and
+tech press. Five trade outlets covering the same deal count as one type of coverage; a finding covered
+by the science press and the general press counts as two.
+
+**Fast track.** An item as young as 5 days can get in if it has exceptional traction: coverage
+across 3 outlet types, 600+ HN points (AI) or 400+ (science), or 150+ Hugging Face upvotes (see
+`fast_track` in `config.yaml`). It is labeled as fast-tracked in the show notes.
+
+**Hacker News links.** HN items are clustered with the news, so when HN discussed something the
+press also covered, the news article becomes the source and the HN points become a signal. An HN item
+linking to a social-media post with no news coverage is left out; one linking to a press release is
+kept but presented as the organization's own claim. AI-lab blogs are not fed in directly: every lab's
+announcements come in the same way, through HN and news coverage.
+
+The same paper or story showing up in several places is merged, and its signals combined. An editor
+model (Claude Sonnet 5) then picks 4–9 items using the brief in `config.yaml` (categories are
+strongly preferred but optional), and a writer pass turns them into a script of up to 12 minutes
+under strict rules: only facts from the fetched source text (the main source plus up to two other
+outlets' articles), preprints, animal studies, and press releases labeled as such, claims attributed,
+and the reason each item was picked stated. Nothing already covered is repeated.
+
+**First few weeks:** news sites' feeds only show recent posts, so the briefing builds its own
+archive as it runs. News fills in once the archive is 10 days old and reaches the full 30-day window
+after a month. Papers, Hacker News, and blogs are unaffected.
 
 ---
 
@@ -111,9 +131,10 @@ Edit `config.yaml` on GitHub (open it, click the pencil). Changes apply on the n
 - `editorial_brief` — plain-English description of what you want; the editor follows it.
 - `episode.target_minutes`, `min_items`, `max_items` — length and density.
 - `windows` — how old items must be (the "has it held up?" lag).
+- `fast_track` — how much traction lets a younger item skip the lag.
 - `signals` — thresholds for Hacker News points and Hugging Face upvotes.
 - `openalex.streams` — which research areas and journals are searched.
-- `feeds` — add or remove news sites and blogs (any RSS/Atom feed works).
+- `feeds` — add or remove news sites and blogs (any RSS/Atom feed works); give news feeds an `outlet_type`.
 - `tts.voice` — `marin` (default), `cedar`, `coral`, `sage`, and others.
 - `models.effort` — `low` is cheaper; `high` thinks harder.
 
@@ -132,7 +153,7 @@ Estimated per day for a 12-minute episode:
 
 | Step | Model | Approx. |
 |---|---|---|
-| Group news headlines into stories | Claude Haiku 4.5 | $0.05 – 0.10 |
+| Group news headlines into stories | Claude Haiku 4.5 | $0.10 – 0.20 |
 | Pick the items | Claude Sonnet 5 | ~$0.10 |
 | Write the script | Claude Sonnet 5 | ~$0.12 |
 | Speech | OpenAI gpt-4o-mini-tts | ~$0.18 |

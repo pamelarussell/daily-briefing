@@ -12,7 +12,8 @@ def _links(it: Item) -> list[tuple[str, str]]:
         links.append(("Hugging Face", it.extra["hf_url"]))
     if it.extra.get("hn_url"):
         links.append(("Hacker News discussion", it.extra["hn_url"]))
-    for m in (it.extra.get("members") or [])[1:4]:
+    start = 1 if it.kind == "story" else 0          # a story's first member is already the main link
+    for m in (it.extra.get("members") or [])[start:start + 3]:
         links.append((m["source"], m["url"]))
     return links
 

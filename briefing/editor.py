@@ -8,8 +8,9 @@ from .store import Covered
 from .util import clean_text, norm_title, title_similarity
 
 # When the same thing shows up from several sources, keep the richest record as the base.
-PRIORITY = {"paper": 0, "ai_paper": 1, "story": 2, "news": 3, "lab": 3, "blog": 3, "hn": 4}
-NUMERIC_SIGNALS = ("citations", "altmetric", "news_mentions", "outlets", "hf_upvotes", "hn_points", "hn_comments")
+PRIORITY = {"paper": 0, "ai_paper": 1, "story": 2, "news": 3, "blog": 3, "hn": 4}
+NUMERIC_SIGNALS = ("citations", "altmetric", "news_mentions", "outlets", "outlet_types", "hf_upvotes", "hn_points",
+                   "hn_comments")
 
 SCHEMA = {
     "type": "object",
@@ -47,6 +48,10 @@ def _absorb(base: Item, other: Item) -> None:
         base.extra.setdefault("hn_url", other.extra["hn_url"])
     if not base.category_hint:
         base.category_hint = other.category_hint
+    if other.extra.get("outlet_type_names") and len(other.extra["outlet_type_names"]) > len(base.extra.get("outlet_type_names") or []):
+        base.extra["outlet_type_names"] = other.extra["outlet_type_names"]
+    if other.kind == "story" and other.extra.get("members") and not base.extra.get("members"):
+        base.extra["members"] = other.extra["members"]
 
 
 def _similar_titles(a: str, b: str) -> bool:
@@ -82,7 +87,7 @@ def build_pool(sources: list[list[Item]], covered: Covered) -> tuple[list[Item],
 
 
 KIND_LABEL = {"paper": "paper", "ai_paper": "ML paper", "story": "news story", "news": "news",
-              "lab": "AI-lab post", "blog": "blog/essay", "hn": "HN-discussed link"}
+              "blog": "blog/essay", "hn": "HN-discussed link"}
 
 
 def candidate_line(it: Item, ref) -> str:

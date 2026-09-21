@@ -75,3 +75,13 @@ def collect(cfg: dict, http: Http, ref) -> tuple[list[Item], list[str]]:
         except Exception as e:  # noqa: BLE001
             health.append(f"FAIL  {feed['name']}: {str(e)[:160]}  ({feed['url']})")
     return all_items, health
+
+
+OUTLET_TYPE_LABELS = {"trade": "biotech/health trade press", "science": "science press",
+                      "general": "general press", "tech": "tech press"}
+
+
+def outlet_info(cfg: dict) -> dict[str, tuple[str, str]]:
+    """feed name -> (outlet name, outlet type). Several feeds can share one outlet (NYT Science + Health)."""
+    return {f["name"]: (f.get("outlet") or f["name"], f.get("outlet_type") or "")
+            for f in cfg.get("feeds", []) if f.get("kind", "news") == "news"}

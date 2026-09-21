@@ -62,13 +62,22 @@ class Item:
         if s.get("news_mentions"):
             parts.append(f"{s['news_mentions']} news mentions (Altmetric)")
         if s.get("outlets"):
-            parts.append(f"covered by {s['outlets']} outlet" + ("s" if s["outlets"] != 1 else ""))
+            t = f"covered by {s['outlets']} outlet" + ("s" if s["outlets"] != 1 else "")
+            if s.get("outlet_types"):
+                names = self.extra.get("outlet_type_names") or []
+                t += (f" across {s['outlet_types']} outlet type" + ("s" if s["outlet_types"] != 1 else "")
+                      + (f" ({', '.join(names)})" if names else ""))
+            parts.append(t)
         if s.get("hf_upvotes"):
             parts.append(f"{s['hf_upvotes']} Hugging Face upvotes")
         if s.get("hn_points"):
             parts.append(f"{s['hn_points']} Hacker News points / {s.get('hn_comments', 0)} comments")
         if self.extra.get("is_preprint"):
             parts.append("preprint")
+        if self.extra.get("fast_track"):
+            parts.append("fast-tracked: younger than the usual waiting period, admitted on exceptional traction")
+        if self.extra.get("link_type") == "press_release":
+            parts.append("source is a press release (the organization's own claim), no independent news coverage found")
         return "; ".join(parts)
 
     def to_dict(self) -> dict:

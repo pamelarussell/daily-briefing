@@ -4,6 +4,7 @@ from __future__ import annotations
 import time
 from datetime import timedelta
 
+from .. import fasttrack
 from ..classify import BIO
 from ..models import Item
 from ..util import Http, clean_text, keys_for
@@ -29,7 +30,7 @@ def collect(cfg: dict, http: Http, ref) -> tuple[list[Item], list[str]]:
     seen: dict[str, Item] = {}
     failures = 0
     day = ref - timedelta(days=win["max_age_days"])
-    end = ref - timedelta(days=win["min_age_days"])
+    end = ref - timedelta(days=fasttrack.lower_bound(cfg, "ai_papers"))
     while day <= end:
         try:
             data = http.get_json(API, params={"date": day.date().isoformat()}, timeout=30)
@@ -59,6 +60,8 @@ def collect(cfg: dict, http: Http, ref) -> tuple[list[Item], list[str]]:
                 extra={"hf_url": f"https://huggingface.co/papers/{arxiv_id}", "is_preprint": True,
                        "authors": ", ".join(a.get("name", "") for a in (p.get("authors") or [])[:3])},
             )
+            if not fasttrack.allowed(it, cfg, ref):
+                continue
             if arxiv_id not in seen or up > seen[arxiv_id].signals["hf_upvotes"]:
                 seen[arxiv_id] = it
         day += timedelta(days=1)

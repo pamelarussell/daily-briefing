@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import math
 import os
+import re
 from datetime import timedelta
 
 from ..models import Item
@@ -90,7 +91,9 @@ def collect(cfg: dict, http: Http, ref) -> tuple[list[Item], list[str]]:
     for stream in cfg["openalex"].get("streams", []):
         filt = (f"from_publication_date:{start},to_publication_date:{end},type:{types},"
                 f"is_retracted:false,{stream['filter']}")
-        params = {"filter": filt, "sort": "cited_by_count:desc", "per_page": 50, "select": SELECT}
+        # Fetch a deep slice (200 = OpenAlex's page maximum) so the velocity re-ranking below can
+        # surface young, fast-rising papers that aren't yet in the raw top by total citations.
+        params = {"filter": filt, "sort": "cited_by_count:desc", "per_page": 200, "select": SELECT}
         if stream.get("search"):
             if not api_key:
                 notes.append(f"OpenAlex '{stream['name']}': skipped (search queries need OPENALEX_API_KEY)")
@@ -115,8 +118,27 @@ def collect(cfg: dict, http: Http, ref) -> tuple[list[Item], list[str]]:
             kept += 1
             if kept >= per_stream:
                 break
-        notes.append(f"OpenAlex '{stream['name']}': {len(items)} found, {kept} kept")
+        note = f"OpenAlex '{stream['name']}': {len(items)} found, {kept} kept"
+        missing = _unmatched_issns(stream["filter"], data.get("results", []))
+        if missing:
+            note += f" — no results for ISSN(s) {', '.join(missing)} (check the ISSN, or the journal had nothing in the window)"
+        notes.append(note)
     return list(out.values()), notes
+
+
+def _unmatched_issns(filt: str, works: list[dict]) -> list[str]:
+    """ISSNs named in a journal filter that no returned work came from (usually a typo)."""
+    m = re.search(r"primary_location\.source\.issn:([0-9Xx|\-]+)", filt)
+    if not m:
+        return []
+    wanted = [i.upper() for i in m.group(1).split("|") if i]
+    seen = set()
+    for w in works:
+        src = (w.get("primary_location") or {}).get("source") or {}
+        seen.update(i.upper() for i in (src.get("issn") or []))
+        if src.get("issn_l"):
+            seen.add(src["issn_l"].upper())
+    return [i for i in wanted if i not in seen]
 
 
 def enrich_altmetric(items: list[Item], http: Http, limit: int = 60) -> str:
