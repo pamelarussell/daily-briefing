@@ -97,7 +97,7 @@ def run(mode: str = "full") -> int:
     episodes = store.load_json(paths["state"] / "episodes.json", [])
     if (mode == "full" and os.environ.get("GITHUB_EVENT_NAME") == "schedule"
             and any(e.get("date") == date_slug for e in episodes)):
-        report.text("Today's episode is already published; this backup run has nothing to do.")
+        report.text("Today's episode is already published; this run has nothing to do.")
         report.write(paths["out"])
         return 0
 

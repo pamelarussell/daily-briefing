@@ -75,9 +75,8 @@ https://YOUR-GITHUB-USERNAME.github.io/REPOSITORY-NAME/feed.xml
 - **Pocket Casts:** paste the address into the search box.
 - Spotify can't subscribe to personal feeds.
 
-From then on a new episode appears every morning. The workflow is scheduled for 07:23 UTC with a
-backup at 10:23 UTC (GitHub sometimes starts scheduled runs late or skips one); the backup does
-nothing if the first run already published.
+From then on a new episode appears every morning. The workflow is scheduled for 07:00 UTC
+(1:00 a.m. Mountain Daylight Time). GitHub sometimes starts scheduled runs late or skips one.
 
 ---
 
