@@ -6,25 +6,28 @@ from datetime import datetime
 
 from .util import age_days, parse_date
 
-CATEGORIES = [
-    "biotech_pharma_news",
-    "bio_biomed_research",
-    "compbio_bioinformatics",
-    "ai_for_bio_med",
-    "ai_general",
-    "science_breakthroughs",
-    "blog_post",
-]
-
-CATEGORY_LABELS = {
-    "biotech_pharma_news": "Biotech & pharma",
-    "bio_biomed_research": "Biology & biomedical research",
-    "compbio_bioinformatics": "Computational biology & bioinformatics",
-    "ai_for_bio_med": "AI for biology & medicine",
-    "ai_general": "AI",
-    "science_breakthroughs": "Science beyond biology",
-    "blog_post": "Worth reading",
+# Every category, defined once: id -> (label for the script and show notes, meaning given to the models).
+# The prompts (prompts.category_guide), the output schemas, and the show notes all read this table.
+CATEGORY_INFO = {
+    "biotech_pharma_news": ("Biotech & pharma", "industry, regulatory, clinical-trial and health-policy news."),
+    "bio_biomed_research": ("Biology & biomedical research", "research findings in biology and biomedicine."),
+    "compbio_bioinformatics": ("Computational biology & bioinformatics",
+                               "computational biology, genomics methods, bioinformatics tools and resources."),
+    "ai_for_bio_med": ("AI for biology & medicine", "AI applied to biology, medicine, biotech or pharma."),
+    "ai_general": ("AI", "major general AI developments (models, research, policy)."),
+    "mathematics": ("Mathematics",
+                    "results and developments in mathematics itself, pure or applied (including probability and "
+                    "statistics): new theorems and proofs, settled conjectures, major prizes. A result found or "
+                    "checked by computer or AI belongs here when the mathematics is the story; when the AI system "
+                    "is the story, use ai_general."),
+    "science_breakthroughs": ("Science beyond biology",
+                              "the non-biological sciences other than mathematics: physics, astronomy, chemistry, "
+                              "materials, earth and climate science, and similar. Anything about biology or "
+                              "medicine never goes here."),
+    "blog_post": ("Worth reading", "essays and blog posts only (not papers, preprints or news articles)."),
 }
+CATEGORIES = list(CATEGORY_INFO)
+CATEGORY_LABELS = {c: label for c, (label, _) in CATEGORY_INFO.items()}
 
 
 @dataclass

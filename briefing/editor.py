@@ -3,9 +3,9 @@ from __future__ import annotations
 
 from .llm import Claude
 from .models import CATEGORIES, Item
-from .prompts import EDITOR_SYSTEM
+from .prompts import EDITOR_RETRY, EDITOR_SYSTEM, category_guide
 from .store import Covered
-from .util import clean_text, norm_title, title_similarity
+from .util import clean_text, log, norm_title, title_similarity
 
 # When the same thing shows up from several sources, keep the richest record as the base.
 PRIORITY = {"paper": 0, "ai_paper": 1, "story": 2, "news": 3, "blog": 3, "hn": 4}
@@ -101,25 +101,14 @@ def candidate_line(it: Item, ref) -> str:
     return f"[{it.id}] {meta}\n    {it.title}" + (f" — {summary}" if summary else "")
 
 
-def choose(claude: Claude, cfg: dict, pool: list[Item], covered: Covered, ref, date_spoken: str) -> tuple[list[tuple[Item, dict]], str]:
-    ep = cfg["episode"]
-    by_id = {i.id: i for i in pool}
-    recent = covered.recent_titles(ref, days=45)
-    user = (
-        f"Today is {date_spoken}.\n\n"
-        f"Recently covered (avoid repeats):\n" + ("\n".join(f"- {t}" for t in recent[-150:]) or "- (nothing yet)") +
-        f"\n\nCandidates ({len(pool)}):\n\n" + "\n".join(candidate_line(i, ref) for i in pool)
-    )
-    result = claude.json_call(
-        label="editor",
-        model=cfg["models"]["editor"],
-        system=EDITOR_SYSTEM.format(brief=cfg["editorial_brief"].strip(), min_items=ep["min_items"],
-                                    max_items=ep["max_items"]),
-        user=user,
-        schema=SCHEMA,
-        max_tokens=16000,
-        effort=cfg["models"].get("effort"),
-    )
+def missing_required(chosen: list[tuple[Item, dict]], required: list[str]) -> list[str]:
+    """Required categories (config episode.required_categories) that no chosen item fills."""
+    have = {sel["category"] for _, sel in chosen}
+    return [c for c in required if c not in have]
+
+
+def _selections(result: dict, by_id: dict[str, Item], max_items: int) -> list[tuple[Item, dict]]:
+    """The editor's picks that are real candidates, deduplicated and capped at max_items."""
     chosen: list[tuple[Item, dict]] = []
     seen = set()
     for sel in result.get("selections", []):
@@ -129,6 +118,39 @@ def choose(claude: Claude, cfg: dict, pool: list[Item], covered: Covered, ref, d
         seen.add(it.id)
         sel["category"] = (sel.get("category") or it.category_hint or "science_breakthroughs").lower()
         chosen.append((it, sel))
-        if len(chosen) >= int(ep["max_items"]):
+        if len(chosen) >= max_items:
             break
+    return chosen
+
+
+def choose(claude: Claude, cfg: dict, pool: list[Item], covered: Covered, ref, date_spoken: str) -> tuple[list[tuple[Item, dict]], str]:
+    ep = cfg["episode"]
+    required = ep["required_categories"]
+    max_items = int(ep["max_items"])
+    by_id = {i.id: i for i in pool}
+    recent = covered.recent_titles(ref, days=45)
+    user = (
+        f"Today is {date_spoken}.\n\n"
+        f"Recently covered (avoid repeats):\n" + ("\n".join(f"- {t}" for t in recent[-150:]) or "- (nothing yet)") +
+        f"\n\nCandidates ({len(pool)}):\n\n" + "\n".join(candidate_line(i, ref) for i in pool)
+    )
+    system = EDITOR_SYSTEM.format(brief=cfg["editorial_brief"].strip(), categories=category_guide(CATEGORIES, required),
+                                  min_items=ep["min_items"], max_items=max_items)
+
+    def ask(label: str, text: str) -> tuple[dict, list[tuple[Item, dict]]]:
+        result = claude.json_call(label=label, model=cfg["models"]["editor"], system=system, user=text,
+                                  schema=SCHEMA, max_tokens=16000, effort=cfg["models"].get("effort"))
+        return result, _selections(result, by_id, max_items)
+
+    result, chosen = ask("editor", user)
+    missing = missing_required(chosen, required)
+    if chosen and missing:
+        # Ask once more. If nothing in the pool genuinely belongs, the editor keeps its selection and
+        # the run summary reports the gap (see main.py).
+        log.info("Editor left out required categories (%s); asking once more", ", ".join(missing))
+        previous = ", ".join(f"{it.id} ({sel['category']})" for it, sel in chosen)
+        retry, retry_chosen = ask("editor (retry)",
+                                  user + EDITOR_RETRY.format(previous=previous, missing=", ".join(missing)))
+        if len(missing_required(retry_chosen, required)) < len(missing):
+            result, chosen = retry, retry_chosen
     return chosen, result.get("angle", "")

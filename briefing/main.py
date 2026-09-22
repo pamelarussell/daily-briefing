@@ -18,10 +18,10 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 from . import fasttrack, feed, publish, store
 from .collectors import hackernews, hf_papers, openalex, rss
 from .config import load_config
-from .editor import build_pool, candidate_line, choose
+from .editor import build_pool, candidate_line, choose, missing_required
 from .enrich import add_hn_points, material_for
 from .llm import Claude, LLMError, Usage
-from .models import Item
+from .models import CATEGORY_LABELS, Item
 from .shownotes import build_notes
 from .triage import cluster_news
 from .tts import synthesize
@@ -85,6 +85,7 @@ def run(mode: str = "full") -> int:
     local = local_now(cfg, ref)
     date_slug = local.date().isoformat()
     date_spoken = local.strftime("%A, %B ") + str(local.day)
+    required = cfg["episode"]["required_categories"]
     report = Report()
     report.text(f"## {cfg['show']['title']} — {date_slug} ({mode})")
     http = Http()
@@ -121,13 +122,20 @@ def run(mode: str = "full") -> int:
     news = store.eligible_from_archive(archive, {"news"}, news_win, ref,
                                        warmup=bool(cfg["windows"]["news"].get("warmup", False)))
     blogs = store.eligible_from_archive(archive, {"blog"}, blog_win, ref, warmup=False)
+    # What was already covered can't be picked again. Leaving it out before the capped steps (the triage's
+    # story list, the per-blog trim) keeps their slots for items that can be, which matters most for
+    # required categories that only have a few stories a week.
+    fresh_news, fresh_hn, fresh_blogs = covered.fresh(news), covered.fresh(hn), covered.fresh(blogs)
     outlets_map = rss.outlet_info(cfg)
     report.section("Sources", notes_oa + ([note_alt] if note_alt else []) + notes_hf + notes_hn + [
         f"News in window: {len(news)} headlines" + (
             f" (archive has {history:.0f} days of history; news fills in once it reaches "
             f"{cfg['windows']['news']['min_age_days']} days)" if history < cfg['windows']['news']['min_age_days'] else ""),
         f"Blog posts in window: {len(blogs)}",
+        f"Already covered, left out up front: {len(news) - len(fresh_news)} headlines, "
+        f"{len(hn) - len(fresh_hn)} Hacker News items, {len(blogs) - len(fresh_blogs)} blog posts",
     ])
+    news, hn, blogs = fresh_news, fresh_hn, fresh_blogs
 
     usage = Usage()
     claude = None
@@ -143,7 +151,7 @@ def run(mode: str = "full") -> int:
             return 1
         try:
             stories = cluster_news(claude, cfg["models"]["triage"], news, hn,
-                                   int(cfg["signals"]["max_news_headlines"]), outlets_map)
+                                   int(cfg["signals"]["max_news_headlines"]), outlets_map, required)
             report.text(f"News triage: {len(news)} headlines + {len(hn)} Hacker News items → {len(stories)} stories "
                         f"({sum(1 for s in stories if s.signals.get('hn_points'))} with HN discussion attached)")
         except Exception as e:  # noqa: BLE001 — fall back to raw headlines rather than failing the day
@@ -163,6 +171,9 @@ def run(mode: str = "full") -> int:
     report.text(f"Candidate pool: {len(pool)} (after merging duplicates; {dropped} already covered; "
                 f"HN points found for {looked_up} news/blog links; {social_dropped} social-media links without "
                 f"news coverage left out; {fast} fast-tracked, {too_young} too young without exceptional traction)")
+    if required:
+        report.text("Candidates pre-sorted into required categories: " + ", ".join(
+            f"{CATEGORY_LABELS[c]} {sum(i.category_hint == c for i in pool)}" for c in required))
 
     paths["out"].mkdir(parents=True, exist_ok=True)
     (paths["out"] / "candidates.md").write_text(
@@ -190,8 +201,13 @@ def run(mode: str = "full") -> int:
         report.text("The editor found nothing strong enough today; no episode.")
         report.write(paths["out"])
         return 0
-    report.section("Chosen", [f"**{it.title}** ({it.source}) — {it.signals_text(ref)}. _{sel.get('reason', '')}_"
+    report.section("Chosen", [f"{CATEGORY_LABELS.get(sel['category'], sel['category'])}: **{it.title}** "
+                              f"({it.source}) — {it.signals_text(ref)}. _{sel.get('reason', '')}_"
                               for it, sel in chosen])
+    missing = missing_required(chosen, required)
+    if missing:
+        report.text("**Required categories missing today:** " + ", ".join(CATEGORY_LABELS[c] for c in missing)
+                    + " (left out even after the editor was asked again)")
 
     materials = {it.id: material_for(http, it) for it, _ in chosen}
     written = write_script(claude, cfg, chosen, materials, angle, ref, date_spoken)

@@ -125,8 +125,17 @@ class Covered:
     def load(cls, path: Path) -> "Covered":
         return cls(load_json(path, []))
 
+    def contains_key(self, item: Item) -> bool:
+        """True if one of the item's identifiers (URL, DOI, arXiv id, …) was already covered."""
+        return item.id in self.keys or any(k in self.keys for k in item.keys)
+
+    def fresh(self, items: list[Item]) -> list[Item]:
+        """The items whose identifiers were never covered (a fast pre-filter; see contains for the full check)."""
+        return [i for i in items if not self.contains_key(i)]
+
     def contains(self, item: Item, sim: float = 0.88) -> bool:
-        if any(k in self.keys for k in item.keys) or item.id in self.keys:
+        """contains_key, or a title close enough to one already covered."""
+        if self.contains_key(item):
             return True
         t = norm_title(item.title)
         tokens = set(t.split())

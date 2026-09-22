@@ -1,9 +1,11 @@
 # Bio + AI Briefing
 
 A personal, AI-generated audio briefing that lands in your podcast app every morning. It covers
-biotech and pharma, biology and biomedical research, computational biology and bioinformatics, AI
-(in general and applied to biology and medicine), notable breakthroughs in other sciences, and the
-occasional high-impact essay.
+biotech and pharma, biology and biomedical research, computational biology and bioinformatics,
+mathematics, AI (in general and applied to biology and medicine), notable breakthroughs in other
+sciences, and the occasional high-impact essay. Every episode includes at least one mathematics item
+and one computational biology item whenever a genuine candidate exists (see
+[How items are vetted](#how-items-are-vetted)).
 
 It deliberately runs **a few weeks behind**: an item only makes it in after it has had time to prove
 itself — by being cited, covered by several outlets, or heavily discussed. Every episode's show notes
@@ -87,14 +89,16 @@ From then on a new episode appears every morning. The workflow is scheduled for 
 | Journals and preprints (OpenAlex) | Citations, with a bonus for fast accumulation (top 200 per stream re-ranked) | 3 – 14 weeks |
 | ML papers (Hugging Face Daily Papers) | Community upvotes (≥ 40) | 10 – 30 days |
 | News (trade, science, general, and tech press) | Number of distinct outlet *types* covering the story | 10 – 30 days |
-| Hacker News | Points (≥ 300 for AI, ≥ 150 for science/biology), attached to news coverage when there is some | 10 – 30 days |
-| Blogs and essays (Derek Lowe, Eric Topol, Asimov Press, Owl Posting, …) | Hacker News discussion; the curated list itself | 7 – 30 days |
+| Hacker News | Points (≥ 300 for AI, ≥ 150 for science, biology, and math), attached to news coverage when there is some | 10 – 30 days |
+| Blogs and essays (Derek Lowe, Eric Topol, Asimov Press, Owl Posting, Terence Tao, …) | Hacker News discussion; the curated list itself | 7 – 30 days |
 
 OpenAlex has dedicated streams for top journals: biomedical and clinical (Nature, Science, Cell,
 NEJM, Lancet, JAMA, Nature Medicine, Science Translational Medicine), genomics and computational
 biology (Nature Biotechnology, Methods, Genetics, Genome Biology, Genome Research, Cell Genomics, Cell
-Systems, Nature Computational Science), and non-biological science (physical-science papers in
-Nature, Science, PNAS, PRL, and the Nature physical-science journals).
+Systems, Nature Computational Science), non-biological science (physical-science papers in
+Nature, Science, PNAS, PRL, and the Nature physical-science journals), and mathematics (Annals,
+Inventiones, Acta Mathematica, JAMS, Publications IHÉS, Duke, Forum of Mathematics Pi). Math papers
+gather citations slowly, so for them the journal itself is the main signal.
 
 **Outlet types.** News feeds are grouped as biotech/health trade, science press, general press, and
 tech press. Five trade outlets covering the same deal count as one type of coverage; a finding covered
@@ -110,12 +114,20 @@ linking to a social-media post with no news coverage is left out; one linking to
 kept but presented as the organization's own claim. AI-lab blogs are not fed in directly: every lab's
 announcements come in the same way, through HN and news coverage.
 
+**Required categories.** `episode.required_categories` (mathematics and computational biology by
+default) must be represented every day. These fields are rarely covered widely, so the news-grouping
+step keeps their best stories even when only one outlet covered them, and the brief tells the editor
+what counts as evidence for math. If the editor leaves a required category out, it is asked once
+more; if no candidate genuinely belongs, the episode goes without it and the run summary says so.
+Anything already covered is set aside before the news is grouped into stories, so the story slots go
+to things that can still be picked.
+
 The same paper or story showing up in several places is merged, and its signals combined. An editor
-model (Claude Sonnet 5) then picks 4–9 items using the brief in `config.yaml` (categories are
-strongly preferred but optional), and a writer pass turns them into a script of up to 12 minutes
-under strict rules: only facts from the fetched source text (the main source plus up to two other
-outlets' articles), preprints, animal studies, and press releases labeled as such, claims attributed,
-and the reason each item was picked stated. Nothing already covered is repeated.
+model (Claude Sonnet 5) then picks 4–9 items using the brief in `config.yaml` (required categories
+always, the others strongly preferred but optional), and a writer pass turns them into a script of
+up to 12 minutes under strict rules: only facts from the fetched source text (the main source plus
+up to two other outlets' articles), preprints, animal studies, and press releases labeled as such,
+claims attributed, and the reason each item was picked stated. Nothing already covered is repeated.
 
 **First few weeks:** news sites' feeds only show recent posts, so the briefing builds its own
 archive as it runs. News fills in once the archive is 10 days old and reaches the full 30-day window
@@ -129,6 +141,7 @@ Edit `config.yaml` on GitHub (open it, click the pencil). Changes apply on the n
 
 - `editorial_brief` — plain-English description of what you want; the editor follows it.
 - `episode.target_minutes`, `min_items`, `max_items` — length and density.
+- `episode.required_categories` — categories every episode must include (`[]` makes all optional).
 - `windows` — how old items must be (the "has it held up?" lag).
 - `fast_track` — how much traction lets a younger item skip the lag.
 - `signals` — thresholds for Hacker News points and Hugging Face upvotes.
@@ -137,7 +150,8 @@ Edit `config.yaml` on GitHub (open it, click the pencil). Changes apply on the n
 - `tts.voice` — `marin` (default), `cedar`, `coral`, `sage`, and others.
 - `models.effort` — `low` is cheaper; `high` thinks harder.
 
-The model prompts live in `briefing/prompts.py` if you want to change the host's style.
+The model prompts live in `briefing/prompts.py` if you want to change the host's style; the
+categories (names, labels, and the definitions the models are given) live in `briefing/models.py`.
 
 Other run modes (Actions → Run workflow): `script_only` writes the script without making audio
 (it appears on the run's Summary page), and `dry_run` lists candidates without AI calls. Every run
@@ -153,7 +167,7 @@ Estimated per day for a 12-minute episode:
 | Step | Model | Approx. |
 |---|---|---|
 | Group news headlines into stories | Claude Haiku 4.5 | $0.10 – 0.20 |
-| Pick the items | Claude Sonnet 5 | ~$0.10 |
+| Pick the items | Claude Sonnet 5 | ~$0.10 (about double on a day it's asked again for a required category) |
 | Write the script | Claude Sonnet 5 | ~$0.12 |
 | Speech | OpenAI gpt-4o-mini-tts | ~$0.18 |
 
@@ -200,6 +214,7 @@ config.yaml                 all settings
 briefing/collectors/        OpenAlex, Hugging Face, Hacker News, RSS
 briefing/triage.py          groups news headlines into stories (outlet counts)
 briefing/editor.py          merges duplicates, removes repeats, picks the episode
+briefing/models.py          the item type and the categories (names, labels, definitions)
 briefing/writer.py          writes the script      briefing/prompts.py  the prompts
 briefing/tts.py             speech + joining audio briefing/feed.py     podcast feed + web page
 .github/workflows/daily.yml the daily schedule

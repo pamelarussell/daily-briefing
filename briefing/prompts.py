@@ -1,4 +1,13 @@
-"""Prompts for the three model calls. Edit wording here to change the show's judgment or voice."""
+"""Prompts for the three model calls. Edit wording here to change the show's judgment or voice.
+Category definitions live in one table, CATEGORY_INFO in models.py."""
+
+from .models import CATEGORY_INFO
+
+
+def category_guide(ids: list[str], required: list[str]) -> str:
+    """The category definitions for a prompt, one line each; categories required every episode are marked."""
+    return "\n".join(f"- {c}{' (required)' if c in required else ''}: {CATEGORY_INFO[c][1]}" for c in ids)
+
 
 TRIAGE_SYSTEM = """\
 You help run a daily science-and-biotech news briefing. You receive news headlines (with outlet, \
@@ -17,20 +26,17 @@ news headline (an id starting with n); don't return stories made only of Hacker 
 deal is one kind of coverage; a finding covered by the science press and the general press is broader. \
 Favor developments with lasting consequences (approvals and rejections, pivotal trial results, major \
 deals or failures, important scientific findings, significant policy changes, major AI releases).
+- Categories marked (required) must appear in the briefing every day, and their fields are rarely covered \
+widely. Include their most significant stories, up to {required_stories} per required category, even when \
+only one outlet covered them.
 - Skip routine items: personnel moves, small financings, milestone-heavy licensing deals without a \
 notable scientific or strategic angle, conference schedules, sponsored content, recurring columns and \
 newsletters, stock-price chatter, and opinion pieces.
 - member_ids must be ids from the list, and every id in a story must be about that same story.
-\
+- "why" is one short sentence on why it matters.
+
 Categories (use exactly these meanings):
-- biotech_pharma_news: industry, regulatory, clinical-trial and health-policy news.
-- bio_biomed_research: research findings in biology and biomedicine.
-- compbio_bioinformatics: computational biology, genomics methods, bioinformatics tools and resources.
-- ai_for_bio_med: AI applied to biology, medicine, biotech or pharma.
-- ai_general: major general AI developments (models, research, policy).
-- science_breakthroughs: the non-biological sciences only: physics, astronomy, chemistry, materials, \
-earth and climate science, mathematics, and similar. Anything about biology or medicine never goes here.
-- "why" is one short sentence on why it matters."""
+{categories}"""
 
 EDITOR_SYSTEM = """\
 You are the editor of a personal daily audio briefing. Choose what goes into today's episode.
@@ -38,20 +44,16 @@ You are the editor of a personal daily audio briefing. Choose what goes into tod
 About the listener:
 {brief}
 
-\
 Categories (use exactly these meanings):
-- biotech_pharma_news: industry, regulatory, clinical-trial and health-policy news.
-- bio_biomed_research: research findings in biology and biomedicine.
-- compbio_bioinformatics: computational biology, genomics methods, bioinformatics tools and resources.
-- ai_for_bio_med: AI applied to biology, medicine, biotech or pharma.
-- ai_general: major general AI developments (models, research, policy).
-- science_breakthroughs: the non-biological sciences only: physics, astronomy, chemistry, materials, \
-earth and climate science, mathematics, and similar. Anything about biology or medicine never goes here.
-- blog_post: essays and blog posts only (not papers, preprints or news articles).
+{categories}
 
 How to choose:
 - Pick between {min_items} and {max_items} items. Fewer strong items beat padding with weak ones.
-- Covering each category is strongly preferred but optional. If a category has nothing genuinely \
+- Every category marked (required) must be covered by at least one item in every episode. For each, pick \
+the strongest candidate that genuinely belongs, judging its evidence by the norms of its field (some fields \
+are rarely cited quickly or covered widely); this takes precedence over the limit on unvetted items below. \
+If no candidate genuinely belongs to a required category, leave it out rather than mislabel something.
+- Covering each other category is strongly preferred but optional. If a category has nothing genuinely \
 strong today, leave it out. Never pick a weak item just to fill a category, and never label an item \
 with a category it doesn't belong to so that it fills a slot.
 - Candidates are normally a few weeks old on purpose. Prefer items whose signals show they have \
@@ -76,6 +78,15 @@ An essay or blog post should be exceptional to make the cut.
 - category must be one of the allowed values and reflect what the item actually is.
 - reason: one or two sentences citing the concrete signals and why this matters to the listener.
 - angle: one sentence describing the through-line of today's episode, if there is one."""
+
+# Appended to the editor's request, once, when its selection leaves out a required category.
+EDITOR_RETRY = """
+
+Your previous selection was: {previous}.
+It has no item in these required categories: {missing}. Choose again: add the strongest candidate that \
+genuinely belongs to each missing category, dropping your weakest pick if you would otherwise exceed the \
+maximum, and keep the rest unless it has to change. If no candidate genuinely belongs to a missing \
+category, return your previous selection unchanged."""
 
 WRITER_SYSTEM = """\
 You write the script for a daily audio briefing that a text-to-speech voice will read aloud. \

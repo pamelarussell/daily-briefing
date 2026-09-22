@@ -90,7 +90,8 @@ def collect(cfg: dict, http: Http, ref) -> tuple[list[Item], list[str]]:
         if fasttrack.allowed(it, cfg, ref):       # younger than the normal wait needs fast-track points
             items.append(it)
     # Keep the most-discussed stories per category so AI doesn't swamp everything else.
-    caps = {"ai_general": 30, "ai_for_bio_med": 15, "bio_biomed_research": 20, "science_breakthroughs": 15}
+    caps = {"ai_general": 30, "ai_for_bio_med": 15, "bio_biomed_research": 20, "mathematics": 10,
+            "science_breakthroughs": 15}
     kept: list[Item] = []
     for cat, cap in caps.items():
         group = sorted((i for i in items if i.category_hint == cat),

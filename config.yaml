@@ -19,26 +19,33 @@ show:
 # What the editor should look for. Plain English; edit freely.
 editorial_brief: >-
   The listener follows biotech and pharma; biology and biomedical research;
-  computational biology and bioinformatics; and AI, both the biggest general
-  developments and AI applied to biology, medicine, biotech and pharma. They
-  also like striking breakthroughs in the non-biological sciences (physics,
-  astronomy, chemistry, materials, earth and climate science, mathematics),
-  and occasional high-impact essays or blog posts on these topics.
+  computational biology and bioinformatics; mathematics; and AI, both the
+  biggest general developments and AI applied to biology, medicine, biotech
+  and pharma. They also like striking breakthroughs in the other
+  non-biological sciences (physics, astronomy, chemistry, materials, earth
+  and climate science), and occasional high-impact essays or blog posts on
+  these topics.
   They want things that have been vetted by time (widely cited, widely
   covered, or heavily discussed), not yesterday's firehose, and they value
-  precision and evidence over hype.
+  precision and evidence over hype. Mathematics is cited slowly and rarely
+  covered by more than one outlet, so for a math item, a feature in a
+  specialist outlet such as Quanta Magazine, a mathematician's blog post on
+  the result, heavy Hacker News discussion, or publication in a leading
+  mathematics journal counts as vetting.
   Preferred mix per episode: 1-2 biotech/pharma stories, 2-3 biology or
   biomedical research findings, 1 computational biology or bioinformatics
-  item, 1-2 AI-for-biology/medicine items, 1 major general AI development,
-  1 breakthrough in a non-biological science, and occasionally 1 essay or
-  blog post. Covering each category is strongly preferred but optional: if a
-  category has nothing genuinely strong today, skip it rather than fill it
-  with a weak item or relabel an item from another category to fit.
+  item, 1 mathematics story, 1-2 AI-for-biology/medicine items, 1 major
+  general AI development, 1 breakthrough in another non-biological science,
+  and occasionally 1 essay or blog post.
 
 episode:
   target_minutes: 12         # maximum spoken length; ~150 words per minute
   min_items: 4               # if fewer good items exist, the episode is shorter
   max_items: 9
+  # At least one item from each of these categories in every episode, whenever a candidate genuinely
+  # belongs (the run summary says when none did). Names as in CATEGORY_INFO in briefing/models.py;
+  # a misspelled name stops the run with the list of valid ones. [] makes every category optional.
+  required_categories: [mathematics, compbio_bioinformatics]
   keep_episodes: 30          # older episodes are removed from the feed and GitHub
 
 # The "has it held up?" lag. An item is normally eligible only when its age
@@ -76,10 +83,10 @@ signals:
 # keeps the top papers_per_stream.
 # Filters use OpenAlex syntax: https://developers.openalex.org/guides/filtering
 # Field ids: 11 Agri/Bio sciences, 13 Biochem/Genetics/Mol bio, 17 Computer
-# science, 24 Immunology/Microbiology, 27 Medicine, 28 Neuroscience,
-# 30 Pharmacology. Domain ids: 1 Life sciences, 2 Social sciences,
-# 3 Physical sciences, 4 Health sciences. Journal filters use ISSNs; the run
-# summary lists any ISSN that matched nothing, so a typo shows up there.
+# science, 24 Immunology/Microbiology, 26 Mathematics, 27 Medicine,
+# 28 Neuroscience, 30 Pharmacology. Domain ids: 1 Life sciences, 2 Social
+# sciences, 3 Physical sciences, 4 Health sciences. Journal filters use ISSNs;
+# the run summary lists any ISSN that matched nothing, so a typo shows up there.
 openalex:
   types: "article|preprint"
   streams:
@@ -113,6 +120,12 @@ openalex:
     - name: "Top journals: non-biological science"
       category: science_breakthroughs
       filter: "primary_location.source.issn:0028-0836|1476-4687|0036-8075|1095-9203|0027-8424|1091-6490|0031-9007|1079-7114|1745-2473|1745-2481|1755-4330|1755-4349|1476-1122|1476-4660|2397-3366|1752-0894|1752-0908|1758-678X|1758-6798,primary_topic.domain.id:3,primary_topic.field.id:!17"
+    # Annals of Mathematics, Inventiones, Acta Mathematica, J. Amer. Math. Soc., Publ. Math. IHES,
+    # Duke Math. J., Forum of Mathematics Pi. Math papers gather citations slowly, so here the journal
+    # is the main signal; most math items come in through Quanta, math blogs, and Hacker News.
+    - name: "Top journals: mathematics"
+      category: mathematics
+      filter: "primary_location.source.issn:0003-486X|1939-8980|0020-9910|1432-1297|0001-5962|1871-2509|0894-0347|1088-6834|0073-8301|1618-1913|0012-7094|1547-7398|2050-5086"
 
 # RSS feeds. kind: news | blog.  filter: bio_ai keeps only items whose
 # title/summary mentions biology, medicine, or AI (useful for general outlets).
@@ -137,6 +150,7 @@ feeds:
   - {name: "Science (news)", url: "https://www.science.org/rss/news_current.xml", kind: news, outlet_type: science}
   # Nature research papers (URLs with /s41586-) are skipped here; they come through OpenAlex with citations.
   - {name: "Nature", url: "https://www.nature.com/nature.rss", kind: news, outlet_type: science, exclude: "/articles/s41586-"}
+  # Quanta is the main source of mathematics news (its feed covers every section).
   - {name: "Quanta Magazine", url: "https://www.quantamagazine.org/feed/", kind: news, outlet_type: science}
   - {name: "Science News", url: "https://www.sciencenews.org/feed", kind: news, outlet_type: science}
   - {name: "Ars Technica Science", url: "https://feeds.arstechnica.com/arstechnica/science", kind: news, outlet_type: science}
@@ -159,6 +173,8 @@ feeds:
   - {name: "LifeSciVC (Bruce Booth)", url: "https://lifescivc.com/feed/", kind: blog}
   - {name: "Paired Ends (Stephen Turner)", url: "https://blog.stephenturner.us/feed", kind: blog}
   - {name: "Bits of DNA (Lior Pachter)", url: "https://liorpachter.wordpress.com/feed/", kind: blog}
+  - {name: "What's New (Terence Tao)", url: "https://terrytao.wordpress.com/feed/", kind: blog}
+  - {name: "Combinatorics and More (Gil Kalai)", url: "https://gilkalai.wordpress.com/feed/", kind: blog}
   - {name: "Import AI (Jack Clark)", url: "https://importai.substack.com/feed", kind: blog}
   - {name: "Simon Willison", url: "https://simonwillison.net/atom/everything/", kind: blog, filter: bio_ai}
   - {name: "Interconnects (Nathan Lambert)", url: "https://www.interconnects.ai/feed", kind: blog}

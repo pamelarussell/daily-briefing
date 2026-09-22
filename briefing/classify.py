@@ -25,9 +25,16 @@ AI = re.compile(
 
 SCIENCE = re.compile(
     r"\b(physic\w*|quantum|astronom\w*|telescope\w*|planet\w*|exoplanet\w*|galax\w*|cosmolog\w*|"
-    r"black holes?|chemist\w*|materials?|superconduct\w*|fusion|climate|geolog\w*|mathemat\w*|"
-    r"theorem|conjecture|proof|archaeolog\w*|fossil\w*|dinosaur\w*|paleont\w*|nasa|particle\w*|"
+    r"black holes?|chemist\w*|materials?|superconduct\w*|fusion|climate|geolog\w*|"
+    r"archaeolog\w*|fossil\w*|dinosaur\w*|paleont\w*|nasa|particle\w*|"
     r"scien\w*|researchers?|study finds|discover\w*|breakthrough)\b",
+    re.I,
+)
+
+# (?<!-) keeps "future-proof" and "fool-proof" out.
+MATH = re.compile(
+    r"\b(mathemat\w*|maths?|theorems?|conjectures?|(?<!-)proofs?|lemmas?|prime numbers?|number theory|"
+    r"combinatori\w*|erd[őo]s|fields medal|abel prize)\b",
     re.I,
 )
 
@@ -53,10 +60,15 @@ def has_science(text: str) -> bool:
     return bool(SCIENCE.search(text or ""))
 
 
+def has_math(text: str) -> bool:
+    return bool(MATH.search(text or ""))
+
+
 def classify_story(title: str, domain: str) -> str | None:
     """Best-guess category for a Hacker News story, or None if it looks off-topic."""
     bio = has_bio(title) or domain.endswith(BIO_DOMAINS)
     ai = has_ai(title)
+    maths = has_math(title)
     sci = has_science(title) or domain.endswith(SCIENCE_DOMAINS)
     if ai and bio:
         return "ai_for_bio_med"
@@ -64,6 +76,8 @@ def classify_story(title: str, domain: str) -> str | None:
         return "ai_general"
     if bio:
         return "bio_biomed_research"
+    if maths:
+        return "mathematics"
     if sci:
         return "science_breakthroughs"
     return None

@@ -7,13 +7,16 @@ from pathlib import Path
 
 import yaml
 
+from .models import CATEGORIES
+
 ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULTS = {
     "show": {"title": "Bio + AI Briefing", "author": "Personal briefing", "description": "",
              "language": "en-us", "timezone": "UTC", "site_url": ""},
     "editorial_brief": "",
-    "episode": {"target_minutes": 12, "min_items": 4, "max_items": 9, "keep_episodes": 30},
+    "episode": {"target_minutes": 12, "min_items": 4, "max_items": 9, "keep_episodes": 30,
+                "required_categories": []},
     "windows": {
         "papers": {"min_age_days": 21, "max_age_days": 100},
         "ai_papers": {"min_age_days": 10, "max_age_days": 30},
@@ -48,6 +51,7 @@ def load_config(path: str | Path | None = None) -> dict:
     with open(path, "r", encoding="utf-8") as f:
         user = yaml.safe_load(f) or {}
     cfg = _merge(DEFAULTS, user)
+    _check_required_categories(cfg["episode"])
     cfg["_paths"] = {
         "root": ROOT,
         "docs": ROOT / "docs",
@@ -56,6 +60,18 @@ def load_config(path: str | Path | None = None) -> dict:
     }
     cfg["_site"] = site_info(cfg)
     return cfg
+
+
+def _check_required_categories(episode: dict) -> None:
+    """Accept a single name or a list, and stop at startup on a mistyped name (it could never be satisfied)."""
+    req = episode.get("required_categories") or []
+    if isinstance(req, str):
+        req = [req]
+    episode["required_categories"] = list(req)
+    unknown = [c for c in req if c not in CATEGORIES]
+    if unknown:
+        raise ValueError(f"episode.required_categories in config.yaml: unknown {unknown}; "
+                         f"valid names are {', '.join(CATEGORIES)}")
 
 
 def site_info(cfg: dict) -> dict:

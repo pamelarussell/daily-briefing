@@ -9,10 +9,12 @@ from __future__ import annotations
 from .collectors.rss import OUTLET_TYPE_LABELS
 from .llm import Claude
 from .models import CATEGORIES, Item
-from .prompts import TRIAGE_SYSTEM
+from .prompts import TRIAGE_SYSTEM, category_guide
 from .util import domain_of, short_hash
 
 MAX_STORIES = 45
+REQUIRED_STORIES = 5         # kept per required category even when only one outlet covered them
+NEWS_CATEGORIES = [c for c in CATEGORIES if c != "blog_post"]     # headlines are never blog posts
 
 SCHEMA = {
     "type": "object",
@@ -24,7 +26,7 @@ SCHEMA = {
                 "properties": {
                     "headline": {"type": "string"},
                     "member_ids": {"type": "array", "items": {"type": "string"}},
-                    "category": {"type": "string", "enum": [c for c in CATEGORIES if c != "blog_post"]},
+                    "category": {"type": "string", "enum": NEWS_CATEGORIES},
                     "why": {"type": "string"},
                 },
                 "required": ["headline", "member_ids", "category", "why"],
@@ -77,7 +79,7 @@ def build_stories(result: dict, index: dict[str, Item], outlets_map: dict[str, t
 
 
 def cluster_news(claude: Claude, model: str, news: list[Item], hn_items: list[Item], cap: int,
-                 outlets_map: dict[str, tuple[str, str]]) -> list[Item]:
+                 outlets_map: dict[str, tuple[str, str]], required: list[str]) -> list[Item]:
     if not news:
         return []
     news = sorted(news, key=lambda i: i.published or "", reverse=True)[:cap]
@@ -97,7 +99,8 @@ def cluster_news(claude: Claude, model: str, news: list[Item], hn_items: list[It
     result = claude.json_call(
         label="news triage",
         model=model,
-        system=TRIAGE_SYSTEM.format(max_stories=MAX_STORIES),
+        system=TRIAGE_SYSTEM.format(max_stories=MAX_STORIES, required_stories=REQUIRED_STORIES,
+                                    categories=category_guide(NEWS_CATEGORIES, required)),
         user="Headlines:\n" + "\n".join(lines),
         schema=SCHEMA,
         max_tokens=16000,
