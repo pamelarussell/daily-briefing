@@ -234,5 +234,71 @@
    "rss:8d42db6b5a"
   ],
   "date": "2026-09-21"
+ },
+ {
+  "title": "Enfortumab Vedotin and Pembrolizumab in Cisplatin-Eligible Bladder Cancer",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2601486",
+   "doi:10.1056/nejmoa2601486",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42485627",
+   "oa:W7170067503"
+  ],
+  "date": "2026-09-22"
+ },
+ {
+  "title": "Cuproptosis-immunity crosstalk informs strategy to overcome immunotherapy resistance",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.05.036",
+   "doi:10.1016/j.cell.2026.05.036",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42330950",
+   "oa:W7165534218"
+  ],
+  "date": "2026-09-22"
+ },
+ {
+  "title": "A necroptotic-to-apoptotic signaling axis underlies inflammatory bowel disease",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aeh7112",
+   "doi:10.1126/science.aeh7112",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42658927",
+   "oa:W4404345740"
+  ],
+  "date": "2026-09-22"
+ },
+ {
+  "title": "Cross-cohort analysis of expression and splicing quantitative trait loci in TOPMed",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adx2989",
+   "doi:10.1126/science.adx2989",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40034763",
+   "oa:W4407824443"
+  ],
+  "date": "2026-09-22"
+ },
+ {
+  "title": "An ECG biomarker for sudden cardiac death discovered with deep learning",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10674-6",
+   "doi:10.1038/s41586-026-10674-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42343137",
+   "oa:W7165793335"
+  ],
+  "date": "2026-09-22"
+ },
+ {
+  "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+  "keys": [
+   "url:https://anthropic.com/claude-fable-and-mythos-5-1",
+   "hn:49525378"
+  ],
+  "date": "2026-09-22"
+ },
+ {
+  "title": "Biggest dark matter detector spots a single weird particle",
+  "keys": [
+   "url:https://science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+   "hn:49536079"
+  ],
+  "date": "2026-09-22"
  }
 ]
