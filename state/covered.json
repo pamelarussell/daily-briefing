@@ -300,5 +300,85 @@
    "hn:49536079"
   ],
   "date": "2026-09-22"
+ },
+ {
+  "title": "FDA approves first in class targeted therapy for metastatic pancreatic cancer",
+  "keys": [
+   "url:https://fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer",
+   "hn:49451675"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+  "keys": [
+   "url:https://fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+   "hn:49439017"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "Aging brains blend memories together instead of just forgetting them",
+  "keys": [
+   "url:https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds",
+   "hn:49535548"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "Alternate RNA decoding results in stable and abundant proteins in mammals",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10678-2",
+   "doi:10.1038/s41586-026-10678-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39253435",
+   "oa:W4401938298"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "Mapping enhancer–gene regulatory interactions from single-cell data",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02695-8",
+   "doi:10.1038/s41588-026-02695-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39605382",
+   "oa:W4404666004"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "A proof of the Stanley-Stembridge conjecture",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1090",
+   "doi:10.1090/jams/1090",
+   "oa:W4403582395"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "Towards autonomous medical artificial intelligence agents",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10675-5",
+   "doi:10.1038/s41586-026-10675-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42310457",
+   "oa:W7164998152"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+  "keys": [
+   "url:https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
+   "hn:49537553"
+  ],
+  "date": "2026-09-23"
+ },
+ {
+  "title": "Black hole singularity is a surface not a point",
+  "keys": [
+   "url:https://arxiv.org/abs/2608.21590",
+   "arxiv:2608.21590",
+   "hn:49437210"
+  ],
+  "date": "2026-09-23"
  }
 ]
