@@ -380,5 +380,90 @@
    "hn:49437210"
   ],
   "date": "2026-09-23"
+ },
+ {
+  "title": "Dual tumour–myeloid targeting of glioblastoma with GPNMB CAR-T cells",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10641-1",
+   "doi:10.1038/s41586-026-10641-1",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42386964",
+   "oa:W7166813464"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "Epigenetic and 3D genome reprogramming during the aging of the human hippocampus",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adt8307",
+   "doi:10.1126/science.adt8307",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39463924",
+   "oa:W4403507137"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "Learning millisecond protein dynamics from what is missing in NMR spectra",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10989-4",
+   "doi:10.1038/s41586-026-10989-4",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42427544",
+   "oa:W4408608366"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "Amazing: There is no Percolation at the Critical Probability in all Dimensions. (Solved by AI via a conjecture of Gady Kozma and Shahaf Nitzan.)",
+  "keys": [
+   "url:https://gilkalai.wordpress.com/2026/09/03/amazing-there-is-no-percolation-at-the-critical-probability-in-all-dimensions-solved-by-ai-via-a-conjecture-of-gady-kozma-and-shahaf-nitzan",
+   "rss:734146d8a6"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "Towards conversational artificial intelligence for disease management",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10764-5",
+   "doi:10.1038/s41586-026-10764-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42310463",
+   "oa:W7165006462"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "Predicting specificity of TCR-pMHC interactions using machine-learning and biophysical models",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cels.2026.101700",
+   "doi:10.1016/j.cels.2026.101700",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42594866",
+   "oa:W4409217094"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+  "keys": [
+   "url:https://rubyhack.ai",
+   "hn:49666735"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "Helium escaping from the atmosphere of a nearby rocky exoplanet orbiting in a habitable zone",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aea9708",
+   "doi:10.1126/science.aea9708",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42461987",
+   "oa:W7168617123"
+  ],
+  "date": "2026-09-24"
+ },
+ {
+  "title": "If math is more than proof, we need to better celebrate the rest of it",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it",
+   "hn:49763928",
+   "rss:fd4a46a548"
+  ],
+  "date": "2026-09-24"
  }
 ]
