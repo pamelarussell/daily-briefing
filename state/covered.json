@@ -465,5 +465,84 @@
    "rss:fd4a46a548"
   ],
   "date": "2026-09-24"
+ },
+ {
+  "title": "Predicting cellular responses to perturbation across diverse contexts with State",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.07.052",
+   "doi:10.1016/j.cell.2026.07.052",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42673963",
+   "oa:W4411757935"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "title": "OpenAI's AI agents potentially hacked multiple companies; Gemini showed rogue behavior indicating fundamental safety gaps",
+  "keys": [
+   "url:https://theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+   "url:https://effort.news/irregular",
+   "hn:49704132",
+   "story:66fb6faf12"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "title": "Ductile alloys offering 100 MPa tensile strength at 2,400 °C",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10708-z",
+   "doi:10.1038/s41586-026-10708-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42343135",
+   "oa:W7165778512"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "title": "Cervical cancer mortality trends following HPV vaccination in England, 2001–24: an analysis of population-based mortality data",
+  "keys": [
+   "url:https://doi.org/10.1016/s0140-6736(26)00918-9",
+   "doi:10.1016/s0140-6736(26)00918-9",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42309117",
+   "oa:W7165001040"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "title": "Lethal plague outbreaks in Lake Baikal hunter-gatherers 5,500 years ago",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10540-5",
+   "doi:10.1038/s41586-026-10540-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42310115",
+   "oa:W4404366661"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "title": "A bivalent molecular glue linking lysine acetyltransferases to oncogene-induced cell death",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.06.037",
+   "doi:10.1016/j.cell.2026.06.037",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40166243",
+   "oa:W4408608480"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "title": "Meningococcal B Vaccine to Prevent Neisseria gonorrhoeae Infection",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2516739",
+   "doi:10.1056/nejmoa2516739",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42418797",
+   "oa:W7167718246"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "title": "Singular Hodge theory for combinatorial geometries",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1083",
+   "doi:10.1090/jams/1083",
+   "oa:W3093371845"
+  ],
+  "date": "2026-09-25"
  }
 ]
