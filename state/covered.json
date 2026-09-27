@@ -618,5 +618,84 @@
    "rss:1cc4d4b4c6"
   ],
   "date": "2026-09-26"
+ },
+ {
+  "title": "White House moves to take control of NIH grants under political appointees",
+  "keys": [
+   "url:https://fiercebiotech.com/research/white-house-plans-put-nih-grants-under-political-control-reports",
+   "url:https://statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back",
+   "url:https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee",
+   "url:https://nytimes.com/2026/09/20/science/nih-omb-grants-bhattacharya-vought.html",
+   "story:7c8299e51d"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+  "keys": [
+   "url:https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+   "hn:49763697"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "T. rex had body temperature of 97 degrees like modern elephants",
+  "keys": [
+   "url:https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant",
+   "url:https://nytimes.com/2026/09/16/science/trex-dinosaur-temperature-warm-blooded.html",
+   "story:db4a85d258"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "Efficient evidence-based genome annotation with EviAnn",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03156-0",
+   "doi:10.1038/s41592-026-03156-0",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40463080",
+   "oa:W4410332562"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "A human set mathematical record before AI came for it",
+  "keys": [
+   "url:https://sciencenews.org/article/human-math-record-twin-primes-openai",
+   "story:51351bbd65"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "Novo partners with Anthropic to supercharge drug development using AI",
+  "keys": [
+   "url:https://biopharmadive.com/news/novo-anthropic-ai-drug-discovery-development-deal/830540",
+   "story:e8c0f0f5ab"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "Mistral raises €3B",
+  "keys": [
+   "url:https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+   "hn:49605767"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "Continuous-wave laser absorption spectroscopy of thorium-229 nucleus",
+  "keys": [
+   "url:https://nature.com/articles/s41586-026-11011-7",
+   "doi:10.1038/s41586-026-11011-7",
+   "story:074ae01061"
+  ],
+  "date": "2026-09-27"
+ },
+ {
+  "title": "Why Do We Need Human Mathematicians Anymore?",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore",
+   "rss:82782ea572"
+  ],
+  "date": "2026-09-27"
  }
 ]
