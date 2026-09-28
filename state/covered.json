@@ -697,5 +697,69 @@
    "rss:82782ea572"
   ],
   "date": "2026-09-27"
+ },
+ {
+  "title": "Ultragenyx's gene therapy approved for Sanfilippo syndrome, a devastating ultra-rare disease",
+  "keys": [
+   "url:https://statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval",
+   "url:https://endpoints.news/fda-approves-ultragenyxs-gene-therapy-for-sanfilippo-syndrome-type-a",
+   "url:https://biopharmadive.com/news/ultragenyx-fayuvi-orum-bristol-lunsumio-longeveron-rocket-danon/830512",
+   "story:110a7ec9a5"
+  ],
+  "date": "2026-09-28"
+ },
+ {
+  "title": "Connecting single-cell transcriptomes to projectomes in the mouse visual cortex",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10424-8",
+   "doi:10.1038/s41586-026-10424-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/38168270",
+   "oa:W4390227340"
+  ],
+  "date": "2026-09-28"
+ },
+ {
+  "title": "Adjuvant Pembrolizumab plus Belzutifan for Renal-Cell Carcinoma",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2518245",
+   "doi:10.1056/nejmoa2518245",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42384869",
+   "oa:W7166878417"
+  ],
+  "date": "2026-09-28"
+ },
+ {
+  "title": "GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03177-9",
+   "doi:10.1038/s41592-026-03177-9",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39605368",
+   "oa:W4404259719"
+  ],
+  "date": "2026-09-28"
+ },
+ {
+  "title": "Mathematicians build long-awaited graph sandwich",
+  "keys": [
+   "url:https://quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918",
+   "story:66ea28b3dc"
+  ],
+  "date": "2026-09-28"
+ },
+ {
+  "title": "Claude Opus 5.5",
+  "keys": [
+   "url:https://anthropic.com/claude-opus-5-5",
+   "hn:49803892"
+  ],
+  "date": "2026-09-28"
+ },
+ {
+  "title": "NASA’s Mars Sample Return mission is dead",
+  "keys": [
+   "url:https://science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+   "hn:49791939"
+  ],
+  "date": "2026-09-28"
  }
 ]
