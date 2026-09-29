@@ -761,5 +761,83 @@
    "hn:49791939"
   ],
   "date": "2026-09-28"
+ },
+ {
+  "title": "MemBrain v2: an end-to-end tool for the analysis of membranes in cryo-electron tomography",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03178-8",
+   "doi:10.1038/s41592-026-03178-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42711494",
+   "oa:W4390782971"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "Competing programs shape cortical sensorimotor–association axis development",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10699-x",
+   "doi:10.1038/s41586-026-10699-x",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40666864",
+   "oa:W4411716892"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "The first new cat species discovered in 100 years",
+  "keys": [
+   "url:https://nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
+   "hn:49744704"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "Unknotting number is not additive under connected sum",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.2.7",
+   "doi:10.4007/annals.2026.204.2.7",
+   "oa:W4416524635"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+  "keys": [
+   "url:https://anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "hn:49820134"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+  "keys": [
+   "url:https://scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+   "hn:49761840"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "GPT-6 Sol and Luna",
+  "keys": [
+   "url:https://openai.com/index/introducing-gpt-6-sol-and-luna",
+   "hn:49805509"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "North Korean nuclear test sets off years of earthquakes",
+  "keys": [
+   "url:https://science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+   "hn:49755160"
+  ],
+  "date": "2026-09-29"
+ },
+ {
+  "title": "Roche signs $1B bispecific screening deal with Dualitas",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/roche-pays-dualitas-365m-pair-big-bispecific-screening-drive",
+   "url:https://biopharmadive.com/news/roche-dualitas-bispecific-antibodies-immune/830573",
+   "story:91400002be"
+  ],
+  "date": "2026-09-29"
  }
 ]
