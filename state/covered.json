@@ -839,5 +839,84 @@
    "story:91400002be"
   ],
   "date": "2026-09-29"
+ },
+ {
+  "title": "Novartis pays $125M for Sironax blood-brain barrier crossing platform",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier",
+   "url:https://biopharmadive.com/news/novartis-125m-for-blood-brain-barrier-crossing-platform-Sironax/830560",
+   "story:7be6f64a5d"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "Cognitive resilience helps predict Alzheimer's dementia onset",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-02897-4",
+   "doi:10.1038/d41586-026-02897-4",
+   "story:c40bf5c72d"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "Bacteria cooperate to break down complex algal carbohydrates",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-02873-y",
+   "doi:10.1038/d41586-026-02873-y",
+   "story:c913f72c1b"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "BulkFormer: A large-scale foundation model for bulk transcriptomes",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cels.2026.101657",
+   "doi:10.1016/j.cels.2026.101657",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42385705",
+   "oa:W7166873742"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "The $L^3$-based strong Onsager theorem",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.1.4",
+   "doi:10.4007/annals.2026.204.1.4",
+   "oa:W4378942455"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "Anthropic launches verification program for using Mythos in biology research",
+  "keys": [
+   "url:https://endpoints.news/anthropic-starts-verification-program-for-using-mythos-in-biology",
+   "story:5eee8ab849"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+  "keys": [
+   "url:https://bloomberg.com/graphics/2026-iran-school-attack",
+   "hn:49806430"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "Optical control of electrons in a Floquet topological insulator",
+  "keys": [
+   "url:https://doi.org/10.1038/s41567-026-03429-7",
+   "doi:10.1038/s41567-026-03429-7",
+   "oa:W7204835179"
+  ],
+  "date": "2026-09-30"
+ },
+ {
+  "title": "We’re gonna need a lot more mathematicians",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians",
+   "rss:1113e05155"
+  ],
+  "date": "2026-09-30"
  }
 ]
