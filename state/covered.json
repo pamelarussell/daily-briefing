@@ -918,5 +918,93 @@
    "rss:1113e05155"
   ],
   "date": "2026-09-30"
+ },
+ {
+  "title": "Telix acquires radiopharmaceutical maker ITM in $1.6B deal to create 'radiopharmaceutical powerhouse'",
+  "keys": [
+   "url:https://endpoints.news/telix-and-radioisotope-maker-itm-merge-in-deal-worth-up-to-2-35b",
+   "url:https://biopharmadive.com/news/telix-itm-radiopharmaceuticals-deal-acquire-lutetium-novartis/830859",
+   "url:https://fiercebiotech.com/biotech/analysts-extremely-bullish-telix-beams-novartis-territory-165b-itm-acquisition",
+   "story:66920374f1"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "Beacon Therapeutics wins pivotal trial for rare eye disease gene therapy, setting up FDA approval path",
+  "keys": [
+   "url:https://biopharmadive.com/news/beacon-xlrp-laru-zova-phase-3-study-results/830918",
+   "url:https://fiercebiotech.com/biotech/beacon-lights-path-fda-approval-pivotal-trial-win-rare-vision-loss-gene-therapy",
+   "url:https://endpoints.news/beacon-says-gene-therapy-succeeds-in-key-trial-of-rare-eye-disease-xlrp",
+   "story:24ecbfdc61"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "Spatiotemporal lineage tracing reveals the dynamic spatial architecture of tumor growth and metastasis",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02739-z",
+   "doi:10.1038/s41588-026-02739-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39484491",
+   "oa:W4403710405"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "Diverse bacterial pattern recognition receptors sense the core phage proteome",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10852-6",
+   "doi:10.1038/s41586-026-10852-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42527607",
+   "oa:W7171672197"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "Efficient generation of epitope-targeted antibodies with Germinal",
+  "keys": [
+   "url:https://doi.org/10.1038/s41587-026-03187-0",
+   "doi:10.1038/s41587-026-03187-0",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42337361",
+   "oa:W7165686356"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "Hilbert’s tenth problem via additive combinatorics",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1081",
+   "doi:10.1090/jams/1081",
+   "oa:W4405035024"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "Trump administration expands AI integration into healthcare despite safety concerns",
+  "keys": [
+   "url:https://nytimes.com/2026/09/14/health/ai-doctors-medicare-fda.html",
+   "story:0ef7422ff8"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+  "keys": [
+   "url:https://arxiv.org/abs/2609.14858",
+   "arxiv:2609.14858",
+   "hn:49726955",
+   "hf:2609.14858"
+  ],
+  "date": "2026-10-01"
+ },
+ {
+  "title": "El Niño reaches record strength months before expected peak",
+  "keys": [
+   "url:https://sciencenews.org/article/record-breaking-el-nino-temperatures",
+   "url:https://bbc.co.uk/news/videos/cm93v2zz4w7qo?at_medium=RSS&at_campaign=rss",
+   "url:https://bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&at_campaign=rss",
+   "url:https://theguardian.com/environment/2026/sep/21/super-el-nino-temperature-record",
+   "story:60b482067c"
+  ],
+  "date": "2026-10-01"
  }
 ]
