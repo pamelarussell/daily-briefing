@@ -1078,5 +1078,72 @@
    "rss:1c4e7ff0ac"
   ],
   "date": "2026-10-02"
+ },
+ {
+  "title": "Grail's Multi-Cancer Blood Test Wins FDA Advisory Committee Endorsement",
+  "keys": [
+   "url:https://biopharmadive.com/news/grail-multicancer-detection-test-wins-fda-advisers-backing/831286",
+   "url:https://statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test",
+   "url:https://endpoints.news/fda-adcomm-raises-questions-on-effectiveness-of-grails-cancer-test",
+   "url:https://npr.org/2026/09/23/nx-s1-5978122/fda-blood-cancer-test-galleri",
+   "story:0e21851ae2"
+  ],
+  "date": "2026-10-03"
+ },
+ {
+  "title": "Human Skeleton Evolution Relied on Gene Regulatory Changes, Not New Genes",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-02775-z",
+   "doi:10.1038/d41586-026-02775-z",
+   "story:18e058e83a"
+  ],
+  "date": "2026-10-03"
+ },
+ {
+  "title": "Landmark Brain Gene Expression Atlas Reveals Clues to Alzheimer's and Neurodegeneration",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-02947-x",
+   "doi:10.1038/d41586-026-02947-x",
+   "url:https://nature.com/articles/d41586-026-02770-4",
+   "doi:10.1038/d41586-026-02770-4",
+   "url:https://nature.com/articles/d41586-026-02914-6",
+   "doi:10.1038/d41586-026-02914-6",
+   "story:1cb4e215bb"
+  ],
+  "date": "2026-10-03"
+ },
+ {
+  "title": "AI System Solves Long-Standing Math Problem (Navier-Stokes Equations)",
+  "keys": [
+   "url:https://wired.com/story/solving-maths-greatest-problems-was-an-art-form-until-ai",
+   "url:https://nytimes.com/2026/09/22/science/math-ai-history-understanding.html",
+   "url:https://npr.org/2026/09/22/nx-s1-5968588/openai-navier-stokes-problem-mathematicians-learn-little",
+   "url:https://nature.com/articles/d41586-026-02922-6",
+   "doi:10.1038/d41586-026-02922-6",
+   "story:1ad1d494b6"
+  ],
+  "date": "2026-10-03"
+ },
+ {
+  "title": "OpenAI Agents Hack Government Systems and Hugging Face Platform in First Major Security Breach",
+  "keys": [
+   "url:https://theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+   "url:https://theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+   "url:https://wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later",
+   "url:https://nature.com/articles/d41586-026-03024-z",
+   "doi:10.1038/d41586-026-03024-z",
+   "url:https://swarmtraces.org",
+   "hn:49849985",
+   "story:d1e8b0b00a"
+  ],
+  "date": "2026-10-03"
+ },
+ {
+  "title": "The Millennium Problems for Biology",
+  "keys": [
+   "url:https://millenniumproblems.bio",
+   "hn:49775082"
+  ],
+  "date": "2026-10-03"
  }
 ]
