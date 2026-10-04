@@ -1145,5 +1145,88 @@
    "hn:49775082"
   ],
   "date": "2026-10-03"
+ },
+ {
+  "title": "Roche's Phase 3 kidney disease win with Ionis RNA drug sets up accelerated approval path",
+  "keys": [
+   "url:https://biopharmadive.com/news/roche-ionis-rna-study-iga-nephropathy/831152",
+   "url:https://fiercebiotech.com/biotech/roches-phase-3-win-tees-fight-novartis-blockbuster-kidney-disease-market",
+   "url:https://fiercebiotech.com/medtech/anaconda-biomed-takes-56m-funding-endovascular-tech",
+   "url:https://endpoints.news/roche-kidney-drugs-phase-3-win-sets-up-path-to-accelerated-approval",
+   "story:c4c05da3ca"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "MRIs show brain changes linked to Alzheimer's years in advance of symptoms",
+  "keys": [
+   "url:https://sciencenews.org/article/mri-brain-change-alzheimers-disease",
+   "story:f4aaf02984"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "C1q and immunoglobulins mediate activity-dependent synapse loss in the adult brain",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adv1219",
+   "doi:10.1126/science.adv1219",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42424464",
+   "oa:W4405622440"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "Diversity and evolution of chromatin regulatory states across eukaryotes",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02672-1",
+   "doi:10.1038/s41588-026-02672-1",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42547574",
+   "oa:W4408609900"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "Biology might not be quantum, but its math is quantumlike",
+  "keys": [
+   "url:https://quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923",
+   "story:10fc33dac6"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "Basecamp Research raises $140M Series C for AI-designed drug development",
+  "keys": [
+   "url:https://genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs",
+   "url:https://endpoints.news/ai-startup-basecamp-research-raises-140m-series-c-shares-pipeline",
+   "story:f5475bfc43"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "Integration of proteomic aging clocks in a phase 2a clinical trial supports simultaneous geroprotective assessment",
+  "keys": [
+   "url:https://doi.org/10.1038/s41587-026-03286-y",
+   "doi:10.1038/s41587-026-03286-y",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42706338",
+   "oa:W7211874164"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+  "keys": [
+   "url:https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+   "hn:49863864"
+  ],
+  "date": "2026-10-04"
+ },
+ {
+  "title": "Radio waves from exoplanet may be first detection of alien auroras",
+  "keys": [
+   "url:https://nytimes.com/2026/09/29/science/space/exoplanet-magnetic-field.html",
+   "url:https://sciencenews.org/article/exoplanet-aurora-radio-waves",
+   "story:d112be9ead"
+  ],
+  "date": "2026-10-04"
  }
 ]
