@@ -1228,5 +1228,87 @@
    "story:d112be9ead"
   ],
   "date": "2026-10-04"
+ },
+ {
+  "title": "Pennsylvania measles outbreak grows to nearly 900 cases amid vaccine hesitancy",
+  "keys": [
+   "url:https://nytimes.com/2026/09/27/us/pennsylvania-measles-outbreak-cases.html",
+   "url:https://statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991",
+   "story:2fd6bf1ac0"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "Celldex's monoclonal antibody rebounds with pair of Phase 3 wins for chronic skin condition",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/celldex-redeems-monoclonal-antibody-pair-phase-3-wins-chronic-skin-condition",
+   "url:https://biopharmadive.com/news/celldex-barzolvolimab-urticaria-study-results-embarq/830982",
+   "url:https://endpoints.news/celldexs-hives-drug-faces-safety-questions-despite-phase-3-successes",
+   "story:291f047441"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "How viruses and 'jumping genes' became partners in human evolution",
+  "keys": [
+   "url:https://quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921",
+   "story:1136722b9b"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "Creatine uptake enhances antitumor immunity",
+  "keys": [
+   "url:https://cell.com/iscience/fulltext/S2589-0042(26)00811-4",
+   "hn:49834825"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "NicheTrans: spatial-aware cross-omics translation",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03153-3",
+   "doi:10.1038/s41592-026-03153-3",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42426404",
+   "oa:W4405178918"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "The TopCoW Challenge — Topology-Aware Circle of Willis Segmentation for CT and MR Angiography",
+  "keys": [
+   "url:https://doi.org/10.1056/aidbp2500994",
+   "doi:10.1056/aidbp2500994",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/38235066",
+   "oa:W4390528002"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+  "keys": [
+   "url:https://openai.com/index/introducing-gpt-6-1-sol",
+   "hn:49896586"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "Vacuum birefringence and the polarized X-ray emission from a radio magnetar",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10859-z",
+   "doi:10.1038/s41586-026-10859-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42557323",
+   "oa:W7172527576"
+  ],
+  "date": "2026-10-05"
+ },
+ {
+  "title": "On the Lawson-Osserman conjecture",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01442-4",
+   "doi:10.1007/s00222-026-01442-4",
+   "oa:W4385750313"
+  ],
+  "date": "2026-10-05"
  }
 ]
