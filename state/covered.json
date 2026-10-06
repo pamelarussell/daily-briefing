@@ -1310,5 +1310,88 @@
    "oa:W4385750313"
   ],
   "date": "2026-10-05"
+ },
+ {
+  "title": "Lilly wins FDA approval for once-weekly insulin shot, setting up rivalry with Novo",
+  "keys": [
+   "url:https://statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot",
+   "url:https://endpoints.news/fda-approves-eli-lillys-once-weekly-insulin-pen-setting-up-rivalry-with-novo",
+   "url:https://theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+   "story:69d34719f9"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "Atorvastatin, Cardiovascular Events, and Disability-free Survival in Older Adults",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2607314",
+   "doi:10.1056/nejmoa2607314",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42670961",
+   "oa:W7204647505"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "[177Lu]Lu-edotreotide versus everolimus for gastroenteropancreatic neuroendocrine tumours (COMPETE): a phase 3, multicentre, randomised, open-label, superiority trial",
+  "keys": [
+   "url:https://doi.org/10.1016/s0140-6736(26)00604-5",
+   "doi:10.1016/s0140-6736(26)00604-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42392118",
+   "oa:W7167016756"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "RNAbpFlow: base pair-augmented SE(3) flow matching for conditional RNA 3D structure generation",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03128-4",
+   "doi:10.1038/s41592-026-03128-4",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39896539",
+   "oa:W4406829648"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "Uniformization of Gromov hyperbolic domains by circle domains",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0076",
+   "doi:10.1215/00127094-2025-0076",
+   "oa:W4398796121"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "Enveda raises $311M Series E to advance AI-driven natural product drug discovery",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/enveda-reaps-311m-round-feed-its-ambition-become-household-name",
+   "url:https://biopharmadive.com/news/enveda-ai-drug-discovery-series-e/831161",
+   "url:https://endpoints.news/enveda-raises-its-third-megaround-for-ii-and-weight-maintenance-drug-candidates",
+   "story:ed995727b8"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "OpenAI breaches Medicare, Albanese reveals",
+  "keys": [
+   "url:https://smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+   "hn:49822556"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "Gemini 4 Argon",
+  "keys": [
+   "url:https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+   "hn:49913571"
+  ],
+  "date": "2026-10-06"
+ },
+ {
+  "title": "Gravity seems holographic. What does that mean for reality?",
+  "keys": [
+   "url:https://quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925",
+   "hn:49845998"
+  ],
+  "date": "2026-10-06"
  }
 ]
