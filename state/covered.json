@@ -1393,5 +1393,90 @@
    "hn:49845998"
   ],
   "date": "2026-10-06"
+ },
+ {
+  "title": "Kyverna's cell therapy shows lasting autoimmune benefit with one-year data",
+  "keys": [
+   "url:https://statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit",
+   "url:https://fiercebiotech.com/biotech/autoimmune-car-t-peers-hit-safety-snags-kyverna-touts-1-year-miv-cel-data",
+   "url:https://endpoints.news/kyverna-says-long-term-data-bolster-fda-submission-for-car-t-in-rare-autoimmune-disease",
+   "story:5d41b3bcd1"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "Plasticity of human microglia and brain perivascular macrophages in aging and Alzheimer’s disease",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02716-6",
+   "doi:10.1038/s41588-026-02716-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39677435",
+   "oa:W4388207473"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "Cross-Reactive Bundibugyo Antibody Responses after Receipt of Licensed Ebola Vaccines",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmc2608018",
+   "doi:10.1056/nejmc2608018",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42485649",
+   "oa:W7170086466"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "A complete diploid human genome benchmark for personalized genomics",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.06.016",
+   "doi:10.1016/j.cell.2026.06.016",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41000953",
+   "oa:W4414403753"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "The relative Manin–Mumford conjecture",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01443-3",
+   "doi:10.1007/s00222-026-01443-3",
+   "oa:W4323922110"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "Vasculature segmentation in 3D hierarchical phase-contrast tomography images of human kidneys",
+  "keys": [
+   "url:https://doi.org/10.1038/s41467-026-74050-8",
+   "doi:10.1038/s41467-026-74050-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39253466",
+   "oa:W4401938832"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+  "keys": [
+   "url:https://arxiv.org/abs/2609.17488",
+   "arxiv:2609.17488",
+   "hf:2609.17488"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "Altermagnetic spintronics",
+  "keys": [
+   "url:https://doi.org/10.1038/s41567-026-03337-w",
+   "doi:10.1038/s41567-026-03337-w",
+   "oa:W7167481221"
+  ],
+  "date": "2026-10-07"
+ },
+ {
+  "title": "The current balance of power in open models",
+  "keys": [
+   "url:https://interconnects.ai/p/the-current-balance-of-power-in-open",
+   "rss:9b44d7e44f"
+  ],
+  "date": "2026-10-07"
  }
 ]
