@@ -1224,5 +1224,73 @@
     "category": "blog_post"
    }
   ]
+ },
+ {
+  "date": "2026-10-08",
+  "tag": "ep-2026-10-08",
+  "title": "Oct 8: Merck's Eye and Lung Setbacks; Quantum Topology and Cold Molecules",
+  "published": "2026-10-08T14:21:59.365598+00:00",
+  "guid": "pamelarussell/daily-briefing:2026-10-08",
+  "audio_url": "https://github.com/pamelarussell/daily-briefing/releases/download/ep-2026-10-08/briefing-2026-10-08.mp3",
+  "bytes": 1542765,
+  "seconds": 192.8,
+  "description_text": "A roundup of pharma trial results from Merck, a complete songbird genome, a phase 3 obesity drug win, and advances spanning AI agents, quantum topology, and ultracold molecular physics.\n\n1. Merck sees pivotal victory for $3B eye disease prospect (Endpoints News, Fierce Biotech)\n   Why it's here: 14 days old; covered by 2 outlets across 1 outlet type (biotech/health trade press)\n   https://endpoints.news/mercks-return-to-ophthalmology-snags-first-success/\n2. Merck, Daiichi scrap FDA application for B7-H3 ADC in lung cancer (Endpoints News, BioPharma Dive, STAT)\n   Why it's here: 10 days old; covered by 3 outlets across 1 outlet type (biotech/health trade press)\n   https://endpoints.news/merck-daiichi-scrap-fda-application-for-b7-h3-adc-in-lung-cancer/\n3. The complete genome of a songbird (Cell)\n   Why it's here: 10 weeks old; 8 citations\n   https://doi.org/10.1016/j.cell.2026.07.018\n4. Setmelanotide for the Treatment of Acquired Hypothalamic Obesity (New England Journal of Medicine)\n   Why it's here: 13 weeks old; 8 citations\n   https://doi.org/10.1056/nejmoa2512275\n5. Single-cell transcriptional dynamics in a living vertebrate (Cell Systems)\n   Why it's here: 10 weeks old; 16 citations\n   https://doi.org/10.1016/j.cels.2026.101708\n6. Iambic Therapeutics files for IPO backed by Nvidia (Endpoints News)\n   Why it's here: 16 days old; covered by 1 outlet across 1 outlet type (biotech/health trade press)\n   https://endpoints.news/nvidia-backed-ai-biotech-iambic-therapeutics-files-for-ipo/\n7. Muse – Meta’s personal AI agent (ai.meta.com)\n   Why it's here: 4 weeks old; 666 Hacker News points / 742 comments\n   https://ai.meta.com/muse/\n8. Skeins on branes (Publications mathématiques de l IHÉS)\n   Why it's here: 4 weeks old; 16 citations\n   https://doi.org/10.5802/pmihes.30\n9. Bose–Einstein condensate of ultracold sodium–rubidium molecules with tunable dipolar interactions (Nature Physics)\n   Why it's here: 13 weeks old; 7 citations\n   https://doi.org/10.1038/s41567-026-03362-9\n\nAI-generated summary; check the linked sources before relying on any detail. Full transcript in the episode notes.",
+  "notes_html": "<p>A roundup of pharma trial results from Merck, a complete songbird genome, a phase 3 obesity drug win, and advances spanning AI agents, quantum topology, and ultracold molecular physics.</p>\n<ol>\n<li><strong>Merck sees pivotal victory for $3B eye disease prospect</strong> — Endpoints News, Fierce Biotech · Biotech &amp; pharma<br><br><em>Why it's here:</em> 14 days old; covered by 2 outlets across 1 outlet type (biotech/health trade press)<br><a href=\"https://endpoints.news/mercks-return-to-ophthalmology-snags-first-success/\">source</a> · <a href=\"https://www.fiercebiotech.com/biotech/merck-co-uncorks-pivotal-victory-3b-eye-disease-prospect\">Fierce Biotech</a></li>\n<li><strong>Merck, Daiichi scrap FDA application for B7-H3 ADC in lung cancer</strong> — Endpoints News, BioPharma Dive, STAT · Biotech &amp; pharma<br><br><em>Why it's here:</em> 10 days old; covered by 3 outlets across 1 outlet type (biotech/health trade press)<br><a href=\"https://endpoints.news/merck-daiichi-scrap-fda-application-for-b7-h3-adc-in-lung-cancer/\">source</a> · <a href=\"https://www.biopharmadive.com/news/merck-daiichi-fda-withdraw-ifinatamab-deruxtecan-sclc/831440/\">BioPharma Dive</a> · <a href=\"https://www.statnews.com/2026/09/28/health-insurance-premiums-soar-2027-quorum-health-nonprofit-conversion/\">STAT</a></li>\n<li><strong>The complete genome of a songbird</strong> — Cell · Biology &amp; biomedical research<br><br><em>Why it's here:</em> 10 weeks old; 8 citations<br><a href=\"https://doi.org/10.1016/j.cell.2026.07.018\">source</a></li>\n<li><strong>Setmelanotide for the Treatment of Acquired Hypothalamic Obesity</strong> — New England Journal of Medicine · Biology &amp; biomedical research<br><br><em>Why it's here:</em> 13 weeks old; 8 citations<br><a href=\"https://doi.org/10.1056/nejmoa2512275\">source</a></li>\n<li><strong>Single-cell transcriptional dynamics in a living vertebrate</strong> — Cell Systems · Computational biology &amp; bioinformatics<br><br><em>Why it's here:</em> 10 weeks old; 16 citations<br><a href=\"https://doi.org/10.1016/j.cels.2026.101708\">source</a></li>\n<li><strong>Iambic Therapeutics files for IPO backed by Nvidia</strong> — Endpoints News · AI for biology &amp; medicine<br><br><em>Why it's here:</em> 16 days old; covered by 1 outlet across 1 outlet type (biotech/health trade press)<br><a href=\"https://endpoints.news/nvidia-backed-ai-biotech-iambic-therapeutics-files-for-ipo/\">source</a></li>\n<li><strong>Muse – Meta’s personal AI agent</strong> — ai.meta.com · AI<br><br><em>Why it's here:</em> 4 weeks old; 666 Hacker News points / 742 comments<br><a href=\"https://ai.meta.com/muse/\">source</a> · <a href=\"https://news.ycombinator.com/item?id=49615537\">Hacker News discussion</a></li>\n<li><strong>Skeins on branes</strong> — Publications mathématiques de l IHÉS · Mathematics<br><br><em>Why it's here:</em> 4 weeks old; 16 citations<br><a href=\"https://doi.org/10.5802/pmihes.30\">source</a></li>\n<li><strong>Bose–Einstein condensate of ultracold sodium–rubidium molecules with tunable dipolar interactions</strong> — Nature Physics · Science beyond biology<br><br><em>Why it's here:</em> 13 weeks old; 7 citations<br><a href=\"https://doi.org/10.1038/s41567-026-03362-9\">source</a></li>\n</ol>\n<h3>Transcript</h3>\n<p>Welcome to your science and medicine briefing for Thursday, October 8. Today we cover two Merck pipeline stories, a complete songbird genome, a notable obesity drug trial, a single-cell imaging advance, AI&#x27;s expanding footprint in drug discovery and personal agents, and two physics and math results worth knowing about.</p>\n<p>We start with Merck. According to Endpoints News and Fierce Biotech, Merck&#x27;s Brunello trial has hit its primary endpoint for remigromig, a trispecific drug for diabetic macular edema that the company acquired in a three billion dollar takeover of EyeBio in 2024. This is a phase two b slash three trial comparing remigromig against ranibizumab, the standard VEGF inhibitor sold by Genentech as Lucentis. Remigromig works differently, mimicking a natural ligand called norrin to activate the Wnt signaling pathway, which helps maintain the blood-retinal barrier. Fierce Biotech reports both doses of remigromig were noninferior to ranibizumab at week fifty-two on the vision test used as the primary endpoint. But there&#x27;s a catch: Merck also reported higher rates of proliferative diabetic retinopathy, vitreous hemorrhage, and treatment discontinuations due to adverse events compared with ranibizumab. Merck says the drug was well tolerated overall and is running further analyses. A company executive noted that thirty to forty percent of patients don&#x27;t respond to existing VEGF drugs, which is the market opportunity Merck is targeting. Data will be presented at the American Academy of Ophthalmology meeting next month, and a second confirmatory trial is underway. This story made the cut because it&#x27;s genuine new-mechanism clinical progress, covered by two biotech trade outlets, rather than routine financing news.</p>\n<p>The second Merck story is less rosy. Endpoments News, BioPharma Dive, and STAT all report that Merck and partner Daiichi Sankyo have withdrawn their accelerated approval application to the Food and Drug Administration for ifinatamab deruxtecan, an antibody-drug conjugate for small-cell lung cancer. BioPharma Dive reports the application was based on phase two response rates, but the FDA indicated those results weren&#x27;t sufficient to support accelerated approval, leading the companies to pull the request rather than face a likely rejection. The drug remains in a late-stage trial against chemotherapy, but that study has already seen a recruitment pause last year after a higher than expected number of deaths linked to a serious lung inflammation condition. Analysts quoted by BioPharma Dive say rival B7-H3 targeted drugs from GSK and Roche appear to have better safety profiles in head-to-head comparisons from studies in China, and GSK now has roughly a two month lead in this disease area. This is a real pipeline setback, flagged here because it drew coverage across three trade outlets.</p>\n<p>Moving to biology, researchers led by Giulio Formenti at Rockefeller University published a fully phased, gap-free reference genome for the zebra finch in the journal Cell. This is a peer-reviewed paper, not animal testing of a drug, but foundational genomic infrastructure. The zebra finch is a key model organism for studying vocal learning in neuroscience. The team added about ninety million base pairs of previously missing sequence, closing nearly all gaps, including the notoriously difficult small</p>\n<p><em>AI-generated summary. Check the linked sources before relying on any detail.</em></p>",
+  "items": [
+   {
+    "id": "story:ba07a90bfa",
+    "title": "Merck sees pivotal victory for $3B eye disease prospect",
+    "url": "https://endpoints.news/mercks-return-to-ophthalmology-snags-first-success/",
+    "category": "biotech_pharma_news"
+   },
+   {
+    "id": "story:ea584db705",
+    "title": "Merck, Daiichi scrap FDA application for B7-H3 ADC in lung cancer",
+    "url": "https://endpoints.news/merck-daiichi-scrap-fda-application-for-b7-h3-adc-in-lung-cancer/",
+    "category": "biotech_pharma_news"
+   },
+   {
+    "id": "oa:W4415189576",
+    "title": "The complete genome of a songbird",
+    "url": "https://doi.org/10.1016/j.cell.2026.07.018",
+    "category": "bio_biomed_research"
+   },
+   {
+    "id": "oa:W7167674005",
+    "title": "Setmelanotide for the Treatment of Acquired Hypothalamic Obesity",
+    "url": "https://doi.org/10.1056/nejmoa2512275",
+    "category": "bio_biomed_research"
+   },
+   {
+    "id": "oa:W4390649768",
+    "title": "Single-cell transcriptional dynamics in a living vertebrate",
+    "url": "https://doi.org/10.1016/j.cels.2026.101708",
+    "category": "compbio_bioinformatics"
+   },
+   {
+    "id": "story:b963d9ea28",
+    "title": "Iambic Therapeutics files for IPO backed by Nvidia",
+    "url": "https://endpoints.news/nvidia-backed-ai-biotech-iambic-therapeutics-files-for-ipo/",
+    "category": "ai_for_bio_med"
+   },
+   {
+    "id": "hn:49615537",
+    "title": "Muse – Meta’s personal AI agent",
+    "url": "https://ai.meta.com/muse/",
+    "category": "ai_general"
+   },
+   {
+    "id": "oa:W2911233774",
+    "title": "Skeins on branes",
+    "url": "https://doi.org/10.5802/pmihes.30",
+    "category": "mathematics"
+   },
+   {
+    "id": "oa:W4414448812",
+    "title": "Bose–Einstein condensate of ultracold sodium–rubidium molecules with tunable dipolar interactions",
+    "url": "https://doi.org/10.1038/s41567-026-03362-9",
+    "category": "science_breakthroughs"
+   }
+  ]
  }
 ]
