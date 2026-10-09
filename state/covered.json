@@ -1561,5 +1561,94 @@
    "oa:W4414448812"
   ],
   "date": "2026-10-08"
+ },
+ {
+  "title": "AstraZeneca invests $2 billion in Summit Therapeutics, gaining seat at table for PD-1/VEGF cancer drug push",
+  "keys": [
+   "url:https://statnews.com/2026/09/29/biotech-news-astrazeneca-invests-2-billion-in-summit-therapeautics",
+   "url:https://fiercebiotech.com/biotech/astrazeneca-scales-summits-pd-1xvegf-strategy-2b-investment-fuel-adc-combinations",
+   "url:https://biopharmadive.com/news/summit-astrazeneca-ivonescimab-deal-pd1-vegf/752865",
+   "url:https://endpoints.news/astrazeneca-buys-a-2b-stake-in-summit-taking-equity-in-bet-on-cancer-drug",
+   "story:3c16fcd53d"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "Novo licenses $2.6B once-weekly obesity pill from Chinese biotech Hengrui",
+  "keys": [
+   "url:https://biopharmadive.com/news/novo-hengrui-oral-obesity-drug-deal/831607",
+   "url:https://fiercebiotech.com/biotech/novo-agrees-26b-deal-preclinical-glp-1gip-drug-demand-hengrui",
+   "url:https://endpoints.news/novo-to-spend-300m-upfront-to-license-hengruis-weekly-oral-weight-loss-drug",
+   "url:https://endpoints.news/swedish-biotech-anacardio-raises-70-9m-to-advance-safer-heart-failure-drug",
+   "story:753fb1efca"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "Mitochondrial metabolism and epigenetic crosstalk drive SASP",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10791-2",
+   "doi:10.1038/s41586-026-10791-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39678326",
+   "oa:W7171743616"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "1 in 8 cancer cases worldwide are caused by infections, study finds",
+  "keys": [
+   "url:https://cbc.ca/lite/story/9.7361622",
+   "hn:49892120"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "MuSpAn: a toolbox for multiscale spatial analysis",
+  "keys": [
+   "url:https://doi.org/10.1038/s41467-026-75649-7",
+   "doi:10.1038/s41467-026-75649-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42722649",
+   "oa:W4405150968"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "Mathematicians harness randomness to crack 55-year-old conjecture",
+  "keys": [
+   "url:https://quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928",
+   "story:03379552ab"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "Large language models are powerful electronic health record encoders",
+  "keys": [
+   "url:https://doi.org/10.1038/s41746-026-02915-9",
+   "doi:10.1038/s41746-026-02915-9",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42410244",
+   "oa:W4415319839"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "OpenAI pauses training of most capable models over rogue agent safety concerns",
+  "keys": [
+   "url:https://wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government",
+   "url:https://bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
+   "story:5dc658f5c0"
+  ],
+  "date": "2026-10-09"
+ },
+ {
+  "title": "SpaceX's Starship reaches orbit for first time despite engine failure",
+  "keys": [
+   "url:https://theguardian.com/science/video/2026/sep/28/spacex-spaceship-orbit-launch-video",
+   "url:https://theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas",
+   "url:https://nytimes.com/2026/09/28/science/space/spacex-starship-first-orbital-flight.html",
+   "url:https://bbc.co.uk/news/videos/c6ge4lp442npo?at_medium=RSS&at_campaign=rss",
+   "url:https://npr.org/2026/09/28/nx-s1-5983418/spacex-starship-first-orbital-flight-14-nasa",
+   "story:d5e94824f5"
+  ],
+  "date": "2026-10-09"
  }
 ]
