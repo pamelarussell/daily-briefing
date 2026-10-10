@@ -1650,5 +1650,97 @@
    "story:d5e94824f5"
   ],
   "date": "2026-10-09"
+ },
+ {
+  "title": "Eli Lilly's Zepbound combined with amylin drug posts best-ever weight loss in mid-stage trial",
+  "keys": [
+   "url:https://endpoints.news/eli-lillys-best-ever-weight-loss-data-sanofi-regeneron-re-up-for-1b-upfront-and-more",
+   "url:https://endpoints.news/easd26-lillys-amylin-zepbound-combo-posts-best-ever-weight-loss-in-patients-with-obesity-and-diabetes",
+   "url:https://statnews.com/2026/09/30/eli-lilly-zepbound-amylin-combination-drug-study",
+   "url:https://fiercebiotech.com/cro/canadian-5m-accelerated-clinical-trial-program-cuts-start-45-days",
+   "url:https://endpoints.news/easd26-lillys-triple-g-allows-60-of-patients-to-drop-below-obesity-threshold",
+   "story:e52735e424"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "UniQure's Huntington's gene therapy continues to slow progression after four years but shows potential waning effect",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/uniqure-stock-crashes-huntingtons-gene-therapy-data-weaken",
+   "url:https://biopharmadive.com/news/uniqure-huntingtons-four-year-data-gene-therapy-results/831611",
+   "url:https://endpoints.news/uniqure-sinks-as-huntingtons-gene-therapy-appears-to-show-waning-benefit-over-time",
+   "url:https://statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years",
+   "story:6e6559ccdc"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "Sexual dimorphism in the complete Drosophila male central nervous system connectome",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.08.015",
+   "doi:10.1016/j.cell.2026.08.015",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42691995",
+   "oa:W7207807810"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "Developmental xenocortication using human-derived organoids in mice",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11032-2",
+   "doi:10.1038/s41586-026-11032-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42749812",
+   "oa:W7213421814"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "A Bayesian framework for longitudinal EHR and genetic discovery",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10780-5",
+   "doi:10.1038/s41586-026-10780-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42457967",
+   "oa:W7168346380"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "Exotic aspherical $4$-manifolds",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.2.6",
+   "doi:10.4007/annals.2026.204.2.6",
+   "oa:W4405030526"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "Google figures out how to watermark AI-designed proteins to deter bioweapons and protect credit",
+  "keys": [
+   "url:https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins",
+   "url:https://science.org/content/article/method-watermark-ai-designed-proteins-could-deter-bioweapons-protect-scientific-credit",
+   "url:https://nature.com/articles/d41586-026-03033-y",
+   "doi:10.1038/d41586-026-03033-y",
+   "url:https://nature.com/articles/d41586-026-02783-z",
+   "doi:10.1038/d41586-026-02783-z",
+   "story:067506091c"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "Anthropic warns of 'catastrophic' AI risks in its own IPO filing, raising disclosure standards",
+  "keys": [
+   "url:https://theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+   "story:4673f7cac1"
+  ],
+  "date": "2026-10-10"
+ },
+ {
+  "title": "Dense iron oxyhydroxides as possible reservoirs of water under deep mantle conditions",
+  "keys": [
+   "url:https://doi.org/10.1038/s41561-026-02067-1",
+   "doi:10.1038/s41561-026-02067-1",
+   "oa:W7211945953"
+  ],
+  "date": "2026-10-10"
  }
 ]
