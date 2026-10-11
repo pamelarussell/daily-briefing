@@ -1742,5 +1742,113 @@
    "oa:W7211945953"
   ],
   "date": "2026-10-10"
+ },
+ {
+  "title": "Nobel Prize in Physics Is Awarded to Francis Halzen for Work on Neutrinos",
+  "keys": [
+   "url:https://nytimes.com/2026/10/06/science/nobel-prize-physics.html",
+   "url:https://theguardian.com/science/2026/oct/06/nobel-prize-in-physics-francis-halzen-south-pole-neutrinos-icecube-detector",
+   "url:https://bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
+   "url:https://npr.org/2026/10/06/g-s1-146622/nobel-prize-physics",
+   "url:https://science.org/content/article/architect-south-pole-observatory-wins-physics-nobel",
+   "url:https://nature.com/articles/d41586-026-03092-1",
+   "doi:10.1038/d41586-026-03092-1",
+   "url:https://nature.com/articles/d41586-026-03095-y",
+   "doi:10.1038/d41586-026-03095-y",
+   "url:https://nature.com/articles/d41586-026-03190-0",
+   "doi:10.1038/d41586-026-03190-0",
+   "url:https://nobelprize.org/prizes/physics/2026",
+   "hn:49976265",
+   "story:d16fc68ad0"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "2026 Nobel Prize in Physiology or Medicine Goes to Optogenetics, Light-Gated Ion Channels",
+  "keys": [
+   "url:https://theguardian.com/science/video/2026/oct/05/nobel-prize-in-medicine-2026-unlocking-the-mysteries-of-the-brain",
+   "url:https://fiercebiotech.com/research/3-scientists-who-developed-neuron-light-switches-win-nobel-prize-physiology-or-medicine",
+   "url:https://nytimes.com/2026/10/05/health/nobel-prize-medicine-physiology.html",
+   "url:https://genengnews.com/topics/translational-medicine/2026-nobel-prize-for-physiology-and-medicine-goes-to-optogenetics-light-gated-ion-channels",
+   "url:https://endpoints.news/nobel-goes-to-scientists-who-paved-the-way-for-light-activated-gene-therapies",
+   "url:https://npr.org/2026/10/05/g-s1-146400/nobel-medicine-prize",
+   "url:https://statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel",
+   "url:https://theguardian.com/science/2026/oct/05/nobel-prize-medicine-2026-winner",
+   "url:https://science.org/content/article/method-controlling-brain-cells-light-wins-nobel",
+   "url:https://nature.com/articles/d41586-026-03091-2",
+   "doi:10.1038/d41586-026-03091-2",
+   "url:https://nature.com/articles/d41586-026-03094-z",
+   "doi:10.1038/d41586-026-03094-z",
+   "url:https://nature.com/articles/d41586-026-03185-x",
+   "doi:10.1038/d41586-026-03185-x",
+   "story:92c20ec99d"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "Harmful tau spreads like self-propagating prion proteins",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-02778-w",
+   "doi:10.1038/d41586-026-02778-w",
+   "story:06fa0d88fe"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "Mirum reports Phase 3 victory for acquired hepatitis D medicine",
+  "keys": [
+   "url:https://endpoints.news/mirum-reports-phase-3-victory-for-acquired-hepatitis-d-med",
+   "url:https://fiercebiotech.com/biotech/mirum-posts-phase-3-hepatitis-win-commercially-differentiated-challenger-gilead-and-vir",
+   "story:3e439e7d1c"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "Kodiak's stock surges as eye disease drug matches Eylea in Phase 3 trial",
+  "keys": [
+   "url:https://endpoints.news/kodiaks-stock-soars-as-it-clinches-crucial-phase-3-win-for-eylea-competitor",
+   "url:https://fiercebiotech.com/biotech/kodiak-roars-back-pivotal-victory-resurrected-eye-disease-drug",
+   "story:a3c09da539"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "Spike inference from calcium imaging data acquired with GCaMP8 indicators",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03183-x",
+   "doi:10.1038/s41592-026-03183-x",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42509475",
+   "oa:W4408279930"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "Improved bounds for the two-point logarithmic Chowla conjecture",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1084",
+   "doi:10.1090/jams/1084",
+   "oa:W4388093418"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "Pathology-CoT: learning visual chain-of-thought agents from expert whole-slide image diagnosis behaviour",
+  "keys": [
+   "url:https://doi.org/10.1038/s41551-026-01739-y",
+   "doi:10.1038/s41551-026-01739-y",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42498734",
+   "oa:W7170454822"
+  ],
+  "date": "2026-10-11"
+ },
+ {
+  "title": "Mistral Says Its New AI Model 'Le Chonk' Is the Best Open-Weight Offering Outside of China",
+  "keys": [
+   "url:https://wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier",
+   "url:https://mistral.ai/news/mistral-large-4/\\",
+   "hn:49977979",
+   "story:e25a948600"
+  ],
+  "date": "2026-10-11"
  }
 ]
