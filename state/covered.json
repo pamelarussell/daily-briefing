@@ -1850,5 +1850,100 @@
    "story:e25a948600"
   ],
   "date": "2026-10-11"
+ },
+ {
+  "title": "Merck partners with SciBrunch in $2.13B collaboration for KRAS-inhibiting molecular glue",
+  "keys": [
+   "url:https://genengnews.com/topics/cancer/merck-scibrunch-launch-up-to-2-13b-collaboration-to-develop-preclinical-kras-inhibiting-molecular-glue",
+   "url:https://fiercebiotech.com/biotech/merck-pens-21b-deal-chinas-scibrunch-chase-kras-g12d",
+   "url:https://endpoints.news/merck-licenses-a-kras-g12d-inhibitor-for-400m-upfront",
+   "story:aeb395a13a"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "Legend's CAR-T therapy shows five-year durability suggesting potential cure",
+  "keys": [
+   "url:https://endpoints.news/legends-five-year-data-suggests-carvykti-could-be-a-cure-addex-indivior-split",
+   "story:0af7060de7"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "Neocortical long-range inhibition promotes cortical synchrony and sleep",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10876-y",
+   "doi:10.1038/s41586-026-10876-y",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/38948753",
+   "oa:W7211986903"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "A vector-based strategy for olfactory navigation in Drosophila",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10827-7",
+   "doi:10.1038/s41586-026-10827-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39990408",
+   "oa:W7170092641"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "On the ancestry and evolution of the extinct dire wolf",
+  "keys": [
+   "url:https://doi.org/10.1016/j.xgen.2026.101306",
+   "doi:10.1016/j.xgen.2026.101306",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42508403",
+   "oa:W4409351565"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "Diffeomorphisms of discs and the second Weiss derivative of BTop(–)",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01436-2",
+   "doi:10.1007/s00222-026-01436-2",
+   "oa:W3197639428"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aeg6779",
+   "doi:10.1126/science.aeg6779",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41808990",
+   "oa:W7213470189"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "Sharing AI progress in mathematics",
+  "keys": [
+   "url:https://openai.com/index/sharing-ai-progress-in-mathematics",
+   "hn:49984923"
+  ],
+  "date": "2026-10-12"
+ },
+ {
+  "title": "Chemistry Nobel awarded to Kagan and Soai for asymmetric organic synthesis discoveries",
+  "keys": [
+   "url:https://theguardian.com/science/2026/oct/07/nobel-prize-chemistry-awarded-work-on-mirror-image-molecules",
+   "url:https://genengnews.com/topics/drug-discovery/kagan-soai-win-2026-nobel-prize-in-chemistry-for-discoveries-related-to-asymmetric-organic-synthesis",
+   "url:https://bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+   "url:https://nytimes.com/2026/10/07/science/nobel-prize-chemistry.html",
+   "url:https://statnews.com/2026/10/07/nobel-prize-chemistry-henri-kagan-kenso-soai-2026-winner",
+   "url:https://npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
+   "url:https://science.org/content/article/chemistry-nobel-honors-researchers-who-developed-reactions-leading-one-handed-molecules",
+   "url:https://nature.com/articles/d41586-026-03093-0",
+   "doi:10.1038/d41586-026-03093-0",
+   "url:https://nature.com/articles/d41586-026-03208-7",
+   "doi:10.1038/d41586-026-03208-7",
+   "url:https://nature.com/articles/d41586-026-03212-x",
+   "doi:10.1038/d41586-026-03212-x",
+   "story:23cf3c3434"
+  ],
+  "date": "2026-10-12"
  }
 ]
