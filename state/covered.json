@@ -1945,5 +1945,85 @@
    "story:23cf3c3434"
   ],
   "date": "2026-10-12"
+ },
+ {
+  "title": "Novartis wagers almost $8B on a Chinese biotech's RNA drugs",
+  "keys": [
+   "url:https://biopharmadive.com/news/novartis-abogen-pipeline-collaboration-china/832008",
+   "url:https://endpoints.news/novartis-takes-rights-to-abogens-mrna-t-cell-engager-for-575m-upfront",
+   "story:ae5e863ab7"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "Gene therapy can partly restore sight in blind people, researchers reveal",
+  "keys": [
+   "url:https://theguardian.com/society/2026/oct/07/gene-therapy-can-partly-restore-sight-in-blind-people-researchers-reveal",
+   "url:https://statnews.com/2026/10/07/optogenetics-restores-some-vision-retinitis-pigmentosa",
+   "url:https://sciencenews.org/article/gene-therapy-cells-light-blind-vision",
+   "story:f066a971d1"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "Direct cell-to-cell transmission of retrotransposons",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.08.047",
+   "doi:10.1016/j.cell.2026.08.047",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40161635",
+   "oa:W7214085408"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "ntSynt-viz: visualizing synteny patterns across multiple genomes",
+  "keys": [
+   "url:https://doi.org/10.1093/jeb/voag079",
+   "doi:10.1093/jeb/voag079",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42690038",
+   "oa:W4406541932"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "Mahler's method in several variables and finite automata",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.2.1",
+   "doi:10.4007/annals.2026.204.2.1",
+   "oa:W3112933313"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "Boehringer, Envisagenics sign $1B multi-target oncology collaboration",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/boehringer-envisagenics-sign-1b-multi-target-oncology-collaboration",
+   "story:117e83d44b"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "Claude Haiku 5.5",
+  "keys": [
+   "url:https://anthropic.com/claude-haiku-5-5",
+   "hn:49996437"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+  "keys": [
+   "url:https://vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "hn:49970667"
+  ],
+  "date": "2026-10-13"
+ },
+ {
+  "title": "The Future of Mathematics",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics",
+   "rss:9b5472086e"
+  ],
+  "date": "2026-10-13"
  }
 ]
