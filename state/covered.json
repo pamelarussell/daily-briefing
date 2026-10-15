@@ -2025,5 +2025,101 @@
    "rss:9b5472086e"
   ],
   "date": "2026-10-13"
+ },
+ {
+  "title": "OpenAI posts 700 maths preprints online: mathematicians up in arms",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-03196-8",
+   "doi:10.1038/d41586-026-03196-8",
+   "url:https://nytimes.com/2026/10/08/science/mathematicians-respond-openai-release.html",
+   "url:https://science.org/content/article/watch-what-s-deal-openai-s-massive-dump-math-papers",
+   "url:https://nytimes.com/2026/10/06/science/openai-math-problems.html",
+   "url:https://theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+   "url:https://wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again",
+   "url:https://mathstodon.xyz/@tao/117395269325940185",
+   "hn:50002008",
+   "url:https://openai.com/index/gpt-6-for-everyone",
+   "hn:49996425",
+   "story:f2d406e0dd"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "The lipidomic architecture of the mouse brain",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11050-0",
+   "doi:10.1038/s41586-026-11050-0",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42778605",
+   "oa:W7214073036"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "Single-nucleus transcriptome-wide association study of human brain disorders",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10836-6",
+   "doi:10.1038/s41586-026-10836-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42778697",
+   "oa:W7214067137"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "AlphaBridge: Tools for the analysis of predicted biomolecular complexes",
+  "keys": [
+   "url:https://doi.org/10.1016/j.str.2026.08.011",
+   "doi:10.1016/j.str.2026.08.011",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42748924",
+   "oa:W7213424650"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "Effective equidistribution for some one parameter unipotent flows",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.2.4",
+   "doi:10.4007/annals.2026.204.2.4",
+   "oa:W4309800617"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "Leveraging high-throughput proteomics and AI-based protein folding to accelerate VAV1 molecular glue discovery",
+  "keys": [
+   "url:https://doi.org/10.1038/s41467-026-77657-z",
+   "doi:10.1038/s41467-026-77657-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40661494",
+   "oa:W7212404409"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "Searches for Light Dark Matter and Evidence of Coherent Elastic Neutrino-Nucleus Scattering of Solar Neutrinos with the LUX-ZEPLIN (LZ) Experiment",
+  "keys": [
+   "url:https://doi.org/10.1103/jvqf-njpj",
+   "doi:10.1103/jvqf-njpj",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42726953",
+   "oa:W7169029283"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "Vaxcyte's pneumococcal vaccine succeeds in Phase 3 trial",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/vaxcytes-stock-jumps-pneumococcal-vaccine-holds-its-own-against-pfizer-mercks-shots",
+   "url:https://endpoints.news/vaxcytes-pneumococcal-vaccine-succeeds-in-phase-3-stock-surges",
+   "url:https://biopharmadive.com/news/vaxcyte-pneumococcal-vaccine-opus-study-results-prevnar-capvaxive/832095",
+   "url:https://statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck",
+   "story:88e223b7f8"
+  ],
+  "date": "2026-10-15"
+ },
+ {
+  "title": "AHM Statement on OpenAI’s October 6 Release of Mathematical Documents",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents",
+   "rss:a47407dd07"
+  ],
+  "date": "2026-10-15"
  }
 ]
