@@ -2195,5 +2195,88 @@
    "rss:0c3b9e33f9"
   ],
   "date": "2026-10-16"
+ },
+ {
+  "title": "Immunovant's CAR-T Shows Promise Against Lupus",
+  "keys": [
+   "url:https://endpoints.news/adicet-bio-shares-promising-look-at-car-t-for-lupus-but-stock-drops-anyway",
+   "url:https://biopharmadive.com/news/adicet-gamma-delta-cell-therapy-lupus-study-results/831483",
+   "url:https://fiercebiotech.com/biotech/adicet-bio-car-t-sparks-lupus-remissions-early-trial-new-era-autoimmune-treatment",
+   "story:d49b05f4a1"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "The genetic architecture of fibromyalgia across 2.5 million individuals",
+  "keys": [
+   "url:https://doi.org/10.1038/s41591-026-04492-6",
+   "doi:10.1038/s41591-026-04492-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41001472",
+   "oa:W4414345372"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "Circular DNA Exposes Vulnerability in Cancer Cells",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-02966-8",
+   "doi:10.1038/d41586-026-02966-8",
+   "story:13137e6dd7"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "Genome Accessibility Reveals Disease Risk Missed by Gene Expression Alone",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-03072-5",
+   "doi:10.1038/d41586-026-03072-5",
+   "story:b81164d430"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "I vibed a proof of Conway's conjecture",
+  "keys": [
+   "url:https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture",
+   "hn:49755024"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
+  "keys": [
+   "url:https://arxiv.org/abs/2610.05966",
+   "arxiv:2610.05966",
+   "hf:2610.05966"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+  "keys": [
+   "url:https://cryptocellar.org/bgac/the-mvueh-break.html",
+   "hn:49801324"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "New Nuclear Clocks Tick at Lutetium Atoms for Record Precision",
+  "keys": [
+   "url:https://nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
+   "url:https://nature.com/articles/d41586-026-03060-9",
+   "doi:10.1038/d41586-026-03060-9",
+   "url:https://nature.com/articles/d41586-026-02646-7",
+   "doi:10.1038/d41586-026-02646-7",
+   "story:fa5abca58d"
+  ],
+  "date": "2026-10-17"
+ },
+ {
+  "title": "Terence Tao: Math 2.0 [pdf]",
+  "keys": [
+   "url:https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+   "hn:50043026"
+  ],
+  "date": "2026-10-17"
  }
 ]
