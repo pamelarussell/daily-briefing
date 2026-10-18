@@ -2278,5 +2278,84 @@
    "hn:50043026"
   ],
   "date": "2026-10-17"
+ },
+ {
+  "title": "Lilly's retatrutide shows full Phase 3 data for obesity, positioning as next-generation GLP-1/GIP/GCG therapy",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/eli-lilly-sets-next-gen-obesity-battle-full-phase-3-retatrutide-data",
+   "story:9d3fea5c86"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "GLP-1 drugs show signs of slowing biological aging in humans",
+  "keys": [
+   "url:https://technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks",
+   "story:4335792a94"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "Loss of cell identity drives human aging: Two new papers",
+  "keys": [
+   "url:https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+   "hn:49926411"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "Defining and cataloging variants in pangenome graphs",
+  "keys": [
+   "url:https://doi.org/10.1016/j.xgen.2026.101327",
+   "doi:10.1016/j.xgen.2026.101327",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40799530",
+   "oa:W4412949927"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "OpenAI claims Claude made autonomous scientific discovery in laboratory setting",
+  "keys": [
+   "url:https://nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html",
+   "url:https://endpoints.news/qa-anthropics-life-sciences-team-talk-claudes-first-scientific-discovery",
+   "story:09817487b7"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "OpenAI introduces Dots, always-on AI agents competing with Meta's Muse",
+  "keys": [
+   "url:https://theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+   "url:https://wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help",
+   "story:7562a87434"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "Proof of the Landau-Pekar formula for the effective mass of the polaron at strong coupling",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01440-6",
+   "doi:10.1007/s00222-026-01440-6",
+   "oa:W4403662161"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "Octahedral-coordinated Co3O4 for water electrolysis in acid",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10851-7",
+   "doi:10.1038/s41586-026-10851-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42527594",
+   "oa:W7171744002"
+  ],
+  "date": "2026-10-18"
+ },
+ {
+  "title": "What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai",
+   "rss:4d5a1b14f2"
+  ],
+  "date": "2026-10-18"
  }
 ]
