@@ -2501,5 +2501,90 @@
    "rss:ddce714be7"
   ],
   "date": "2026-10-20"
+ },
+ {
+  "title": "Caribou Biosciences shuts down after funding struggles",
+  "keys": [
+   "url:https://biopharmadive.com/news/caribou-layoffs-strategic-alternatives-allogeneic-cell-therapy-vispacel/832343",
+   "url:https://fiercebiotech.com/biotech/caribou-cuts-staff-halts-pipeline-board-explores-potential-paths-car-t-candidates",
+   "url:https://endpoints.news/car-t-biotech-caribou-weighs-its-options-after-struggling-to-find-funding",
+   "url:https://statnews.com/2026/10/07/caribou-biosciences-shutting-down-lymphoma-car-t-therapy",
+   "story:fc9943afe0"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "Endeavor's Phase 2 win shows Hedgehog inhibitor can reverse IPF",
+  "keys": [
+   "url:https://endpoints.news/endeavor-notches-major-mid-stage-trial-win-says-ipf-drug-can-reverse-disease",
+   "url:https://fiercebiotech.com/biotech/endeavors-threat-ipf-incumbents-increases-after-phase-2-win-hedgehog-inhibitor",
+   "story:206b6174f6"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "A tumour-derived organoid biobank maps cancer gene dependencies",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10830-y",
+   "doi:10.1038/s41586-026-10830-y",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42557320",
+   "oa:W7172517891"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
+  "keys": [
+   "url:https://doi.org/10.1038/s41591-026-04537-w",
+   "doi:10.1038/s41591-026-04537-w",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42581230",
+   "oa:W7202180933"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "Single-nucleus atlas of cell-type specific genetic regulation in the human brain",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02733-5",
+   "doi:10.1038/s41588-026-02733-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39711543",
+   "oa:W7214069110"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "Uniqueness Games Conjecture proof race between AI and mathematicians",
+  "keys": [
+   "url:https://quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007",
+   "story:03128b2e62"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "RadVLM: a multitask conversational vision-language model for radiology",
+  "keys": [
+   "url:https://doi.org/10.1038/s41598-026-66181-1",
+   "doi:10.1038/s41598-026-66181-1",
+   "oa:W4407231314"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "Enhanced Sampling of Protein Conformations in AlphaFold3 with Repulsive Bias in the Diffusion Generative Model",
+  "keys": [
+   "url:https://doi.org/10.1021/jacsau.6c00596",
+   "doi:10.1021/jacsau.6c00596",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42819252",
+   "oa:W4417479108"
+  ],
+  "date": "2026-10-21"
+ },
+ {
+  "title": "Mistral Large 4: \"Le Chonk\"",
+  "keys": [
+   "url:https://mistral.ai/news/mistral-large-4",
+   "hn:49978116"
+  ],
+  "date": "2026-10-21"
  }
 ]
