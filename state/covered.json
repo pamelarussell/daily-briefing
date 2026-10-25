@@ -2842,5 +2842,44 @@
    "story:4b1d008af1"
   ],
   "date": "2026-10-24"
+ },
+ {
+  "title": "Argenx's Phase 2 celiac win; Sjögren's failure offers mixed results",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/argenx-digests-phase-2-celiac-win-22b-drug-preps-pivotal-run",
+   "url:https://statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens",
+   "url:https://endpoints.news/argenxs-study-flop-in-sjogrens-overshadows-a-win-in-celiac-disease",
+   "story:5cb831dae2"
+  ],
+  "date": "2026-10-25"
+ },
+ {
+  "title": "Distant lymph nodes compensate for resected tumor-draining lymph nodes during cancer immunotherapy",
+  "keys": [
+   "url:https://doi.org/10.1016/j.immuni.2026.09.009",
+   "doi:10.1016/j.immuni.2026.09.009",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/37781599",
+   "oa:W7215054771"
+  ],
+  "date": "2026-10-25"
+ },
+ {
+  "title": "Universal Plücker coordinates for the Wronski map and positivity in real Schubert calculus",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1087",
+   "doi:10.1090/jams/1087",
+   "oa:W4386644444"
+  ],
+  "date": "2026-10-25"
+ },
+ {
+  "title": "Perplexity as a metric for isoform diversity in the human transcriptome",
+  "keys": [
+   "url:https://doi.org/10.1186/s13059-026-04260-2",
+   "doi:10.1186/s13059-026-04260-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40631152",
+   "oa:W4411946888"
+  ],
+  "date": "2026-10-25"
  }
 ]
