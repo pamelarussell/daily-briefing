@@ -3037,5 +3037,92 @@
    "hn:49956290"
   ],
   "date": "2026-10-27"
+ },
+ {
+  "title": "Roche and Hansoh launch up-to-$15B cancer ADC collaboration",
+  "keys": [
+   "url:https://genengnews.com/topics/cancer/roche-hansoh-launch-up-to-15b-cancer-adc-collaboration",
+   "url:https://fiercebiotech.com/biotech/roche-returns-chinas-adc-powerhouse-hansoh-15b-biobucks-pact",
+   "url:https://endpoints.news/roches-seventh-china-deal-this-year-is-a-1-2b-obesity-pact-with-rona-therapeutics",
+   "story:8b81d0aa49"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Human lung organoid modelling of tissue-resident antiviral T cell responses",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11114-1",
+   "doi:10.1038/s41586-026-11114-1",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/37205380",
+   "oa:W4368351637"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Human body single-cell atlas of three-dimensional genome organization and DNA methylation",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adx0673",
+   "doi:10.1126/science.adx0673",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42490476",
+   "oa:W7170166607"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Cohesin prevents local mixing of condensed euchromatic domains in living human cells",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02736-2",
+   "doi:10.1038/s41588-026-02736-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41867868",
+   "oa:W4413754252"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Oligomorphic groups and tensor categories",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01452-2",
+   "doi:10.1007/s00222-026-01452-2",
+   "oa:W4223582430"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Iambic goes public with $150M IPO to advance AI-driven oncology pipeline",
+  "keys": [
+   "url:https://biopharmadive.com/news/Iambic-ipo-tom-miller-ai-drug-development-discovery/833238",
+   "url:https://fiercebiotech.com/biotech/iambic-goes-public-150m-ipo-accelerate-clinical-development-oncology-pipeline",
+   "url:https://endpoints.news/iambic-snags-150m-ipo-for-ai-driven-cancer-pipeline",
+   "url:https://biopharmadive.com/news/iambic-ipo-price-ai-drug-discovery/832771",
+   "story:eb7ec9dad5"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Claude reveals ECDSA curve origins",
+  "keys": [
+   "url:https://anthropic.com/research/ecdsa-curve-origins",
+   "hn:50122800"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Japan launches historic mission to collect samples from Martian moon Phobos",
+  "keys": [
+   "url:https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos",
+   "url:https://theguardian.com/world/2026/oct/20/japan-mars-moon-mission-phobos-collect-rocks",
+   "url:https://theguardian.com/science/2026/oct/18/japan-mission-mars-moon-phobos-samples",
+   "url:https://science.org/content/article/audacious-space-heist-japan-aims-bring-home-bits-martian-moon",
+   "story:6e661f954f"
+  ],
+  "date": "2026-10-28"
+ },
+ {
+  "title": "Progress on Borsuk’s Problem and Answer to TYI 60.",
+  "keys": [
+   "url:https://gilkalai.wordpress.com/2026/10/21/progress-on-borsuks-problem-and-answer-to-tyi-60",
+   "rss:e4ab9cf42e"
+  ],
+  "date": "2026-10-28"
  }
 ]
