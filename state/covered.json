@@ -3124,5 +3124,98 @@
    "rss:e4ab9cf42e"
   ],
   "date": "2026-10-28"
+ },
+ {
+  "title": "Moderna-Merck melanoma cancer vaccine data posted early after leak at ESMO",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/it-what-it-merck-exec-sanguine-esmo-leak-significant-cancer-vaccine-data",
+   "url:https://statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo",
+   "url:https://nytimes.com/2026/10/23/well/cancer-vaccine-melanoma-study.html",
+   "url:https://fiercebiotech.com/biotech/merck-co-and-moderna-post-phase-3-cancer-vaccine-data",
+   "url:https://nytimes.com/2026/10/23/well/first-of-its-kind-vaccine-ushers-in-new-hope-for-cancer-patients.html",
+   "url:https://theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia",
+   "url:https://nature.com/articles/d41586-026-03417-0",
+   "doi:10.1038/d41586-026-03417-0",
+   "url:https://biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765",
+   "url:https://statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released",
+   "url:https://endpoints.news/data-leaks-for-merck-and-modernas-therapeutic-cancer-vaccine",
+   "url:https://statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal",
+   "story:8fe316c876"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Disc Medicine reports 'sun allergy' drug hits Phase 3 home run",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/disc-spins-past-fda-rejection-overwhelmingly-positive-phase-3-data",
+   "url:https://endpoints.news/disc-medicine-reports-sun-allergy-drug-hits-home-run-in-phase-3",
+   "story:18b3a1a8bc"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Birdwatching rewires the brain and slows cognitive decline",
+  "keys": [
+   "url:https://bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline",
+   "hn:50215997"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Effect of Screening with Multicancer Early-Detection Test on Late-Stage Cancer Diagnosis",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2505723",
+   "doi:10.1056/nejmoa2505723",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42776074",
+   "oa:W7214000417"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Tangermeme: a toolkit for understanding cis-regulatory logic using deep learning models",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03254-z",
+   "doi:10.1038/s41592-026-03254-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42850431",
+   "oa:W7221037795"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Superdiffusive central limit theorem for a Brownian particle in a critically-correlated incompressible random drift",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01455-z",
+   "doi:10.1007/s00222-026-01455-z",
+   "oa:W4393741148"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition",
+  "keys": [
+   "url:https://doi.org/10.1038/s44320-026-00246-1",
+   "doi:10.1038/s44320-026-00246-1",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41867703",
+   "oa:W7221000185"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Timestral: Mistral's time-series foundation models",
+  "keys": [
+   "url:https://mistral.ai/news/timestral",
+   "hn:50150434"
+  ],
+  "date": "2026-10-29"
+ },
+ {
+  "title": "Hydrogen bonding in water under extreme confinement",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10858-0",
+   "doi:10.1038/s41586-026-10858-0",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42844477",
+   "oa:W4401159969"
+  ],
+  "date": "2026-10-29"
  }
 ]
