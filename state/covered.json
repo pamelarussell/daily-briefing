@@ -3217,5 +3217,87 @@
    "oa:W4401159969"
   ],
   "date": "2026-10-29"
+ },
+ {
+  "title": "Merck KGaA acquires Silence Therapeutics for $1.3B after Phase 2 siRNA blood cancer success",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/merck-kgaa-buys-silence-13b-deal-biotechs-blood-cancer-sirna-drug",
+   "url:https://biopharmadive.com/news/merck-kgaa-rnai-13b-silence-buyout-blood-disorder-polycythemia-vera/833336",
+   "url:https://endpoints.news/merck-kgaa-will-buy-silence-therapeutics-and-its-sirna-pipeline-for-1-3b",
+   "story:8c6f35e41b"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "AbbVie's next-gen Crohn's disease combo beats Skyrizi in Phase 2 trial",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/abbvies-next-gen-crohns-combination-beats-skyrizi-phase-2-trial",
+   "url:https://endpoints.news/abbvies-skyrizi-combo-beats-skyrizi-alone-in-mid-stage-crohns-trial",
+   "story:fe54e5e763"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "Nobel Prize in Physiology or Medicine awarded for optogenetics technology enabling light-based control of neurons",
+  "keys": [
+   "url:https://statnews.com/2026/10/05/2026-nobel-prize-winning-optogenetics-research-explained",
+   "url:https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel",
+   "url:https://biopharmadive.com/news/nobel-optogenetics-roche-alector-csl-alentis-jaypirca-bayer/832083",
+   "story:caa7e9bce0"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "Scientists create nearly-alive synthetic cell, raising questions about definition of life",
+  "keys": [
+   "url:https://nytimes.com/2026/10/14/science/spudcell-adamala-biotic.html",
+   "story:42615672b6"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "PlantCAD2: A DNA foundation model for interpreting genomes across flowering plants",
+  "keys": [
+   "url:https://doi.org/10.1016/j.xgen.2026.101329",
+   "doi:10.1016/j.xgen.2026.101329",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42567165",
+   "oa:W7201852441"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
+  "keys": [
+   "url:https://arxiv.org/abs/2610.16811",
+   "arxiv:2610.16811",
+   "hf:2610.16811"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "No signs of AI payoff outside the tech sector",
+  "keys": [
+   "url:https://apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "hn:50224463"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "Approximation of adelic divisors and equidistribution of small points",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01456-y",
+   "doi:10.1007/s00222-026-01456-y",
+   "oa:W4406072503"
+  ],
+  "date": "2026-10-30"
+ },
+ {
+  "title": "Quantum error correction achieves breakeven in major milestone for quantum computing",
+  "keys": [
+   "url:https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven",
+   "url:https://sciencenews.org/article/quantum-computer-megaquops-error-correction",
+   "story:bff141e12a"
+  ],
+  "date": "2026-10-30"
  }
 ]
