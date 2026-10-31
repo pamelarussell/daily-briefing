@@ -3299,5 +3299,97 @@
    "story:bff141e12a"
   ],
   "date": "2026-10-30"
+ },
+ {
+  "title": "Merck, Moderna report positive cancer vaccine data",
+  "keys": [
+   "url:https://npr.org/2026/10/26/nx-s1-6013568/mercks-melanoma-vaccine-trial-shows-reduced-recurrence-or-death-from-skin-cancer",
+   "url:https://statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran",
+   "url:https://science.org/content/article/milestone-cancer-vaccine-success-leaves-hard-questions-unanswered",
+   "url:https://endpoints.news/esmo26-merck-and-modernas-cancer-vaccine-data-were-a-triumph-of-science-and-now-the-work-begins",
+   "url:https://statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news",
+   "url:https://endpoints.news/cancer-vaccine-data-from-esmo26-treasury-proposal-could-curb-china-investment-and-more",
+   "url:https://statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo",
+   "url:https://endpoints.news/tango-combo-clears-rasonque-bar-takedas-innovent-bet-gets-early-returns-and-more-from-esmo26",
+   "url:https://statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque",
+   "story:4855456b07"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "GSK wins FDA approval for first hepatitis B functional cure drug bepirovirsen",
+  "keys": [
+   "url:https://biopharmadive.com/news/gsk-ionis-fda-approve-hibsago-chronic-hepatitis-b-bepirovirsen/833541",
+   "url:https://statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval",
+   "url:https://endpoints.news/gsk-gets-fda-approval-for-hepatitis-b-drug-that-offers-functional-cure",
+   "url:https://bbc.co.uk/news/articles/cm3wv9pdj33zo?at_medium=RSS&at_campaign=rss",
+   "story:2a31b4513b"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "Catheter-Directed Thrombolysis in Intermediate-High–Risk Pulmonary Embolism",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2608012",
+   "doi:10.1056/nejmoa2608012",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42678032",
+   "oa:W7204828686"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "Robotic-arm-assisted versus conventional total knee replacement (RACER-Knee): a pragmatic, multicentre, participant-masked and assessor-masked, superiority, randomised controlled trial",
+  "keys": [
+   "url:https://doi.org/10.1016/s0140-6736(26)00986-4",
+   "doi:10.1016/s0140-6736(26)00986-4",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42624811",
+   "oa:W7203833239"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "Tahoe-100M: Mapping drug-induced molecular phenotypes at single-cell resolution",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.08.035",
+   "doi:10.1016/j.cell.2026.08.035",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42753697",
+   "oa:W7213451809"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "Numerical spectrums control cohomological spectrums",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0080",
+   "doi:10.1215/00127094-2025-0080",
+   "oa:W4405034096"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+  "keys": [
+   "url:https://lynchlab.net/llm-skin-cancer",
+   "hn:50233779"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "Anthropic S-1",
+  "keys": [
+   "url:https://sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+   "hn:50242939"
+  ],
+  "date": "2026-10-31"
+ },
+ {
+  "title": "A quadruped robot designed to complete a marathon on a single battery charge",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11102-5",
+   "doi:10.1038/s41586-026-11102-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42778604",
+   "oa:W7214111043"
+  ],
+  "date": "2026-10-31"
  }
 ]
