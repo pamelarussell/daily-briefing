@@ -3391,5 +3391,106 @@
    "oa:W7214111043"
   ],
   "date": "2026-10-31"
+ },
+ {
+  "title": "OpenAI announces three major science discoveries; mathematics community grapples with AI-generated proofs",
+  "keys": [
+   "url:https://nytimes.com/2026/10/27/science/ai-problem-interpretability.html",
+   "url:https://science.org/content/article/ai-shaking-math-can-its-proofs-be-trusted",
+   "url:https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "hn:50251344",
+   "url:https://youtube.com/watch?v=LKrwhjOI8Nc",
+   "hn:50136150",
+   "url:https://derekthompson.org/p/i-know-why-the-mathematicians-weep",
+   "hn:50103630",
+   "url:https://nytimes.com/2026/10/16/us/math-ai-terence-tao.html",
+   "hn:50118165",
+   "url:https://quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019",
+   "url:https://nature.com/articles/d41586-026-03389-1",
+   "doi:10.1038/d41586-026-03389-1",
+   "url:https://wired.com/story/ai-is-coming-for-science-next-watch-out",
+   "url:https://sciencenews.org/article/math-human-ai-age",
+   "story:1711bae280"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "GPT-6.1 Terra",
+  "keys": [
+   "url:https://openai.com/index/introducing-gpt-6-1-terra",
+   "hn:50248124"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "GSK's B7-H3 ADC drives 67% cancer risk reduction in Phase 3 China trial with Hansoh",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/gsks-b7-h3-adc-drives-67-cancer-risk-reduction-phase-3",
+   "url:https://statnews.com/2026/10/26/gsk-cancer-esmo-adcs-jemperli",
+   "url:https://biopharmadive.com/news/roche-hansoh-veradermics-rasonque-europe-orbimed-china-ultragenyx/833248",
+   "url:https://endpoints.news/roche-does-400m-upfront-15b-deal-with-chinas-hansoh",
+   "url:https://biopharmadive.com/news/roche-rona-china-deal-rnai-obesity-drug-alk7/832845",
+   "url:https://fiercebiotech.com/biotech/roche-inks-116b-rona-deal-enter-emerging-obesity-race",
+   "story:95272f1c88"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "Novartis MS treatment cuts relapse rates in pivotal trials; fenebrutinib BTK inhibitor builds blockbuster case",
+  "keys": [
+   "url:https://statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results",
+   "url:https://fiercebiotech.com/biotech/roche-builds-blockbuster-btk-case-multiple-sclerosis-fda-decision-approaches",
+   "story:a5ccd5e843"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "Survodutide Once Weekly in Adults with Obesity and Type 2 Diabetes",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2607219",
+   "doi:10.1056/nejmoa2607219",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42820639",
+   "oa:W7215104109"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "Milvexian with Antiplatelet Therapy after Acute Coronary Syndrome Event",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2608717",
+   "doi:10.1056/nejmoa2608717",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42670965",
+   "oa:W7204630834"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "Times are changing but order matters: transferable prediction of small-molecule liquid chromatography retention times",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03243-2",
+   "doi:10.1038/s41592-026-03243-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42823457",
+   "oa:W7215068659"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "Using thousands of AI agents to uncover new leads in biological data",
+  "keys": [
+   "url:https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "hn:50180752"
+  ],
+  "date": "2026-11-01"
+ },
+ {
+  "title": "Physicists trap single antimatter particle for a month, opening door to revolutionary physics",
+  "keys": [
+   "url:https://scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month",
+   "hn:50186450",
+   "url:https://nature.com/articles/d41586-026-03342-2",
+   "doi:10.1038/d41586-026-03342-2",
+   "story:1b78cf1b36"
+  ],
+  "date": "2026-11-01"
  }
 ]
