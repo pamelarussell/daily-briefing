@@ -3492,5 +3492,96 @@
    "story:1b78cf1b36"
   ],
   "date": "2026-11-01"
+ },
+ {
+  "title": "Qiagen acquired by EQT for €10.8B ($12.1B), taken private",
+  "keys": [
+   "url:https://fiercebiotech.com/medtech/eqt-buys-molecular-diagnostics-specialist-qiagen-eur108b-deal",
+   "url:https://genengnews.com/topics/bioprocessing/eqt-to-acquire-qiagen-for-12-1b-plans-to-take-tools-diagnostics-provider-private",
+   "story:66ccc3c42b"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "Ebola outbreak spreads to Kenya; cases confirmed across Central Africa in widest expansion",
+  "keys": [
+   "url:https://theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
+   "url:https://npr.org/2026/10/27/g-s1-150136/ebola-outbreak-milestone-democratic-republic-congo-vaccine",
+   "url:https://npr.org/2026/10/25/nx-s1-6016205/measles-outbreak-pennsylvania",
+   "url:https://npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+   "url:https://nytimes.com/2026/10/22/health/ebola-nigeria-congo-kenya.html",
+   "url:https://npr.org/2026/10/19/nx-s1-6005499/the-ebola-crisis-is-far-outpacing-the-response-congos-irc-director-says",
+   "url:https://nytimes.com/2026/10/17/world/africa/kenya-ebola.html",
+   "url:https://npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+   "url:https://statnews.com/2026/10/21/health-news-nigeria-travel-related-ebola-case-outbreak",
+   "story:38a375f2ea"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "Single-cell imaging of the lytic phage life cycle in bacteria",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cels.2026.101763",
+   "doi:10.1016/j.cels.2026.101763",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42956749",
+   "oa:W4394757873"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "Cryo-EM structure of a methanogen nitrogenase–PII protein supercomplex",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11116-z",
+   "doi:10.1038/s41586-026-11116-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40964395",
+   "oa:W7220847982"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "Design of peptides with noncanonical amino acids using flow matching",
+  "keys": [
+   "url:https://doi.org/10.1093/bioinformatics/btag654",
+   "doi:10.1093/bioinformatics/btag654",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42675622",
+   "oa:W4412846278"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "On the potential automorphy and the local-global compatibility for the monodromy operators at p≠l over CM fields",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0079",
+   "doi:10.1215/00127094-2025-0079",
+   "oa:W7214893462"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "Microsoft AI tool surpasses doctors at diagnosing medical conditions in new study",
+  "keys": [
+   "url:https://endpoints.news/microsofts-ai-gives-more-accurate-diagnoses-than-doctors-study-finds",
+   "url:https://theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+   "story:98a7f3683d"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "Claude Duet",
+  "keys": [
+   "url:https://claude.com/product/claude-duet",
+   "hn:50186037"
+  ],
+  "date": "2026-11-02"
+ },
+ {
+  "title": "A thorium-229 optical nuclear clock with feedback loop",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11084-4",
+   "doi:10.1038/s41586-026-11084-4",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42844480",
+   "oa:W7163535396"
+  ],
+  "date": "2026-11-02"
  }
 ]
