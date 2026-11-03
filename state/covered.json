@@ -3583,5 +3583,90 @@
    "oa:W7163535396"
   ],
   "date": "2026-11-02"
+ },
+ {
+  "title": "Aminopeptidase N is a receptor for hedgehog merbecoviruses",
+  "keys": [
+   "url:https://doi.org/10.1038/s41564-026-02447-8",
+   "doi:10.1038/s41564-026-02447-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40950050",
+   "oa:W7213364543"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "Nature's capacity to 'bounce back' when species are lost is overestimated: study",
+  "keys": [
+   "url:https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html",
+   "hn:49976823"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells",
+  "keys": [
+   "url:https://doi.org/10.1038/s41587-026-03258-2",
+   "doi:10.1038/s41587-026-03258-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41415457",
+   "oa:W4417310329"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "Navier–Stokes Lost in Translation",
+  "keys": [
+   "url:https://arxiv.org/abs/2610.08144",
+   "arxiv:2610.08144",
+   "hn:49994145"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "Anthropic's biopharma research update highlights AI's role in drug discovery",
+  "keys": [
+   "url:https://endpoints.news/anthropic-buys-a-single-person-biotech-startup-backed-by-atlas-venture",
+   "url:https://fiercebiotech.com/biotech/anthropic-extols-ais-drug-rd-potential-including-risks-mammoth-ipo-filing",
+   "url:https://theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+   "url:https://endpoints.news/employers-accuse-unitedhealth-of-overpaying-medical-claims",
+   "url:https://mistral.ai/news/mistral-large-4-oss",
+   "hn:50289418",
+   "url:https://wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity",
+   "story:9ae49c6b65"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "Nvidia, UW Institute for Protein Design unveil open-source protein design AI model",
+  "keys": [
+   "url:https://genengnews.com/topics/artificial-intelligence/nvidia-uw-institute-for-protein-design-unveil-open-source-protein-design-ai-model",
+   "story:385cce6daa"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+  "keys": [
+   "url:https://reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19",
+   "hn:50154244"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "BMS CAR-T trial reveals patient death; company reports safety signal in lupus program",
+  "keys": [
+   "url:https://statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death",
+   "url:https://endpoints.news/qa-bristol-myers-lynelle-hoch-on-autoimmune-car-t-safety-challenges",
+   "url:https://endpoints.news/bristol-myers-reveals-autoimmune-car-t-trial-death-explains-summertime-pause",
+   "story:0ae0a2f29e"
+  ],
+  "date": "2026-11-03"
+ },
+ {
+  "title": "Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+  "keys": [
+   "url:https://nobelprize.org/prizes/chemistry/2026/press-release",
+   "hn:49990470"
+  ],
+  "date": "2026-11-03"
  }
 ]
