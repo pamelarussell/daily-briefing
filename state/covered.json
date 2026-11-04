@@ -3668,5 +3668,88 @@
    "hn:49990470"
   ],
   "date": "2026-11-03"
+ },
+ {
+  "title": "Amgen's Imdelltra more than halves risk of death in phase 3 lung cancer trial",
+  "keys": [
+   "url:https://endpoints.news/esmo26-amgens-imdelltra-regimen-more-than-halves-risk-of-death-in-phase-3-lung-cancer-trial",
+   "story:b6b219dca8"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "Human brain organoids record the passage of time over multiple years",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10877-x",
+   "doi:10.1038/s41586-026-10877-x",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41256667",
+   "oa:W7203754433"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "Insights into longevity and virus-driven adaptation from Myotis bat genomes",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10932-7",
+   "doi:10.1038/s41586-026-10932-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39416019",
+   "oa:W7204243208"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "Predicting genome-wide functional constraints with GPN-Star",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11005-5",
+   "doi:10.1038/s41586-026-11005-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41000926",
+   "oa:W7212002488"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "Integrability of conformal loop ensemble: imaginary DOZZ formula and beyond",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1086",
+   "doi:10.1090/jams/1086",
+   "oa:W7202378371"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "AI-enhanced adaptive virtual screening of large libraries for ligand discovery",
+  "keys": [
+   "url:https://doi.org/10.1038/s41587-026-03217-x",
+   "doi:10.1038/s41587-026-03217-x",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41929058",
+   "oa:W7204893480"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "Backdoors in official Claude Code extensions",
+  "keys": [
+   "url:https://cyberplace.social/@GossiTheDog/117528831681803563",
+   "hn:50302334"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "A fast radio burst at redshift 2, three billion years after the Big Bang",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adz2675",
+   "doi:10.1126/science.adz2675",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42848911",
+   "oa:W7220905772"
+  ],
+  "date": "2026-11-04"
+ },
+ {
+  "title": "Anthropic is not pitching Normal Technology",
+  "keys": [
+   "url:https://blog.stephenturner.us/p/anthropic-s1-prospectus",
+   "rss:aa6fe1bb19"
+  ],
+  "date": "2026-11-04"
  }
 ]
