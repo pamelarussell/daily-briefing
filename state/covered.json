@@ -3840,5 +3840,90 @@
    "oa:W4415141225"
   ],
   "date": "2026-11-05"
+ },
+ {
+  "title": "Artiva shuts down after two patient deaths in autoimmune cell therapy trial",
+  "keys": [
+   "url:https://genengnews.com/topics/translational-medicine/artiva-axes-94-of-workforce-weighs-strategic-alternatives-after-two-patients-in-phase-iia-trial-die",
+   "url:https://statnews.com/2026/10/27/autoimmune-cell-therapy-trial-artiva-therapeutics-shutting-down",
+   "url:https://biopharmadive.com/news/artiva-discontinue-nk-cell-therapy-autoimmune-patient-death/872873",
+   "url:https://endpoints.news/artiva-to-wind-down-after-two-patient-deaths-in-autoimmune-cell-therapy-trials",
+   "url:https://fiercebiotech.com/biotech/artiva-lays-94-staff-after-deaths-and-durability-sink-autoimmune-cell-therapy",
+   "story:9c28629b85"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "Gilead's oral IL-23 inhibitor shows strong phase 2 results in ulcerative colitis",
+  "keys": [
+   "url:https://endpoints.news/gileads-pill-posts-stronger-colitis-remission-rates-than-entyvio",
+   "url:https://statnews.com/2026/10/19/gilead-ibs-drug-succeeds-phase-2-trial",
+   "story:c0935a081a"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "Lifespan single-cell transcriptomic atlas of the human prefrontal cortex",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10271-7",
+   "doi:10.1038/s41586-026-10271-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41282859",
+   "oa:W7214098459"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "Dendritic computation for abstract rule-based flexible decision-making",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adz5323",
+   "doi:10.1126/science.adz5323",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42879555",
+   "oa:W7169871582"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03264-x",
+   "doi:10.1038/s41592-026-03264-x",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42888240",
+   "oa:W7222401541"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "On the $p$-adic theory of local models",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.3.2",
+   "doi:10.4007/annals.2026.204.3.2",
+   "oa:W4226513351"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "Anthropic's Claude assists in biological research planning, including controversial work",
+  "keys": [
+   "url:https://sciencenews.org/article/claude-bird-flu-research-ai-biology",
+   "story:a5ef8152d4"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+  "keys": [
+   "url:https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude",
+   "hn:50260814"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "title": "String-breaking dynamics in a quantum simulator",
+  "keys": [
+   "url:https://doi.org/10.1038/s41567-026-03422-0",
+   "doi:10.1038/s41567-026-03422-0",
+   "oa:W7214114961"
+  ],
+  "date": "2026-11-06"
  }
 ]
