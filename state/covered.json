@@ -3925,5 +3925,90 @@
    "oa:W7214114961"
   ],
   "date": "2026-11-06"
+ },
+ {
+  "title": "Lilly's triple-G drug retatrutide outshines Novo's Ozempic in diabetes",
+  "keys": [
+   "url:https://biopharmadive.com/news/retatrutide-ozempic-diabetes-trial-results-lilly-novo/873016",
+   "url:https://fiercebiotech.com/biotech/eli-lillys-retatrutide-tops-ozempic-phase-3-diabetes-showdown",
+   "url:https://statnews.com/2026/10/28/biotech-news-lillys-triple-g-drug-beats-ozempic-in-head-to-head-study",
+   "url:https://endpoints.news/lillys-triple-g-drug-retatrutide-outshines-novos-ozempic-in-diabetes",
+   "url:https://statnews.com/2026/10/28/retatrutide-vs-ozempic-lilly-diabetes-study",
+   "story:cda0953baa"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "Roche's kidney disease drug succeeds in Phase 3 trial",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/roches-igan-kidney-disease-drug-sefaxersen-snags-ph3-win",
+   "story:88042422ef"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "Frequency encoding regulates cell type composition in the small intestine",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adt1928",
+   "doi:10.1126/science.adt1928",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42879562",
+   "oa:W7222257663"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "Antiviral immunity via telomerase-like reverse transcription in bacteria",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11250-8",
+   "doi:10.1038/s41586-026-11250-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/41279515",
+   "oa:W7221556148"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "Deep learning perturbation models can outperform baselines on calibrated metrics",
+  "keys": [
+   "url:https://doi.org/10.1038/s41587-026-03307-w",
+   "doi:10.1038/s41587-026-03307-w",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42823510",
+   "oa:W7215048940"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "On the exponential type conjecture",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1089",
+   "doi:10.1090/jams/1089",
+   "oa:W4403586023"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "Early progress on accelerating drug development with Claude",
+  "keys": [
+   "url:https://anthropic.com/research/early-progress-drug-development",
+   "hn:50265609"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "Claude Code regularly sends each background agent’s transcript to its model",
+  "keys": [
+   "url:https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "hn:50284255"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "title": "Overmassive black holes and little red dots naturally form in simulations",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10985-8",
+   "doi:10.1038/s41586-026-10985-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42749911",
+   "oa:W7213423498"
+  ],
+  "date": "2026-11-07"
  }
 ]
