@@ -4010,5 +4010,88 @@
    "oa:W7213423498"
   ],
   "date": "2026-11-07"
+ },
+ {
+  "title": "Genmab's bispecific combo halves risk of death in Phase 3 cancer trial, stock soars",
+  "keys": [
+   "url:https://biopharmadive.com/news/genmab-stock-soars-positive-head-neck-cancer-antibody-phase-3/873164",
+   "url:https://fiercebiotech.com/biotech/genmabs-head-and-neck-cancer-bispecific-cuts-risk-death-half-ph3",
+   "story:5a34955747"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "FDA sets path for approval of individualized gene editing therapies",
+  "keys": [
+   "url:https://endpoints.news/fda-charts-path-for-approval-of-individualized-gene-editing-therapies",
+   "url:https://biopharmadive.com/news/fda-personalized-gene-therapy-rare-disease-guidance/873004",
+   "story:e253bcfa91"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "A first for CRISPR: powerful prime editing alters DNA directly in the human body",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-03371-x",
+   "doi:10.1038/d41586-026-03371-x",
+   "story:b908ce2f90"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "Human genetics implicates a BACH2–NRF2 axis in fetal haemoglobin activation",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11113-2",
+   "doi:10.1038/s41586-026-11113-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/36993312",
+   "oa:W7214910492"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "Efficient differential expression analysis of large-scale single-cell transcriptomics data using Dreamlet",
+  "keys": [
+   "url:https://doi.org/10.1038/s41467-026-75680-8",
+   "doi:10.1038/s41467-026-75680-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/36993704",
+   "oa:W7214121020"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "Vorticity blowup in 2D compressible Euler equations",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0061",
+   "doi:10.1215/00127094-2025-0061",
+   "oa:W4400518703"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "PerturbAI and OpenAI launch AI reasoning agents for biomedical discovery",
+  "keys": [
+   "url:https://genengnews.com/topics/artificial-intelligence/perturbai-and-openai-launch-ai-reasoning-agents-for-biomedical-discovery",
+   "story:1eac5c851b"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "Astra can read and write weights to improve Qwen",
+  "keys": [
+   "url:https://rikiyat.github.io/blog/weight-space-programming",
+   "hn:50341174"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "title": "The leap second has been canceled",
+  "keys": [
+   "url:https://nytimes.com/2026/10/16/science/leap-second-abolished-vote.html",
+   "url:https://theguardian.com/science/2026/oct/15/times-up-for-the-leap-second-as-scientists-swap-it-for-the-leap-hour",
+   "url:https://nature.com/articles/d41586-026-03329-z",
+   "doi:10.1038/d41586-026-03329-z",
+   "story:bb232744e6"
+  ],
+  "date": "2026-11-08"
  }
 ]
