@@ -4093,5 +4093,88 @@
    "story:bb232744e6"
   ],
   "date": "2026-11-08"
+ },
+ {
+  "title": "Roivant's autoimmune drug succeeds in two pivotal trials",
+  "keys": [
+   "url:https://endpoints.news/roivants-autoimmune-drug-succeeds-in-two-pivotal-trials-setting-up-2027-filing",
+   "story:c6ffb1183f"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "Population-scale immune multiome atlas reveals regulatory disease mechanisms",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11078-2",
+   "doi:10.1038/s41586-026-11078-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42816628",
+   "oa:W7214956138"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "Long-read sequencing reveals pre-meiotic gene conversion in sperm",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10901-0",
+   "doi:10.1038/s41586-026-10901-0",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39005338",
+   "oa:W7204225836"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "All of Us diversity and scale yield context-dependent improvements in polygenic prediction",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02734-4",
+   "doi:10.1038/s41588-026-02734-4",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/39149254",
+   "oa:W7166440212"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "Unramified Gromov-Witten and Gopakumar-Vafa invariants",
+  "keys": [
+   "url:https://doi.org/10.1090/jams/1088",
+   "doi:10.1090/jams/1088",
+   "oa:W4399152169"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "An open vision-language model for diverse medical applications",
+  "keys": [
+   "url:https://doi.org/10.1038/s41591-026-04626-w",
+   "doi:10.1038/s41591-026-04626-w",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42839104",
+   "oa:W4414687708"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "Gemini 4 Carbon released with significant leap in cybersecurity",
+  "keys": [
+   "url:https://theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+   "story:fc7d1d71bd"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "Pseudogap in a Fermi–Hubbard quantum simulator",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10875-z",
+   "doi:10.1038/s41586-026-10875-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42557322",
+   "oa:W4414750893"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "title": "Mathematics has changed. Let’s act like it",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it",
+   "rss:280630936c"
+  ],
+  "date": "2026-11-09"
  }
 ]
