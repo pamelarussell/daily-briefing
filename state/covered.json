@@ -4176,5 +4176,87 @@
    "rss:280630936c"
   ],
   "date": "2026-11-09"
+ },
+ {
+  "title": "Eli Lilly scraps phase 2 Alzheimer's program after drug falls short",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/lilly-scraps-ph-2-alzheimers-disease-drug-it-did-not-meet-high-internal-bar",
+   "story:ef17373869"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "Gilead CAR-T on partial clinical hold; Agios' PDUFA date pushed back",
+  "keys": [
+   "url:https://endpoints.news/gilead-car-t-on-partial-clinical-hold-agios-pdufa-date-pushed-back",
+   "story:21da547f08"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "The anthropogenic fingerprint on emerging infectious diseases",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11058-6",
+   "doi:10.1038/s41586-026-11058-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42778602",
+   "oa:W7214065796"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "Emergence and spread of Plasmodium falciparum PX1 polymorphisms associated with decreased susceptibility to antimalarials in Uganda",
+  "keys": [
+   "url:https://doi.org/10.1038/s41591-026-04590-5",
+   "doi:10.1038/s41591-026-04590-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/40766679",
+   "oa:W7203627860"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "Identifying independent causal cell types for human diseases and risk variants",
+  "keys": [
+   "url:https://doi.org/10.1016/j.xgen.2026.101325",
+   "doi:10.1016/j.xgen.2026.101325",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/38798383",
+   "oa:W4413215714"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "The localization transition for the directed polymer in a random environment is smooth",
+  "keys": [
+   "url:https://doi.org/10.5802/pmihes.28",
+   "doi:10.5802/pmihes.28",
+   "oa:W4417287586"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "Chemist-aligned retrosynthesis by ensembling diverse inductive bias models",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11160-9",
+   "doi:10.1038/s41586-026-11160-9",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42767646",
+   "oa:W7213877507"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "AI is forcing us to pay off 40 years of technical debt",
+  "keys": [
+   "url:https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "hn:50364336"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "title": "Crystals caught doping: Metallic Wigner crystals in rhombohedral graphene",
+  "keys": [
+   "url:https://doi.org/10.1103/qg7j-1z28",
+   "doi:10.1103/qg7j-1z28",
+   "oa:W7148485100"
+  ],
+  "date": "2026-11-10"
  }
 ]
