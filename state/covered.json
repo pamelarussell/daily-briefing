@@ -4258,5 +4258,88 @@
    "oa:W7148485100"
   ],
   "date": "2026-11-10"
+ },
+ {
+  "title": "Gilead pays $1.3 billion upfront for oral IL-23 inhibitor from PepStar",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/gilead-pay-13b-upfront-pepstars-oral-il-23-challenger-jjs-icotyde",
+   "story:48a0224073"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11054-w",
+   "doi:10.1038/s41586-026-11054-w",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42778607",
+   "oa:W7214126218"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "Cas9 nickase–mediated contraction of CAG/CTG repeats is associated with phenotypic improvements in a Huntington’s disease mouse model",
+  "keys": [
+   "url:https://doi.org/10.1126/scitranslmed.aef9466",
+   "doi:10.1126/scitranslmed.aef9466",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42905851",
+   "oa:W7223121475"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "High false sign rates in transcriptome-wide association studies",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02796-4",
+   "doi:10.1038/s41588-026-02796-4",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42918898",
+   "oa:W7223179007"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "Illposedness of incompressible fluids in supercritical Sobolev spaces",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0074",
+   "doi:10.1215/00127094-2025-0074",
+   "oa:W4394782068"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "Aligning protein-generative models to experimental fitness with ProteinDPO",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03137-3",
+   "doi:10.1038/s41592-026-03137-3",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42601461",
+   "oa:W7203439560"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "Claude Code sends your email address to websites",
+  "keys": [
+   "url:https://github.com/anthropics/claude-code/issues/107757",
+   "hn:50385272"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "2D theoretically twistable material database",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adu1550",
+   "doi:10.1126/science.adu1550",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42784681",
+   "oa:W4404569004"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "title": "Egoless Mathematics in the AI Era",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+   "rss:c931d5a15c"
+  ],
+  "date": "2026-11-12"
  }
 ]
