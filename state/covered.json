@@ -4341,5 +4341,87 @@
    "rss:c931d5a15c"
   ],
   "date": "2026-11-12"
+ },
+ {
+  "title": "UniQure gets priority review and PDUFA date for Huntington's gene therapy",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/fda-grants-uniqure-review-its-huntingtons-drug-approval-would-be-defining-milestone",
+   "url:https://biopharmadive.com/news/uniqure-fda-bright-minds-specific-teva-cinrock/873455",
+   "url:https://genengnews.com/topics/genome-editing/fda-sets-may-1-pdufa-action-date-for-uniqures-huntingtons-disease-gene-therapy",
+   "url:https://endpoints.news/uniqure-gets-review-date-and-adcomm-inovias-stock-surges-after-approval",
+   "story:04ca03541b"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "Bones may release proteins that slow aging and extend life span",
+  "keys": [
+   "url:https://science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
+   "hn:50331957",
+   "story:9515d6ca44"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "Programmable design of functional proteins from natural language",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11205-z",
+   "doi:10.1038/s41586-026-11205-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42907516",
+   "oa:W7223152200"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "Sentira brings Claude's AI to 10x Genomics' Chromium platform",
+  "keys": [
+   "url:https://genengnews.com/topics/omics/sentira-brings-claudes-ai-to-10x-genomics-chromium-platform",
+   "story:1cc2eb9545"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "Igusa stacks and the cohomology of Shimura varieties",
+  "keys": [
+   "url:https://doi.org/10.1007/s00222-026-01457-x",
+   "doi:10.1007/s00222-026-01457-x",
+   "oa:W4402553954"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "Sequential diagnosis with language models",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aeh7930",
+   "doi:10.1126/science.aeh7930",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42912144",
+   "oa:W4417175683"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "Astellas links up with AI Proteins in $400M computational drug discovery deal",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/astellas-links-ai-proteins-400m-computational-discovery-deal",
+   "story:3a2522f26d"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+  "keys": [
+   "url:https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "hn:50354960"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "title": "An enriched methane D/H ratio in the interstellar object 3I/ATLAS",
+  "keys": [
+   "url:https://doi.org/10.1038/s41550-026-03002-5",
+   "doi:10.1038/s41550-026-03002-5",
+   "oa:W7140228432"
+  ],
+  "date": "2026-11-13"
  }
 ]
