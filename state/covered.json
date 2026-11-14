@@ -4423,5 +4423,87 @@
    "oa:W7140228432"
   ],
   "date": "2026-11-13"
+ },
+ {
+  "title": "Servier's $1.5 billion muscular dystrophy drug fails Phase 3 trial",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/serviers-155b-muscular-dystrophy-bet-delivers-quick-fire-pivotal-failure",
+   "url:https://statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail",
+   "url:https://endpoints.news/serviers-1-5b-bet-on-edgewise-drug-fails-five-months-in",
+   "story:100760dcea"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.09.034",
+   "doi:10.1016/j.cell.2026.09.034",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42880232",
+   "oa:W7222094916"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "Gene therapy that led to boy's death had limited efficacy, researchers discover",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-03449-6",
+   "doi:10.1038/d41586-026-03449-6",
+   "story:feb9ff2494"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "A single computational objective can produce specialization of streams in visual cortex",
+  "keys": [
+   "url:https://doi.org/10.1038/s41467-026-76098-y",
+   "doi:10.1038/s41467-026-76098-y",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42733086",
+   "oa:W7202347126"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "The Wehrl-type entropy conjecture for symmetric SU(N) coherent states: Cases of equality and stability",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0070",
+   "doi:10.1215/00127094-2025-0070",
+   "oa:W7204177264"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "Lilly partners with Hong Kong's Metis in $1.1B AI nanoparticle discovery deal",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/lilly-partners-hong-kongs-metis-11b-deal-bolster-ai-nanoparticle-discovery",
+   "story:692d387b64"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "Genetically modified virus created with AI designed to treat pancreatic cancer patient",
+  "keys": [
+   "url:https://bbc.co.uk/news/articles/cjr4yeygwdxvo?at_medium=RSS&at_campaign=rss",
+   "story:b010418fd2"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+  "keys": [
+   "url:https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "hn:50415628"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "title": "A nuclear clock synchronized to 229Th",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11122-1",
+   "doi:10.1038/s41586-026-11122-1",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42844468",
+   "oa:W7220831501"
+  ],
+  "date": "2026-11-14"
  }
 ]
