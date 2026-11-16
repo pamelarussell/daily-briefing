@@ -4591,5 +4591,96 @@
    "oa:W4417025127"
   ],
   "date": "2026-11-15"
+ },
+ {
+  "title": "U.S. loses measles elimination status amid outbreaks",
+  "keys": [
+   "url:https://statnews.com/2026/11/11/health-news-us-may-soon-lose-measles-elimination-status",
+   "url:https://nytimes.com/2026/11/10/health/measles-united-states-elimination-rfk.html",
+   "url:https://statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990",
+   "story:e8aa33ef2d"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "New obesity definition outperforms BMI for predicting health outcomes",
+  "keys": [
+   "url:https://theguardian.com/society/2026/nov/11/bmi-alternative-obesity-diagnosis-body-mass-index",
+   "url:https://statnews.com/2026/11/11/obesity-diagnosis-bmi-lancet-commission-proposal-impact",
+   "url:https://nature.com/articles/d41586-026-03636-5",
+   "doi:10.1038/d41586-026-03636-5",
+   "url:https://nature.com/articles/d41586-026-03655-2",
+   "doi:10.1038/d41586-026-03655-2",
+   "url:https://nature.com/articles/d41586-026-03425-0",
+   "doi:10.1038/d41586-026-03425-0",
+   "story:3b665d7dd4"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "OpenDVP: an experimental and computational framework for community-empowered deep visual proteomics",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03262-z",
+   "doi:10.1038/s41592-026-03262-z",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42918851",
+   "oa:W7223175165"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "A variational principle for Gaussian lattice sums",
+  "keys": [
+   "url:https://doi.org/10.1017/fmp.2026.10040",
+   "doi:10.1017/fmp.2026.10040",
+   "oa:W3206330529"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "DeepMind AI agents automate biology lab to sequence DNA and more",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-03552-8",
+   "doi:10.1038/d41586-026-03552-8",
+   "url:https://nature.com/articles/d41586-026-03270-1",
+   "doi:10.1038/d41586-026-03270-1",
+   "story:ab9b25b62f"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "Comparative analysis of end-to-end learning and foundation models for clinical-grade prostate pathology",
+  "keys": [
+   "url:https://doi.org/10.1038/s41467-026-78996-7",
+   "doi:10.1038/s41467-026-78996-7",
+   "oa:W7223655041"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "My AI agents found an unmapped Maya site?",
+  "keys": [
+   "url:https://pietromiotti.com/latest/maya-site",
+   "hn:50452455"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "Atomic-scale spin sensing of a 2D d-wave altermagnet via helical tunneling",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11257-1",
+   "doi:10.1038/s41586-026-11257-1",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42869436",
+   "oa:W7117685911"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+  "keys": [
+   "url:https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+   "hn:50355251",
+   "rss:9b0f1b3870"
+  ],
+  "date": "2026-11-16"
  }
 ]
