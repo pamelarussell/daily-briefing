@@ -4773,5 +4773,88 @@
    "oa:W7213446856"
   ],
   "date": "2026-11-17"
+ },
+ {
+  "title": "Eukaryotes’ closest relatives are internally simple syntrophic peptidotrophic archaea",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11170-7",
+   "doi:10.1038/s41586-026-11170-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42951967",
+   "oa:W4407955686"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "Connectome simulations identify a central pattern generator for fly walking",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11195-y",
+   "doi:10.1038/s41586-026-11195-y",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42951971",
+   "oa:W4414598781"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "MOSHPIT: Accessible, reproducible metagenome data science on the QIIME 2 framework",
+  "keys": [
+   "url:https://doi.org/10.1016/j.xgen.2026.101366",
+   "doi:10.1016/j.xgen.2026.101366",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42785295",
+   "oa:W7214196201"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "Resurgent large genus asymptotics of intersection numbers",
+  "keys": [
+   "url:https://doi.org/10.1017/fmp.2026.10037",
+   "doi:10.1017/fmp.2026.10037",
+   "oa:W4386561763"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "An explainable biomedical foundation model via large-scale concept-enhanced vision–language pretraining",
+  "keys": [
+   "url:https://doi.org/10.1038/s41551-026-01764-x",
+   "doi:10.1038/s41551-026-01764-x",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42608573",
+   "oa:W7203604159"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "Google Gemini routes personal Drive files and emails to human annotators",
+  "keys": [
+   "url:https://github.com/thisisme6598/gemini_files",
+   "hn:50429426"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "Extreme loss suppression in an ultracold molecular gas with widely tunable dipolar interactions",
+  "keys": [
+   "url:https://doi.org/10.1126/science.adz0521",
+   "doi:10.1126/science.adz0521",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42752126",
+   "oa:W7213468651"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "J&J's Rybrevant nets FDA approval in head and neck cancer",
+  "keys": [
+   "url:https://endpoints.news/jjs-rybrevant-nets-fda-approval-in-head-and-neck-cancer",
+   "story:6a213b7088"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "title": "AstraZeneca said to offer $10B to acquire Rhythm, analysts whisper of a bidding war",
+  "keys": [
+   "url:https://fiercebiotech.com/pharma/astrazeneca-offers-10b-acquire-rhythm-analysts-whisper-bidding-war",
+   "story:85101ab8f7"
+  ],
+  "date": "2026-11-18"
  }
 ]
