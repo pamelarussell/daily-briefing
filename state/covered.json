@@ -4856,5 +4856,96 @@
    "story:85101ab8f7"
   ],
   "date": "2026-11-18"
+ },
+ {
+  "title": "Novartis confirms nine tumor cases in children treated with gene therapy Zolgensma",
+  "keys": [
+   "url:https://endpoints.news/fda-launches-investigation-of-novartis-zolgensma-after-cancer-cases",
+   "url:https://genengnews.com/topics/genome-editing/novartis-confirms-nine-cases-of-tumors-in-children-treated-with-gene-therapy-zolgensma",
+   "url:https://biopharmadive.com/news/zolgensma-tumor-report-novartis-sma-spinal-muscular-atrophy/873990",
+   "url:https://statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk",
+   "url:https://endpoints.news/seven-new-tumor-cases-reported-in-zolgensma-patients",
+   "url:https://statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports",
+   "story:9137abd854"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Vir hepatitis D drug combination succeeds in first pivotal study",
+  "keys": [
+   "url:https://biopharmadive.com/news/vir-chronic-hepatitis-d-drug-results-elebsiran-tobevibart/874089",
+   "url:https://fiercebiotech.com/biotech/virs-phase-3-hepatitis-delta-win-fuels-push-eclipse-gilead",
+   "url:https://endpoints.news/virs-hepatitis-d-drug-succeeds-in-first-pivotal-study",
+   "story:59707fa011"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Rare and common genetic variants shape single-cell immune gene expression",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-10721-2",
+   "doi:10.1038/s41586-026-10721-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42951973",
+   "oa:W4408741192"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Tracing the spread of Germanic languages using ancient genomics",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-025-09064-1",
+   "doi:10.1038/s41586-025-09064-1",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42983076",
+   "oa:W4392818337"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Graft-versus-host disease prophylaxis shapes T cell biology and immune reconstitution after hematopoietic cell transplant",
+  "keys": [
+   "url:https://doi.org/10.1126/scitranslmed.aef7406",
+   "doi:10.1126/scitranslmed.aef7406",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42905855",
+   "oa:W7223154345"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Population-scale single-nucleus multi-omic profiling of skeletal muscle reveals extensive context-specific genetic regulation",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02786-6",
+   "doi:10.1038/s41588-026-02786-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42951906",
+   "oa:W4393524305"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Ensemble learning of pathology foundation models for precision oncology",
+  "keys": [
+   "url:https://doi.org/10.1016/j.ccell.2026.08.008",
+   "doi:10.1016/j.ccell.2026.08.008",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42721959",
+   "oa:W7212141603"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+  "keys": [
+   "url:https://techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "hn:50493251"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "title": "Altermagnetism revealed by polarized neutrons in MnF 2",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aec2602",
+   "doi:10.1126/science.aec2602",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42956134",
+   "oa:W4416065039"
+  ],
+  "date": "2026-11-19"
  }
 ]
