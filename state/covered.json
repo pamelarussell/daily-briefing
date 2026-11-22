@@ -5117,5 +5117,88 @@
    "rss:66375f1e04"
   ],
   "date": "2026-11-21"
+ },
+ {
+  "title": "Blackstone commits up to $1.5B for Pfizer's obesity drug R&D",
+  "keys": [
+   "url:https://biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483",
+   "url:https://statnews.com/2026/11/12/biotech-news-blackstone-backs-pfizer-bet-on-monthly-obesity-treatment",
+   "url:https://endpoints.news/blackstone-commits-up-to-1-5b-for-rd-of-pfizers-ex-metsera-glp-1",
+   "story:fa2c7888d4"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "FDA warns GLP-1 drugs carry potential risk of rare eye condition",
+  "keys": [
+   "url:https://statnews.com/2026/11/10/biotech-news-glp-1-given-an-fda-warning-for-rare-eye-condition-risk",
+   "url:https://endpoints.news/fda-orders-glp-1-drugmakers-to-warn-of-rare-eye-disease",
+   "url:https://statnews.com/2026/11/09/glp-1-drugs-potential-risk-rare-eye-condition-naion-fda",
+   "story:d1bb445e33"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "Cross-species multiomic atlas of the primate basal ganglia",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.10.012",
+   "doi:10.1016/j.cell.2026.10.012",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/43020019",
+   "oa:W4417398541"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+  "keys": [
+   "url:https://science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+   "hn:50401740"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "Robust fine-mapping in the presence of linkage disequilibrium mismatch",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02780-y",
+   "doi:10.1038/s41588-026-02780-y",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42995229",
+   "oa:W4404051442"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "On a conjecture of Almgren: area-minimizing submanifolds with fractal singular sets",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.3.3",
+   "doi:10.4007/annals.2026.204.3.3",
+   "oa:W4286895426"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "Google's AlphaGenome 2 zooms in on cellular roots of disease",
+  "keys": [
+   "url:https://theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+   "story:a86af765ff"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+  "keys": [
+   "url:https://cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+   "hn:50458900"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "title": "Observation of Long-Range Collective Flow in O + O and Ne + Ne Collisions and Implications for Nuclear Structure Studies",
+  "keys": [
+   "url:https://doi.org/10.1103/26wx-tg6f",
+   "doi:10.1103/26wx-tg6f",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42705282",
+   "oa:W7161232833"
+  ],
+  "date": "2026-11-22"
  }
 ]
