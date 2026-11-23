@@ -5200,5 +5200,100 @@
    "oa:W7161232833"
   ],
   "date": "2026-11-22"
+ },
+ {
+  "title": "US loses measles elimination status amid worst outbreak since 1991",
+  "keys": [
+   "url:https://npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status",
+   "url:https://nytimes.com/2026/11/17/us/measles-us-whats-next.html",
+   "url:https://theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
+   "url:https://sciencenews.org/article/measles-us-elimination-status-vaccine",
+   "url:https://statnews.com/2026/11/17/us-loses-measles-elimination-status-public-health-victory-lost",
+   "url:https://npr.org/2026/11/17/nx-s1-6042892/health-organization-to-announce-that-the-u-s-has-lost-its-measles-elimination-status",
+   "url:https://science.org/content/article/it-s-not-just-u-s-measles-roaring-back-around-globe",
+   "url:https://nature.com/articles/d41586-026-03747-z",
+   "doi:10.1038/d41586-026-03747-z",
+   "url:https://nature.com/articles/d41586-026-03780-y",
+   "doi:10.1038/d41586-026-03780-y",
+   "story:de0e711479"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "Bayer wins FDA approval for Sunharbo stroke prevention drug",
+  "keys": [
+   "url:https://endpoints.news/bayer-wins-fda-approval-for-stroke-prevention-drug-sunharbo",
+   "url:https://biopharmadive.com/news/bayer-sunharbo-asundexian-fda-approve-stroke-factor-xi/872837",
+   "url:https://statnews.com/2026/11/09/cardiovascular-stroke-recurrence-bayer-drug-fda-approval",
+   "story:8e39fa8dfe"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "Spatial transcriptomics reveals molecular organization of human and nonhuman primate basal ganglia",
+  "keys": [
+   "url:https://doi.org/10.1016/j.cell.2026.10.023",
+   "doi:10.1016/j.cell.2026.10.023",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/43020020",
+   "oa:W4416940919"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "Global, regional and national burden of cervical cancer in 1990–2023 with forecasts to 2050: a Global Burden of Disease study",
+  "keys": [
+   "url:https://doi.org/10.1038/s41591-026-04729-4",
+   "doi:10.1038/s41591-026-04729-4",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42972107",
+   "oa:W7171620226"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "Efficient and accurate mixed model association tool for single-cell eQTL analysis",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02798-2",
+   "doi:10.1038/s41588-026-02798-2",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42995228",
+   "oa:W4397016827"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "The Gopakumar--Vafa finiteness conjecture",
+  "keys": [
+   "url:https://doi.org/10.4007/annals.2026.204.3.1",
+   "doi:10.4007/annals.2026.204.3.1",
+   "oa:W3137682483"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "Conversational diagnostic artificial intelligence in ambulatory primary care: a prospective feasibility study",
+  "keys": [
+   "url:https://doi.org/10.1016/s0140-6736(26)01535-7",
+   "doi:10.1016/s0140-6736(26)01535-7",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42849491",
+   "oa:W7220940387"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "GPT‑6.2 Astra and Sol",
+  "keys": [
+   "url:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "hn:50535230"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "title": "Neural network–augmented Pfaffian wave-functions for scalable simulations of interacting fermions",
+  "keys": [
+   "url:https://doi.org/10.1073/pnas.2535288123",
+   "doi:10.1073/pnas.2535288123",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42664040",
+   "oa:W4414943256"
+  ],
+  "date": "2026-11-23"
  }
 ]
