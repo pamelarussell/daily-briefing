@@ -5295,5 +5295,88 @@
    "oa:W4414943256"
   ],
   "date": "2026-11-23"
+ },
+ {
+  "title": "CRISPR gene therapy poised for first FDA approval",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-03705-9",
+   "doi:10.1038/d41586-026-03705-9",
+   "story:d4ec44a48b"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Merck ADC cuts death risk by one-third in endometrial cancer Phase 3",
+  "keys": [
+   "url:https://statnews.com/2026/10/26/merck-kelun-sac-tmt-endometrial-cancer-study-esmo-2026",
+   "story:97295b49ea"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Found: A protein that drives ageing without unleashing inflammation",
+  "keys": [
+   "url:https://nature.com/articles/d41586-026-03638-3",
+   "doi:10.1038/d41586-026-03638-3",
+   "hn:50488470"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Micronuclear ecDNA constrains tumor cell fitness and is associated with favorable patient survival",
+  "keys": [
+   "url:https://doi.org/10.1038/s41588-026-02782-w",
+   "doi:10.1038/s41588-026-02782-w",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42864499",
+   "oa:W7221567413"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering",
+  "keys": [
+   "url:https://doi.org/10.1038/s41592-026-03194-8",
+   "doi:10.1038/s41592-026-03194-8",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42637977",
+   "oa:W4411721301"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Hyperbolic 3-manifolds of low cusp volume",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0084",
+   "doi:10.1215/00127094-2025-0084",
+   "oa:W3204083803"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Flagship Pioneering merges three biotech startups into Etcelera for AI drug discovery",
+  "keys": [
+   "url:https://fiercebiotech.com/pharma/geron-rytelo-stumbles-phase-3-novartis-gears-post-jak-inhibitor-blood-cancer-bid",
+   "url:https://endpoints.news/flagship-pioneering-merges-three-of-its-companies-for-ai-drug-discovery",
+   "url:https://biopharmadive.com/news/flagship-etcelera-etiome-empress-cellarity-launch/872947",
+   "story:6fad439f74"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Gemini 4 Neon",
+  "keys": [
+   "url:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+   "hn:50552424"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "title": "Magic state cultivation on a superconducting quantum processor",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aee7961",
+   "doi:10.1126/science.aee7961",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42879532",
+   "oa:W4417464801"
+  ],
+  "date": "2026-11-24"
  }
 ]
