@@ -5378,5 +5378,91 @@
    "oa:W4417464801"
   ],
   "date": "2026-11-24"
+ },
+ {
+  "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+  "keys": [
+   "url:https://theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+   "story:6784575ef6"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Summit's lung cancer drug ivonescimab rejected by FDA; FDA rejects Summit cancer drug; FDA rejects Closely Watched Lung Cancer Drug",
+  "keys": [
+   "url:https://fiercebiotech.com/pharma/fdas-complete-response-letter-summit-ivonescimab-cites-china-heavy-data-beyond-survival-miss",
+   "url:https://endpoints.news/fda-flags-potential-vegf-related-safety-concern-in-summit-rejection-letter",
+   "url:https://statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics",
+   "url:https://fiercebiotech.com/pharma/fda-rejects-summit-therapeutics-pd-1-vegf-ivonescimab-nsclc",
+   "url:https://endpoints.news/fda-rejects-summit-akesos-ivonescimab-in-narrow-lung-cancer-setting",
+   "story:6bca0d94cf"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Decoding the regulatory programs governing glioblastoma plasticity",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11177-0",
+   "doi:10.1038/s41586-026-11177-0",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42983099",
+   "oa:W4410344211"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Transcriptomic convergence and the female protective effect in autism",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11236-6",
+   "doi:10.1038/s41586-026-11236-6",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42983080",
+   "oa:W4406697278"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Segment anything in pathology images with natural language",
+  "keys": [
+   "url:https://doi.org/10.1038/s43588-026-01042-5",
+   "doi:10.1038/s43588-026-01042-5",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42722894",
+   "oa:W4414990879"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+  "keys": [
+   "url:https://alpo.ge/remark.pdf",
+   "hn:50574968"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Anthropic launching ambitious biology research initiative with major funding",
+  "keys": [
+   "url:https://endpoints.news/anthropics-one-person-biotech-buy-jake-van-naardens-dealmaking-strategy-and-more",
+   "url:https://sciencenews.org/article/urine-test-bladder-cancer-analyze-rna",
+   "url:https://endpoints.news/anthropic-pitches-age-of-miracles-gives-biopharma-research-update",
+   "url:https://nytimes.com/2026/10/29/science/ai-eradicate-computer-bugs.html",
+   "story:bb37e65f5b"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+  "keys": [
+   "url:https://architectlabs.com/blog/frostbite",
+   "hn:50572503"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "title": "Digital quantum simulations of scattering in quantum field theories using W states",
+  "keys": [
+   "url:https://doi.org/10.1038/s41567-026-03436-8",
+   "doi:10.1038/s41567-026-03436-8",
+   "oa:W4415247546"
+  ],
+  "date": "2026-11-25"
  }
 ]
