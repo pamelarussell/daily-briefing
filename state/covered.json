@@ -5464,5 +5464,92 @@
    "oa:W4415247546"
   ],
   "date": "2026-11-25"
+ },
+ {
+  "title": "CG Oncology's bladder cancer immunotherapy beats Phase 3 expectations",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/cgs-newest-late-stage-bladder-cancer-results-broaden-clinical-potential",
+   "url:https://biopharmadive.com/news/cg-oncology-cretostimogene-adjuvant-bladder-cancer-results-pivot/874740",
+   "url:https://endpoints.news/cg-oncologys-bladder-cancer-treatment-beats-expectations-in-phase-3",
+   "url:https://theguardian.com/us-news/2026/nov/16/hiv-scientist-nih-grant-making-process",
+   "url:https://technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise",
+   "story:e6b37f5da9"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "Aggression experience and observation drive shared behavioural and neural changes",
+  "keys": [
+   "url:https://doi.org/10.1038/s41586-026-11217-9",
+   "doi:10.1038/s41586-026-11217-9",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42983093",
+   "oa:W4405815669"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "Eplontersen for Transthyretin Amyloid Cardiomyopathy",
+  "keys": [
+   "url:https://doi.org/10.1056/nejmoa2608510",
+   "doi:10.1056/nejmoa2608510",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42663301",
+   "oa:W7204590761"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "All of Us study finds thousands of new genetic variants affecting drug responses",
+  "keys": [
+   "url:https://statnews.com/2026/11/11/all-of-us-study-finds-gene-variants-drug-responses",
+   "story:c3961b4c9e"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "A classification theorem for steady Euler flows",
+  "keys": [
+   "url:https://doi.org/10.1215/00127094-2025-0087",
+   "doi:10.1215/00127094-2025-0087",
+   "oa:W4402702552"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+  "keys": [
+   "url:https://arxiv.org/abs/2611.21218",
+   "arxiv:2611.21218",
+   "hf:2611.21218"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "Anthropic’s Nasdaq debut",
+  "keys": [
+   "url:https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+   "hn:50562754"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "SpaceX successfully catches Starship booster with mechanical arms",
+  "keys": [
+   "url:https://nytimes.com/2026/11/14/science/spacex-starship-first-catch.html",
+   "url:https://bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
+   "url:https://theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+   "url:https://npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+   "url:https://nytimes.com/live/2026/11/14/science/spacex-starship-launch/how-starship-will-play-a-big-role-in-artemis-iii",
+   "url:https://nytimes.com/live/2026/11/14/science/spacex-starship-launch/spacex-is-betting-mechanical-arms-can-catch-its-reusable-rockets",
+   "story:5f3128295c"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "title": "Unforced Euler singularity, unforced Navier-Stokes singularity, and the Generalized Riemann Hypothesis",
+  "keys": [
+   "url:https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis",
+   "rss:dc0a65e6fd"
+  ],
+  "date": "2026-11-26"
  }
 ]
