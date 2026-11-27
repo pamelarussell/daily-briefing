@@ -5551,5 +5551,79 @@
    "rss:dc0a65e6fd"
   ],
   "date": "2026-11-26"
+ },
+ {
+  "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+  "keys": [
+   "url:https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "url:https://nytimes.com/2026/11/20/science/anthropic-ai-math-riemann-hypothesis.html",
+   "url:https://science.org/content/article/ai-may-have-solved-math-s-greatest-mystery-can-humans-understand-answer",
+   "url:https://nature.com/articles/d41586-026-03812-7",
+   "doi:10.1038/d41586-026-03812-7",
+   "story:a3e2801f97"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "title": "Single-cell method reveals on- and off-target effects of Cas9 edits on gene expression",
+  "keys": [
+   "url:https://genengnews.com/topics/genome-editing/single-cell-method-reveals-on-and-off-target-effects-of-cas9-edits-on-gene-expression",
+   "story:23afa76bfa"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "title": "Isomorphic Labs raises $5 billion Series C for AI-driven drug discovery",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/isomorphic-labs-adds-merck-ai-drug-discovery-roster-days-after-5b-raise",
+   "url:https://fiercebiotech.com/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round",
+   "url:https://biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863",
+   "story:8e82c6d988"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "title": "J&J pays $2.2B upfront for Ollin to challenge Roche's Vabysmo with Phase 3 bispecific",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/jj-pays-22b-upfront-ollin-challenge-roches-vabysmo",
+   "url:https://endpoints.news/jj-to-buy-eye-disease-biotech-ollin-biosciences-for-up-to-3-3b",
+   "story:6f4d814717"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "title": "Lilly strikes up to $5.9B cancer deal with Stipple Bio",
+  "keys": [
+   "url:https://fiercebiotech.com/biotech/eli-lilly-dots-59b-deal-stipple-unlock-oncology-targets",
+   "url:https://endpoints.news/lilly-strikes-up-to-5-9b-cancer-deal-with-stipple-bio",
+   "story:ac99e57339"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "title": "Pancreatic cancer halted by virus injection in three patients",
+  "keys": [
+   "url:https://newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients",
+   "hn:50563066"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "title": "Gut microbiome and bile acid modification linked with longevity",
+  "keys": [
+   "url:https://genengnews.com/topics/translational-medicine/gut-microbome-and-bile-acid-modification-linked-with-longevity",
+   "story:966d52956d"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "title": "High-fidelity entangling gates and nonlocal circuits with neutral atoms",
+  "keys": [
+   "url:https://doi.org/10.1126/science.aei1312",
+   "doi:10.1126/science.aei1312",
+   "pmid:https://pubmed.ncbi.nlm.nih.gov/42848902",
+   "oa:W7158695356"
+  ],
+  "date": "2026-11-27"
  }
 ]
